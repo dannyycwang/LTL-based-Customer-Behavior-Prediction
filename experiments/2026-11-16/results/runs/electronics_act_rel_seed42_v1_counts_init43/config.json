@@ -1,0 +1,32 @@
+{
+  "dataset": "electronics",
+  "seed": 42,
+  "condition": "counts",
+  "protocol": "act_rel_seed42_v1",
+  "split_source_sha256": {
+    "train": "6ab6e24b81b3dbc39247a4aa921b642f97f009aa088e63c615118a4e8b2964ac",
+    "val": "21414878ce9b11d78af9f728a00144ef61405fab556bc59b8cb491223c125339",
+    "test": "f339d795de73b8a0b1d6a10c2f9451e274331d52844512528234bdacbf45ca66"
+  },
+  "basis_sha256": "8f874d35ab9037d67cd51e2cdcdd787ed33b0e57fe05c1f25a840b29aefef919",
+  "feature_sha256": "a7774cb8774a5f17d44093adfa7b3d6d8e10e918d084979d2ec3b58c691fcbdf",
+  "source_sha256": "ae3040d1ac1de3a6e6872c80f5fc0c440311adf9e0e79ada4c57409b2b573c3f",
+  "runner_sha256": "5064790ae95a91a106680ba5b3fbdf588ac93b9cd3b4e716dedb462d66c19400",
+  "raw_window": "first",
+  "raw_len": 10,
+  "feature_dim": 12,
+  "epochs": 20,
+  "patience": 4,
+  "batch_size": 256,
+  "eval_batch_size": 256,
+  "monitor": "auprc",
+  "threshold": 0.5,
+  "vocab_sizes": {
+    "n_products": 37549,
+    "n_categories": 660
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "init_seed": 43
+}

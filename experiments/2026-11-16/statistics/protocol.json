@@ -1,0 +1,12 @@
+{
+  "replicates": 1500,
+  "base_seed": 20261113,
+  "elapsed_sec": 32.0280783000635,
+  "definition": "SE is sample SD of bootstrap metric estimates; paired deltas computed within shared replicates. No division by sqrt(B).",
+  "units": {
+    "Coveo": "session",
+    "Electronics": "user",
+    "Cosmetics": "user"
+  },
+  "conditional_on": "saved fitted models, thresholds, split, formula basis"
+}

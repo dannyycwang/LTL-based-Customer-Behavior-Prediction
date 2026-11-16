@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "basis_sha256": "8f874d35ab9037d67cd51e2cdcdd787ed33b0e57fe05c1f25a840b29aefef919",
+  "split_hashes": {
+    "42_train": "6ab6e24b81b3dbc39247a4aa921b642f97f009aa088e63c615118a4e8b2964ac",
+    "42_val": "21414878ce9b11d78af9f728a00144ef61405fab556bc59b8cb491223c125339",
+    "42_test": "f339d795de73b8a0b1d6a10c2f9451e274331d52844512528234bdacbf45ca66"
+  },
+  "semantic_checks": 3264,
+  "feature_dir": "<workspace>\\work\\electronics_rebuild\\seed42_act_rel_features",
+  "feature_construction_seconds_excluding_parsing": {
+    "prefix_ltlf": 4.295807299902663,
+    "full_ltlf": 3.6631552000762895,
+    "counts": 1.181969300028868
+  },
+  "feature_hashes": {
+    "counts.npz": "a7774cb8774a5f17d44093adfa7b3d6d8e10e918d084979d2ec3b58c691fcbdf",
+    "counts_scaler.npz": "c88b9dfc085dc7c3fccc8ba1fc53948e9aac3a7f3dd2b4759249183755d67923",
+    "full_ltlf.npz": "fc19fa65c612cc625902c5f4bccb5c985e4617d5d9db0830a47b131b2cd56e36",
+    "prefix_ltlf.npz": "177543dfaa09021b6fd1379bb961f6a3bc1e9b8afc4f3f58f3bf90448c503c8d"
+  }
+}

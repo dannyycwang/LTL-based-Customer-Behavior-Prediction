@@ -1,0 +1,48 @@
+{
+  "snapshot": "2026-11-16",
+  "split_seed": 42,
+  "formula_seed": 42,
+  "formula_top_k": 10,
+  "raw_window": "first",
+  "raw_events": 10,
+  "raw_fields": [
+    "action",
+    "product ID",
+    "category ID"
+  ],
+  "symbolic_vocabulary": "Act+Rel",
+  "neural_conditions": [
+    "full_raw",
+    "short_raw",
+    "prefix_ltlf",
+    "counts",
+    "full_ltlf"
+  ],
+  "extra_initializations": [
+    43,
+    44
+  ],
+  "extra_initialization_conditions": [
+    "counts",
+    "full_ltlf"
+  ],
+  "fixed_origin": 10,
+  "future_event_horizons": [
+    5,
+    10,
+    20
+  ],
+  "linear_classifier": "L2 logistic regression, C=1",
+  "transition_dimension": 10,
+  "bootstrap_replicates": 1500,
+  "uncertainty": {
+    "predictive": "paired cluster-bootstrap SE",
+    "initializations": "sample SD",
+    "timing": "sample SD"
+  },
+  "full_raw_caps": {
+    "Coveo": 200,
+    "Electronics": 512,
+    "Cosmetics": 200
+  }
+}

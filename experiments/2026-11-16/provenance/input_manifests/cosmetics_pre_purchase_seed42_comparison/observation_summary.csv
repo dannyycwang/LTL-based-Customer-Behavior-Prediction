@@ -1,0 +1,4 @@
+split,historical_n,pre_purchase_n,historical_positive,pre_purchase_positive,zero_observed_excluded,histories_truncated,events_removed,sessions_longer_than_10,sessions_longer_than_200,maximum_length
+train,91620,91477,18324,18181,143,1751,14052,13437,68,1336
+val,12825,12804,2565,2544,21,238,1981,1913,8,334
+test,25870,25836,5174,5140,34,521,4719,3900,21,820

@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "basis_sha256": "143b85f57443ab6b4580edabb115fb4589e975a4477b26a49404cbeb0e7ff662",
+  "split_sha256": {
+    "train": "62dc928d3319a556266d35dcd88515746203671eb0352cad2c1ad857a0f36cf8",
+    "val": "446ef5d0a7213d39945f9bb4c8d1068856ad62b2d7634cdca10cda3c22c41513",
+    "test": "004705a6aab9396c8afa71f05886b290446de01db645669323a6a2dd22541842"
+  },
+  "semantic_checks": 3264,
+  "features": {
+    "prefix_ltlf": {
+      "path": "<workspace>\\work\\cosmetics_seed42_act_rel_features\\prefix_ltlf\\Z_BP_top10_cosmetics_dec.npz",
+      "sha256": "7485689d03fe238b03c738ef1bcd8781df2a0d0f0903915e85529858d7234898",
+      "dimension": 10
+    },
+    "full_ltlf": {
+      "path": "<workspace>\\work\\cosmetics_seed42_act_rel_features\\full_ltlf\\Z_BP_top10_cosmetics_dec.npz",
+      "sha256": "c96395d4af9b6d26f6f91f2d3b287af83e0263e30bb990c54c367db6b443b397",
+      "dimension": 10
+    },
+    "counts": {
+      "path": "<workspace>\\work\\cosmetics_seed42_act_rel_features\\counts\\Z_BP_top20_cosmetics_dec.npz",
+      "sha256": "0a0f45f11512a8d3111c1a3873f6f4e106e3bd72f85166d3769e93f6b86544ae",
+      "dimension": 20
+    }
+  },
+  "test_n": 25870,
+  "observation_protocol": "Historical purchase-masked session with events retained after purchase",
+  "feature_construction_seconds_excluding_parsing": {
+    "prefix_ltlf": 4.317441799910739,
+    "full_ltlf": 4.9071176999714226,
+    "counts": 2.4453282000031322
+  }
+}

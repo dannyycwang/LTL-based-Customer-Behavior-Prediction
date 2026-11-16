@@ -1,0 +1,30 @@
+{
+  "dataset": "cosmetics",
+  "seed": 42,
+  "condition": "full_raw",
+  "protocol": "pre_purchase_act_rel_seed42_v1",
+  "split_source_sha256": {
+    "train": "bdcec42b8a6eac652d2b1fbd665abc5bf3f5466e18dfe6063c58f3ddd3f0e28e",
+    "val": "3f7f6d89d5f40532c0fea6fd035024febe4899bf277948da40102244e629aa8d",
+    "test": "6a79daba86e0adb9f4c37d4a25559e13830448aebfbdeb4fbe0dcfa1213036a0"
+  },
+  "basis_sha256": "143b85f57443ab6b4580edabb115fb4589e975a4477b26a49404cbeb0e7ff662",
+  "feature_sha256": null,
+  "source_sha256": "e55b6f97562c3b4b42eed05eb83001f9844939555105dc99a3dda4c5b95f1a7d",
+  "runner_sha256": "5c3a0c1360e601dd96c5d1e00c12348b22f10f817250654e4d54f2e130df1291",
+  "raw_window": "first",
+  "raw_len": 200,
+  "feature_dim": 0,
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 512,
+  "eval_batch_size": 1024,
+  "monitor": "mcc",
+  "threshold": 0.5,
+  "vocab_sizes": {
+    "vocab_size": 79817
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8"
+}

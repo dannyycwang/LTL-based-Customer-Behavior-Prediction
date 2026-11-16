@@ -1,0 +1,7 @@
+{
+  "audit_dir": "private/outputs/research_audit",
+  "work_dir": "private/work",
+  "coveo_data": "private/data/browsing_draw_random4_sessions_product_compact.csv",
+  "coveo_diagnostic_data": "private/data/browsing_draw_random4_sessions.csv",
+  "path_mappings": {}
+}

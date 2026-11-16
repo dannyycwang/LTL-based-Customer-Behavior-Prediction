@@ -1,0 +1,23 @@
+\begin{revblock}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+& \multicolumn{2}{c}{Coveo} & \multicolumn{2}{c}{Electronics} & \multicolumn{2}{c}{Cosmetics} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Input & MCC & AP & MCC & AP & MCC & AP \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{(a) Full-observation summaries}} \\
+Raw prefix & \vse{0.638}{0.005} & \vse{0.771}{0.005} & \vse{0.655}{0.005} & \vse{0.635}{0.009} & \vse{0.589}{0.006} & \vse{0.629}{0.008} \\
++ Counts & \vse{0.843}{0.003} & \vse{0.869}{0.004} & \vse{0.657}{0.005} & \vse{0.639}{0.009} & \vse{0.599}{0.006} & \vse{0.656}{0.008} \\
++ Counts + LTLf & \vse{0.860}{0.003} & \vse{0.889}{0.004} & \vse{0.687}{0.005} & \vse{0.666}{0.008} & \bse{0.627}{0.006} & \vse{0.670}{0.008} \\
++ Counts + Transitions & \vse{0.863}{0.003} & \vse{0.889}{0.004} & \vse{0.691}{0.005} & \vse{0.678}{0.008} & \vse{0.623}{0.006} & \vse{0.668}{0.008} \\
++ Counts + Both & \bse{0.866}{0.003} & \bse{0.893}{0.004} & \bse{0.694}{0.005} & \bse{0.679}{0.008} & \vse{0.625}{0.006} & \bse{0.671}{0.008} \\
+\midrule
+\multicolumn{7}{@{}l}{\textit{(b) Event-10 prediction, next 10 events}} \\
+Raw prefix & \vse{0.446}{0.009} & \vse{0.448}{0.011} & \vse{0.208}{0.034} & \vse{0.343}{0.035} & \vse{0.109}{0.016} & \vse{0.365}{0.013} \\
++ Counts & \vse{0.447}{0.010} & \vse{0.457}{0.011} & \vse{0.217}{0.035} & \vse{0.363}{0.036} & \vse{0.166}{0.015} & \vse{0.405}{0.014} \\
++ Counts + LTLf & \bse{0.475}{0.010} & \vse{0.478}{0.011} & \bse{0.289}{0.036} & \bse{0.393}{0.039} & \vse{0.188}{0.015} & \vse{0.417}{0.014} \\
++ Counts + Transitions & \vse{0.467}{0.010} & \vse{0.474}{0.011} & \vse{0.269}{0.031} & \vse{0.390}{0.038} & \bse{0.189}{0.015} & \vse{0.421}{0.014} \\
++ Counts + Both & \vse{0.471}{0.010} & \bse{0.480}{0.011} & \vse{0.266}{0.032} & \vse{0.389}{0.038} & \vse{0.185}{0.015} & \bse{0.422}{0.014} \\
+\bottomrule
+\end{tabular}
+\end{revblock}

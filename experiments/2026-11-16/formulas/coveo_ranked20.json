@@ -1,0 +1,856 @@
+[
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 21,
+    "formula_id": "T01",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(X(true))))) U X(X(a)))",
+    "selected_rank_by_val": 1,
+    "pos_support": 0.8031,
+    "neg_support": 0.0273,
+    "support_gap": 0.7758,
+    "acc_like_score": 0.8879,
+    "balanced_accuracy": 0.8879,
+    "n_pos_satisfied": 8031,
+    "n_neg_satisfied": 273,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 199,
+    "formula_id": "T02",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",
+    "formula_str": "((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a)))",
+    "selected_rank_by_val": 2,
+    "pos_support": 0.8031,
+    "neg_support": 0.0274,
+    "support_gap": 0.7757000000000001,
+    "acc_like_score": 0.88785,
+    "balanced_accuracy": 0.88785,
+    "n_pos_satisfied": 8031,
+    "n_neg_satisfied": 274,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 1,
+    "formula_id": "T03",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(a)))",
+    "selected_rank_by_val": 3,
+    "pos_support": 0.8031,
+    "neg_support": 0.0296,
+    "support_gap": 0.7735000000000001,
+    "acc_like_score": 0.88675,
+    "balanced_accuracy": 0.88675,
+    "n_pos_satisfied": 8031,
+    "n_neg_satisfied": 296,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 72,
+    "formula_id": "T04",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(X(X(b)))))) U X(X(a)))",
+    "selected_rank_by_val": 4,
+    "pos_support": 0.7531,
+    "neg_support": 0.026,
+    "support_gap": 0.7271,
+    "acc_like_score": 0.86355,
+    "balanced_accuracy": 0.86355,
+    "n_pos_satisfied": 7531,
+    "n_neg_satisfied": 260,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 18,
+    "formula_id": "T05",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(X(X(true)))))) U X(X(a)))",
+    "selected_rank_by_val": 5,
+    "pos_support": 0.7531,
+    "neg_support": 0.0264,
+    "support_gap": 0.7267,
+    "acc_like_score": 0.86335,
+    "balanced_accuracy": 0.8633500000000001,
+    "n_pos_satisfied": 7531,
+    "n_neg_satisfied": 264,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 34,
+    "formula_id": "T06",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "rp"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'rp')))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(rp)))) U X(X(a)))",
+    "selected_rank_by_val": 6,
+    "pos_support": 0.7319,
+    "neg_support": 0.0277,
+    "support_gap": 0.7042,
+    "acc_like_score": 0.8521,
+    "balanced_accuracy": 0.8521000000000001,
+    "n_pos_satisfied": 7319,
+    "n_neg_satisfied": 277,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 69,
+    "formula_id": "T07",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', 'a'))))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(X(a))))",
+    "selected_rank_by_val": 7,
+    "pos_support": 0.7211,
+    "neg_support": 0.0241,
+    "support_gap": 0.697,
+    "acc_like_score": 0.8485,
+    "balanced_accuracy": 0.8485,
+    "n_pos_satisfied": 7211,
+    "n_neg_satisfied": 241,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 33,
+    "formula_id": "T08",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'p2')))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(p2)))",
+    "selected_rank_by_val": 8,
+    "pos_support": 0.7438,
+    "neg_support": 0.0508,
+    "support_gap": 0.6930000000000001,
+    "acc_like_score": 0.8465,
+    "balanced_accuracy": 0.8465,
+    "n_pos_satisfied": 7438,
+    "n_neg_satisfied": 508,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 151,
+    "formula_id": "T09",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "sp"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'sp'), ('X', ('X', 'a')))",
+    "formula_str": "((true U sp) U X(X(a)))",
+    "selected_rank_by_val": 9,
+    "pos_support": 0.7149,
+    "neg_support": 0.027,
+    "support_gap": 0.6879,
+    "acc_like_score": 0.84395,
+    "balanced_accuracy": 0.84395,
+    "n_pos_satisfied": 7149,
+    "n_neg_satisfied": 270,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 31,
+    "formula_id": "T10",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "sp"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'sp')))), ('X', ('X', 'a')))",
+    "formula_str": "((true U X(X(X(sp)))) U X(X(a)))",
+    "selected_rank_by_val": 10,
+    "pos_support": 0.7126,
+    "neg_support": 0.0269,
+    "support_gap": 0.6857,
+    "acc_like_score": 0.84285,
+    "balanced_accuracy": 0.84285,
+    "n_pos_satisfied": 7126,
+    "n_neg_satisfied": 269,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 81,
+    "formula_id": "T11",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'true'), ('X', ('X', 'sp')))",
+    "formula_str": "((true U true) U X(X(sp)))",
+    "selected_rank_by_val": 11,
+    "pos_support": 0.7779,
+    "neg_support": 0.1218,
+    "support_gap": 0.6561,
+    "acc_like_score": 0.82805,
+    "balanced_accuracy": 0.82805,
+    "n_pos_satisfied": 7779,
+    "n_neg_satisfied": 1218,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 165,
+    "formula_id": "T12",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'b'), ('X', ('X', 'sp')))",
+    "formula_str": "((true U b) U X(X(sp)))",
+    "selected_rank_by_val": 12,
+    "pos_support": 0.7777,
+    "neg_support": 0.1218,
+    "support_gap": 0.6558999999999999,
+    "acc_like_score": 0.82795,
+    "balanced_accuracy": 0.82795,
+    "n_pos_satisfied": 7777,
+    "n_neg_satisfied": 1218,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 38,
+    "formula_id": "T13",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', ('X', 'a')))))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(X(X(a)))))",
+    "selected_rank_by_val": 13,
+    "pos_support": 0.6725,
+    "neg_support": 0.0226,
+    "support_gap": 0.6499,
+    "acc_like_score": 0.82495,
+    "balanced_accuracy": 0.8249500000000001,
+    "n_pos_satisfied": 6725,
+    "n_neg_satisfied": 226,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 32,
+    "formula_id": "T14",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'sp')))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(sp)))",
+    "selected_rank_by_val": 14,
+    "pos_support": 0.6958,
+    "neg_support": 0.0459,
+    "support_gap": 0.6498999999999999,
+    "acc_like_score": 0.82495,
+    "balanced_accuracy": 0.82495,
+    "n_pos_satisfied": 6958,
+    "n_neg_satisfied": 459,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 82,
+    "formula_id": "T15",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'true'), ('X', ('X', 'rp')))",
+    "formula_str": "((true U true) U X(X(rp)))",
+    "selected_rank_by_val": 15,
+    "pos_support": 0.8269,
+    "neg_support": 0.1983,
+    "support_gap": 0.6285999999999999,
+    "acc_like_score": 0.8143,
+    "balanced_accuracy": 0.8143,
+    "n_pos_satisfied": 8269,
+    "n_neg_satisfied": 1983,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 167,
+    "formula_id": "T16",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'b'), ('X', ('X', 'rp')))",
+    "formula_str": "((true U b) U X(X(rp)))",
+    "selected_rank_by_val": 16,
+    "pos_support": 0.8268,
+    "neg_support": 0.1983,
+    "support_gap": 0.6285,
+    "acc_like_score": 0.81425,
+    "balanced_accuracy": 0.8142499999999999,
+    "n_pos_satisfied": 8268,
+    "n_neg_satisfied": 1983,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 71,
+    "formula_id": "T17",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', ('X', 'b')))))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(X(X(b)))))",
+    "selected_rank_by_val": 17,
+    "pos_support": 0.8886,
+    "neg_support": 0.2749,
+    "support_gap": 0.6136999999999999,
+    "acc_like_score": 0.80685,
+    "balanced_accuracy": 0.8068500000000001,
+    "n_pos_satisfied": 8886,
+    "n_neg_satisfied": 2749,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 186,
+    "formula_id": "T18",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "p2"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', ('X', 'p2')))))",
+    "formula_str": "((true U X(X(X(a)))) U X(X(X(X(p2)))))",
+    "selected_rank_by_val": 18,
+    "pos_support": 0.6497,
+    "neg_support": 0.0511,
+    "support_gap": 0.5986,
+    "acc_like_score": 0.7993,
+    "balanced_accuracy": 0.7993,
+    "n_pos_satisfied": 6497,
+    "n_neg_satisfied": 511,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 16,
+    "formula_id": "T19",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "fp"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'fp'), ('X', ('X', 'a')))",
+    "formula_str": "((true U fp) U X(X(a)))",
+    "selected_rank_by_val": 19,
+    "pos_support": 0.6192,
+    "neg_support": 0.026,
+    "support_gap": 0.5932,
+    "acc_like_score": 0.7966,
+    "balanced_accuracy": 0.7966,
+    "n_pos_satisfied": 6192,
+    "n_neg_satisfied": 260,
+    "n_pos": 10000,
+    "n_neg": 10000
+  },
+  {
+    "seed": 42,
+    "window_size": 30,
+    "window_truncation": "last",
+    "rank_from_tltlf": 169,
+    "formula_id": "T20",
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_tree_repr": "('U', ('U', 'true', 'true'), ('X', ('X', ('X', ('X', 'b')))))",
+    "formula_str": "((true U true) U X(X(X(X(b)))))",
+    "selected_rank_by_val": 20,
+    "pos_support": 0.9386,
+    "neg_support": 0.3703,
+    "support_gap": 0.5683,
+    "acc_like_score": 0.78415,
+    "balanced_accuracy": 0.7841499999999999,
+    "n_pos_satisfied": 9386,
+    "n_neg_satisfied": 3703,
+    "n_pos": 10000,
+    "n_neg": 10000
+  }
+]

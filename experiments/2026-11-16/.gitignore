@@ -1,0 +1,13 @@
+private/
+generated/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+paths.local.json
+*.pt
+*.pth
+*.ckpt
+*_predictions.csv*
+*_ids.csv

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop",
+  "source_zip_sha256": "2cbd4915d652481a32712882793d76456b3f8774b3edb68039763cd443d8e3e1",
+  "test_csv_sha256": "004705a6aab9396c8afa71f05886b290446de01db645669323a6a2dd22541842",
+  "test_sessions_matching_labels_counts_and_action_sequences": 25870,
+  "positive_sessions": 5174,
+  "positives_with_any_retained_event_after_first_purchase": 555,
+  "positives_with_retained_event_strictly_later_than_purchase_time": 555,
+  "positives_with_post_purchase_event_in_first_10_retained_events": 250,
+  "positives_with_zero_events_before_first_purchase": 34,
+  "total_retained_events_after_first_purchase": 4719
+}

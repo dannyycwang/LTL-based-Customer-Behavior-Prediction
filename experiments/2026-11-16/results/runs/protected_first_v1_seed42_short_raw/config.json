@@ -1,0 +1,29 @@
+{
+  "dataset_sha256": "b21e5e8535cbfce96284809064e3cf87d5f965dd83b4be9e16e0befea065f0eb",
+  "basis_sha256": "43ab25d24da8f61df9aacade1fa31da7792850f1877a23bd3c42c399f6700dee",
+  "model_source_sha256": "27805e2cd34bc3b1e3a114f4ba6065739ce520a758d4b0f476999ed1a47ef16e",
+  "evaluator_source_sha256": "4f2af78f20c54382cd2aed17d8b33d181d47ab4f3c5806e6362f25c313495d38",
+  "runner_sha256": "010e1a8c9ce0f3a35c8bf271fe816d7c7626b3dd2143a851c1f55f021b5939a0",
+  "splits": {
+    "train": "94032d78cd9dfc351b2d8142c08d871976a34752965b2ef35768c16e37907d16",
+    "val": "04063a565c0e1fddcd40b9cd198199ba6ff9b4e4c9a2820591d1ba00329338bb",
+    "test": "5f049d32a0085f96585adb00853be65bd9d1737451df7a9357a298a0e70ab7ea"
+  },
+  "condition": "short_raw",
+  "protocol": "protected_first_v1",
+  "seed": 42,
+  "epochs": 25,
+  "batch_size": 256,
+  "patience": 999,
+  "raw_window": "first",
+  "raw_len": 10,
+  "feature_dim": 0,
+  "protected_formula_pool_n": 20000,
+  "preparation_sec": 14.794923300039954,
+  "feature_construction_all_splits_sec": 4.500034265220165e-06,
+  "formula_learning_sec": 0.0,
+  "formula_cost_status": "fixed pre-existing basis; historical formula-learning cost excluded and not measured",
+  "historical_compatibility_limit": "Old script reset seed AFTER model construction; standalone initialization cannot reproduce RNG state inherited from preceding models.",
+  "user_overlap": "unverified; user IDs absent",
+  "threshold_protocol": "original validation F1 grid after checkpoint selection; no test-label threshold tuning"
+}

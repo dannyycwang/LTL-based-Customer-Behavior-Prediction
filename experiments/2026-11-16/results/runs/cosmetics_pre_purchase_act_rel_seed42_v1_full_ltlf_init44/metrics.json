@@ -1,0 +1,21 @@
+{
+  "f1": 0.6921662375873483,
+  "mcc": 0.6246407330668322,
+  "auprc": 0.6506701211050891,
+  "auc": 0.9101017283363841,
+  "brier": 0.12007058059143712,
+  "dataset": "cosmetics",
+  "seed": 42,
+  "condition": "full_ltlf",
+  "protocol": "pre_purchase_act_rel_seed42_v1",
+  "threshold": 0.5,
+  "best_epoch": 1,
+  "actual_epochs_ran": 6,
+  "n_params": 5226881,
+  "feature_dim": 10,
+  "train_including_validation_sec": 37.52301050000824,
+  "inference_precomputed_features_sec": 0.8515351000241935,
+  "feature_construction_all_splits_sec": 4.945848600007594,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "init_seed": 44
+}

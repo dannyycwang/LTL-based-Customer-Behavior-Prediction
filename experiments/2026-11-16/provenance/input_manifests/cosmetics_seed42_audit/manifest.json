@@ -1,0 +1,75 @@
+{
+  "seed": 42,
+  "basis_sha256": "143b85f57443ab6b4580edabb115fb4589e975a4477b26a49404cbeb0e7ff662",
+  "split_sha256": {
+    "train": "62dc928d3319a556266d35dcd88515746203671eb0352cad2c1ad857a0f36cf8",
+    "val": "446ef5d0a7213d39945f9bb4c8d1068856ad62b2d7634cdca10cda3c22c41513",
+    "test": "004705a6aab9396c8afa71f05886b290446de01db645669323a6a2dd22541842"
+  },
+  "split_counts": {
+    "train": 91620,
+    "val": 12825,
+    "test": 25870
+  },
+  "split_positive_counts": {
+    "train": 18324,
+    "val": 2565,
+    "test": 5174
+  },
+  "split_overlap": [
+    {
+      "first_split": "train",
+      "second_split": "val",
+      "session_overlap": 0,
+      "user_overlap": 0
+    },
+    {
+      "first_split": "train",
+      "second_split": "test",
+      "session_overlap": 0,
+      "user_overlap": 0
+    },
+    {
+      "first_split": "val",
+      "second_split": "test",
+      "session_overlap": 0,
+      "user_overlap": 0
+    }
+  ],
+  "formula_samples": [
+    {
+      "formula_stage": "fit",
+      "source_split": "train",
+      "n": 10000,
+      "positive": 5000,
+      "ordered_sample_csv_ids_match": false,
+      "sample_id_sets_match": false,
+      "replayed_ids_found_in_saved_sample": 4243,
+      "positive_traces_match": true,
+      "negative_traces_match": true,
+      "saved_sample_membership_in_expected_split": true,
+      "saved_sample_session_overlap_with_test": 0,
+      "saved_sample_user_overlap_with_test": 0,
+      "saved_sample_sha256": "0dd0f4e0275f97acd64bfeb98219a99c606269067cad17d3bcad5721e426680e",
+      "saved_trace_json_sha256": "b3997b8a87b4449a5e8c47b1041d280fcb77445a6f0825dcda1b1f6948a7cda6"
+    },
+    {
+      "formula_stage": "select",
+      "source_split": "val",
+      "n": 7565,
+      "positive": 2565,
+      "ordered_sample_csv_ids_match": false,
+      "sample_id_sets_match": false,
+      "replayed_ids_found_in_saved_sample": 4511,
+      "positive_traces_match": true,
+      "negative_traces_match": true,
+      "saved_sample_membership_in_expected_split": true,
+      "saved_sample_session_overlap_with_test": 0,
+      "saved_sample_user_overlap_with_test": 0,
+      "saved_sample_sha256": "71ff1947ae3158d88cb623dde19190463f610e2ac5c84e0c0d65954f57645774",
+      "saved_trace_json_sha256": "e3a5198cc1d6067163713b45282300cf37dcc66cfd2bf582eb66f8348f677533"
+    }
+  ],
+  "formula_support_pairs_matched": 20,
+  "formula_support_pairs_total": 20
+}

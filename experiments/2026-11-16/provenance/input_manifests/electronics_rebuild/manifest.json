@@ -1,0 +1,51 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store",
+  "source_csv_sha256": "2030b8347da2cc32f40c701b0cf21f9968a58780f940d30f3e32b17932e37544",
+  "ready_dir": "<workspace>\\work\\electronics_rebuild\\electronics_ready_noleak",
+  "sessions_sha256": "4071e678e042bb66e1f7a953b35d19cb84fd9160b130552fb9e83a3a77d0ce76",
+  "basis_sha256": "8f874d35ab9037d67cd51e2cdcdd787ed33b0e57fe05c1f25a840b29aefef919",
+  "split_hashes": {
+    "42_train": "6ab6e24b81b3dbc39247a4aa921b642f97f009aa088e63c615118a4e8b2964ac",
+    "42_val": "21414878ce9b11d78af9f728a00144ef61405fab556bc59b8cb491223c125339",
+    "42_test": "f339d795de73b8a0b1d6a10c2f9451e274331d52844512528234bdacbf45ca66",
+    "43_train": "97df589db7687037e76156552214b36d00c5cbd74bc2e1cc92f4334c957a94eb",
+    "43_val": "92ad5e0c8380d123893da5b42d1f92b11cf61033c95b45d14a4e6fab975e3609",
+    "43_test": "42065ca09b5d3fd65e6c4154dd6c462842fa1fd283aa6e04ffff39182f414cc0",
+    "44_train": "e65d4a88bc8050b02d37112f6447d5e7df95d337fcba25864f9de196ffdaf14d",
+    "44_val": "8fcbbdc279db59e498378c984b8b8bf967c3bda3f7a0f0804677b67a31850493",
+    "44_test": "cee2f0cfe26f373d35b2813bbfba44be8a4e6eab4e12cb6eb0af7f1ab4c3146d",
+    "45_train": "1028968b2d042bee42c08316b080014e193ea79cab29bb139c7b20be591291d8",
+    "45_val": "4f957d2ed6e8cee6a80d28dd233eed763d01aa92e6469fb972f19888d3a8f6ac",
+    "45_test": "035e2ed45908ccff18150aa800d5b591d3ad2bc3527823e32da9b40f91a2dc7d"
+  },
+  "session_count": 138995,
+  "positive_count": 21062,
+  "session_length_max": 572,
+  "sessions_longer_than_512": 1,
+  "dwell_fix_report_sha256": "c9434498136f973192c2721d74bacad205b77d9a9b7b3dfb9aef59bd27324608",
+  "dwell_threshold_seconds": [
+    39.0,
+    171.0
+  ],
+  "colab_dwell_summaries_matched": 13,
+  "colab_dwell_summaries_total": 13,
+  "formula_pool_sessions": 8000,
+  "formula_pool_vocabulary": [
+    "a",
+    "cc",
+    "d",
+    "fp",
+    "p2",
+    "p3",
+    "pc",
+    "rc",
+    "rp",
+    "sc",
+    "sp"
+  ],
+  "formula_support_pairs_matched": 10,
+  "formula_support_pairs_total": 10,
+  "historical_exact_id_match": "unverified; original split CSVs unavailable",
+  "pandas_version": "2.3.3",
+  "numpy_version": "1.26.4"
+}

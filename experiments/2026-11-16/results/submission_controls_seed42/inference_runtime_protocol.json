@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "torch_version": "2.11.0+cu128",
+  "cpu_threads": 4,
+  "repetitions": 3,
+  "warmup_passes": 1,
+  "timing_scope": "From loaded session fields to scores, excluding disk I/O, original event abstraction and formula learning.",
+  "prediction_tolerance": 0.0001
+}

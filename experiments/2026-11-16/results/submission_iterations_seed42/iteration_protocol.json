@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "K": 10,
+  "event_origin": 10,
+  "future_event_counts": [
+    5,
+    10,
+    20
+  ],
+  "transition_features": 10,
+  "transition_min_train_present_and_absent": 20,
+  "selection": "Absolute training ever-purchase prevalence gap for binary adjacent-state atom pair presence. Prefix transition basis is held fixed across future horizons.",
+  "bootstrap_replicates": 1500
+}

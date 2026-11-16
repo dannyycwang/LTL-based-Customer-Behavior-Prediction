@@ -1,0 +1,14 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "torch": "2.11.0+cu128",
+    "threadpoolctl": "3.8.0"
+  },
+  "historical_gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "historical_cuda": "12.8"
+}

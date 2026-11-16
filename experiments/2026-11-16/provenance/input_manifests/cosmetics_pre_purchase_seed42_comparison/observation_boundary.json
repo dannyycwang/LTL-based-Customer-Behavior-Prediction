@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "source_zip_sha256": "2cbd4915d652481a32712882793d76456b3f8774b3edb68039763cd443d8e3e1",
+  "verified_original_rows": 130315,
+  "split_sha256": {
+    "train": "bdcec42b8a6eac652d2b1fbd665abc5bf3f5466e18dfe6063c58f3ddd3f0e28e",
+    "val": "3f7f6d89d5f40532c0fea6fd035024febe4899bf277948da40102244e629aa8d",
+    "test": "6a79daba86e0adb9f4c37d4a25559e13830448aebfbdeb4fbe0dcfa1213036a0"
+  },
+  "historical_split_sha256": {
+    "train": "62dc928d3319a556266d35dcd88515746203671eb0352cad2c1ad857a0f36cf8",
+    "val": "446ef5d0a7213d39945f9bb4c8d1068856ad62b2d7634cdca10cda3c22c41513",
+    "test": "004705a6aab9396c8afa71f05886b290446de01db645669323a6a2dd22541842"
+  },
+  "basis_sha256": "143b85f57443ab6b4580edabb115fb4589e975a4477b26a49404cbeb0e7ff662",
+  "positive_cutoff": "Before first purchase in timestamp then source-row order",
+  "negative_cutoff": "All observed non-purchase events",
+  "eligibility": "At least one observed event; no resampling or split reassignment",
+  "abstraction": "Slice the original causal Act+Rel trace; propositions use only current and past event fields",
+  "splits": [
+    {
+      "split": "train",
+      "historical_n": 91620,
+      "pre_purchase_n": 91477,
+      "historical_positive": 18324,
+      "pre_purchase_positive": 18181,
+      "zero_observed_excluded": 143,
+      "histories_truncated": 1751,
+      "events_removed": 14052,
+      "sessions_longer_than_10": 13437,
+      "sessions_longer_than_200": 68,
+      "maximum_length": 1336
+    },
+    {
+      "split": "val",
+      "historical_n": 12825,
+      "pre_purchase_n": 12804,
+      "historical_positive": 2565,
+      "pre_purchase_positive": 2544,
+      "zero_observed_excluded": 21,
+      "histories_truncated": 238,
+      "events_removed": 1981,
+      "sessions_longer_than_10": 1913,
+      "sessions_longer_than_200": 8,
+      "maximum_length": 334
+    },
+    {
+      "split": "test",
+      "historical_n": 25870,
+      "pre_purchase_n": 25836,
+      "historical_positive": 5174,
+      "pre_purchase_positive": 5140,
+      "zero_observed_excluded": 34,
+      "histories_truncated": 521,
+      "events_removed": 4719,
+      "sessions_longer_than_10": 3900,
+      "sessions_longer_than_200": 21,
+      "maximum_length": 820
+    }
+  ]
+}

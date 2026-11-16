@@ -1,0 +1,20 @@
+{
+  "f1": 0.7622518461686008,
+  "mcc": 0.7107593217955134,
+  "auprc": 0.733929797954884,
+  "auc": 0.9416682396551816,
+  "brier": 0.08689778864053051,
+  "dataset": "electronics",
+  "seed": 42,
+  "condition": "full_raw",
+  "protocol": "act_rel_seed42_v1",
+  "threshold": 0.5,
+  "best_epoch": 4,
+  "actual_epochs_ran": 8,
+  "n_params": 2582785,
+  "feature_dim": 0,
+  "train_including_validation_sec": 102.4265043999767,
+  "inference_precomputed_features_sec": 2.075408300035633,
+  "feature_construction_all_splits_sec": 0,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}
