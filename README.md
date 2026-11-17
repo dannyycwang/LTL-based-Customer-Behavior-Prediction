@@ -1,5 +1,11 @@
 # LTL-based-Customer-Behavior-Prediction
 
+## Residual-guided selection experiment
+
+[Residual-guided LTLf formula selection — 2026-11-17](experiments/2026-11-17-residual-selection/README.md)
+
+Electronics candidate-pool retraining and matched A/B/C comparisons across three datasets, with paired intervals, selection diagnostics and computational overhead. Full-observation AP improves over the historical Top-10 basis; event-10 gains are not consistent.
+
 ## Latest follow-up
 
 [Fixed-origin neural and formula-source experiments — 2026-11-17](experiments/2026-11-17/README.md)

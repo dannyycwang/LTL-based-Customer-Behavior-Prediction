@@ -1,0 +1,11 @@
+formula_id,pack,rank_from_tltlf,formula_str,formula_tree,semantic_unique,pos_support,neg_support,support_gap,balanced_accuracy
+T001,BP,1,X((true U a)),"('X', ('U', 'true', 'a'))",True,0.97375,0.17425,0.7995,0.89975
+T086,BP,86,((true U a) && true),"('&&', ('U', 'true', 'a'), 'true')",True,0.97425,0.17475,0.7995,0.89975
+T107,BP,107,((true U a) && d),"('&&', ('U', 'true', 'a'), 'd')",True,0.96925,0.17275,0.7965,0.89825
+T147,BP,147,((true U a) && (d U X(a))),"('&&', ('U', 'true', 'a'), ('U', 'd', ('X', 'a')))",True,0.9695,0.173,0.7965,0.89825
+T176,BP,176,((true U a) && fp),"('&&', ('U', 'true', 'a'), 'fp')",True,0.9565,0.17025,0.78625,0.893125
+T127,BP,127,((true U a) && X(rc)),"('&&', ('U', 'true', 'a'), ('X', 'rc'))",True,0.95425,0.17075,0.7835000000000001,0.89175
+T156,BP,156,((true U a) && X(sc)),"('&&', ('U', 'true', 'a'), ('X', 'sc'))",True,0.953,0.1705,0.7825,0.89125
+T005,BP,5,X((rc U a)),"('X', ('U', 'rc', 'a'))",True,0.94425,0.168,0.77625,0.888125
+T022,BP,22,X((sc U a)),"('X', ('U', 'sc', 'a'))",True,0.943,0.1675,0.7755,0.88775
+T123,BP,123,X((((d U X(X(a))) U rp) U a)),"('X', ('U', ('U', ('U', 'd', ('X', ('X', 'a'))), 'rp'), 'a'))",True,0.856,0.151,0.705,0.8525

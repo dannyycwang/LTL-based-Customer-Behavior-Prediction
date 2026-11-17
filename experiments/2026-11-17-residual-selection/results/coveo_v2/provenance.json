@@ -1,0 +1,5282 @@
+{
+  "dataset": "Coveo",
+  "split_hashes": {
+    "train": "94032d78cd9dfc351b2d8142c08d871976a34752965b2ef35768c16e37907d16",
+    "val": "04063a565c0e1fddcd40b9cd198199ba6ff9b4e4c9a2820591d1ba00329338bb",
+    "test": "5f049d32a0085f96585adb00853be65bd9d1737451df7a9357a298a0e70ab7ea"
+  },
+  "basis_sha256": "43ab25d24da8f61df9aacade1fa31da7792850f1877a23bd3c42c399f6700dee",
+  "candidate_sha256": "ff7eb658fd5fd4a74c4bb74ae70308b45c9fbb65f5999d1dfc7fed825ae51368",
+  "candidate_file": "C:\\Users\\ycw\\OneDrive - H\u00f8gskulen p\u00e5 Vestlandet\\Documents\\New project\\residual_guided_ltlf\\inputs\\coveo_candidates.csv",
+  "original_indices": [
+    0,
+    4,
+    5,
+    49,
+    50,
+    52,
+    54,
+    56,
+    58,
+    59
+  ],
+  "semantic_checks": 39744,
+  "feature_seconds": 12.876437900122255,
+  "candidate_bank": [
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(true))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(b))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "b"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(b)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(X(true))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "true"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "!",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U !(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "true"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(true) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "a"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U a) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sp",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sp U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rp",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rp U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p2",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p2 U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "true"
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(true) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "!",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U !(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p3",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p3 U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "b"
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(b) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(true))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(X(X(X(a))))) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(true)) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sp U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p2",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p2 U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rp U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "cc",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((cc U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "true"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(true) U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "r"
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(r) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rc",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rc U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sc",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sc U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            "true"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(true)) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "!",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U !(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "true"
+          ],
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(true) U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p3",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p3 U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "b"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(b) U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "fp"
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(fp) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "!",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U !(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "pc"
+          ],
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(pc) U true) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(X(X(X(a))))) U X(X(X(true)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "b"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(b)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "true"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(true)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "true"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(X(X(true)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "rp"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(rp)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "p2"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(p2)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(a))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(a))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(p2)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(rp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "sp"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U sp) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "sp"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(sp)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(sp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(sp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(sp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(a)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(X(a)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(X(X(a)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(X(X(a)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(sp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(rp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(p2)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(rp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(p2)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(rp)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(p2)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "b"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(b)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "p2"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(p2)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "rp"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(rp)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "fp"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U fp) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "b"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(X(b)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "sp"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(sp)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(a)))) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U r) U X(X(X(X(true)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(b))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "pc"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U pc) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "p3"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U p3) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "p3"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(p3)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(b))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(X(b))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "b"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(X(b))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(a)))) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "true"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U r) U X(X(X(true))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "fp"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U fp) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U r) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((a U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((r U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(r)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "!",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U !(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((b U true) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "fp"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U fp) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "true"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(true)))))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(true))))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((sp U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((rp U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p2",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((p2 U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((a U true) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((r U true) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "true"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((X(true) U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "pc"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U pc) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "sp"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(sp)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "rp"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(rp)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "p2"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(p2)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(a)))))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "b"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(b))))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(true)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U true) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p3",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((p3 U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((b U b) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "b"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((X(b) U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "true"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(X(X(X(a))))) U X(X(X(a)))) U X(X(true)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(b)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "p3"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(p3)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "p2"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(p2)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "rp"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(rp)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p2",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p2 U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rp",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rp U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "b"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(b) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p3",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p3 U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "sp"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(sp)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sp",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sp U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U b) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "r"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(r)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              "r"
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(r))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(true)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "b"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U b) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U r) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(r)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(r)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "r"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(r))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "true"
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U true) U X(X(X(X(r)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "a"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(a))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(X(X(a)))))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(X(r)))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "!",
+            "b"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((!(b) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          "cc"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((true U cc) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "fp"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(fp) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "r"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(X(r))))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  [
+                    "X",
+                    "a"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(X(X(X(X(a))))) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "pc"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(pc) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rc U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sc U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "rp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((rp U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p2",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p2 U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "p3",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((p3 U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "sp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((sp U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "X",
+            "r"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((X(r) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "cc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((cc U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          [
+            "!",
+            "true"
+          ],
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((!(true) U X(X(X(a)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(true))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(r)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          "r"
+        ]
+      ],
+      "formula_str": "((true U X(X(X(a)))) U X(r))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((b U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U X(X(X(r)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U X(X(X(r)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((r U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "pc",
+          "r"
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((pc U r) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "r"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "((a U X(X(X(r)))) U X(X(a)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "b",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((b U X(X(X(a)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((fp U X(X(X(a)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((a U X(X(X(a)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "r",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "((r U X(X(X(a)))) U X(X(r)))",
+      "source": "candidate_export"
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "U",
+          "true",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ],
+        "true"
+      ],
+      "formula_str": "((true U X(X(X(a)))) U true)",
+      "source": "candidate_export"
+    }
+  ]
+}

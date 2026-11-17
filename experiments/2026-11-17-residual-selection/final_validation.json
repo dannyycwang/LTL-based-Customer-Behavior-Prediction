@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "Coveo",
+    "protocol": "full_observation",
+    "n_test": 38490,
+    "conditions": 3,
+    "status": "passed"
+  },
+  {
+    "dataset": "Coveo",
+    "protocol": "next_10",
+    "n_test": 12202,
+    "conditions": 3,
+    "status": "passed"
+  },
+  {
+    "dataset": "Electronics",
+    "protocol": "full_observation",
+    "n_test": 21062,
+    "conditions": 4,
+    "status": "passed"
+  },
+  {
+    "dataset": "Electronics",
+    "protocol": "next_10",
+    "n_test": 759,
+    "conditions": 4,
+    "status": "passed"
+  },
+  {
+    "dataset": "Cosmetics",
+    "protocol": "full_observation",
+    "n_test": 25836,
+    "conditions": 3,
+    "status": "passed"
+  },
+  {
+    "dataset": "Cosmetics",
+    "protocol": "next_10",
+    "n_test": 4185,
+    "conditions": 3,
+    "status": "passed"
+  }
+]

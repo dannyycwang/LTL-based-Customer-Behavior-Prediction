@@ -1,0 +1,5 @@
+file,condition,max_probability_difference
+coveo_full_observation_predictions.csv.gz,A,0.006420944605768808
+coveo_full_observation_predictions.csv.gz,B,0.004571580133809761
+coveo_next_10_predictions.csv.gz,A,0.0017594671453162736
+coveo_next_10_predictions.csv.gz,B,0.0012293045905070743

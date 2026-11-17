@@ -1,0 +1,733 @@
+dataset,candidate_export_row,formula,atoms,operators,node_count,depth,next_count,until_count
+Coveo,0,((true U X(X(X(X(true))))) U X(X(a))),a,"U,X",11,6,6,2
+Coveo,1,((true U X(X(X(X(b))))) U X(X(a))),"a,b","U,X",11,6,6,2
+Coveo,2,((true U X(X(X(b)))) U X(X(a))),"a,b","U,X",10,5,5,2
+Coveo,3,((b U X(X(X(X(true))))) U X(X(a))),"a,b","U,X",11,6,6,2
+Coveo,4,((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),a,"U,X",15,7,10,2
+Coveo,5,((true U X(X(X(a)))) U X(X(a))),a,"U,X",10,5,5,2
+Coveo,6,((true U true) U X(X(a))),a,"U,X",7,3,2,2
+Coveo,7,((true U X(X(X(true)))) U X(X(a))),a,"U,X",10,5,5,2
+Coveo,8,((true U b) U X(X(a))),"a,b","U,X",7,3,2,2
+Coveo,9,((true U !(X(X(a)))) U X(X(a))),a,"!,U,X",10,5,4,2
+Coveo,10,((b U true) U X(X(a))),"a,b","U,X",7,3,2,2
+Coveo,11,((a U true) U X(X(a))),a,"U,X",7,3,2,2
+Coveo,12,((r U true) U X(X(a))),"a,r","U,X",7,3,2,2
+Coveo,13,((X(true) U X(X(X(a)))) U X(X(a))),a,"U,X",11,5,6,2
+Coveo,14,((b U X(X(X(true)))) U X(X(a))),"a,b","U,X",10,5,5,2
+Coveo,15,((fp U true) U X(X(a))),"a,fp","U,X",7,3,2,2
+Coveo,16,((true U a) U X(X(a))),a,"U,X",7,3,2,2
+Coveo,17,((a U X(X(X(true)))) U X(X(a))),a,"U,X",10,5,5,2
+Coveo,18,((r U X(X(X(true)))) U X(X(a))),"a,r","U,X",10,5,5,2
+Coveo,19,((pc U true) U X(X(a))),"a,pc","U,X",7,3,2,2
+Coveo,20,((sp U true) U X(X(a))),"a,sp","U,X",7,3,2,2
+Coveo,21,((rp U true) U X(X(a))),"a,rp","U,X",7,3,2,2
+Coveo,22,((p2 U true) U X(X(a))),"a,p2","U,X",7,3,2,2
+Coveo,23,((fp U X(X(X(true)))) U X(X(a))),"a,fp","U,X",10,5,5,2
+Coveo,24,((X(true) U true) U X(X(a))),a,"U,X",8,3,3,2
+Coveo,25,((true U !(X(X(true)))) U X(X(a))),a,"!,U,X",10,5,4,2
+Coveo,26,((p3 U true) U X(X(a))),"a,p3","U,X",7,3,2,2
+Coveo,27,((X(b) U true) U X(X(a))),"a,b","U,X",8,3,3,2
+Coveo,28,((pc U X(X(X(true)))) U X(X(a))),"a,pc","U,X",10,5,5,2
+Coveo,29,((true U X(X(true))) U X(X(a))),a,"U,X",9,4,4,2
+Coveo,30,((X(X(X(X(X(a))))) U true) U X(X(a))),a,"U,X",12,7,7,2
+Coveo,31,((X(X(true)) U X(X(X(a)))) U X(X(a))),a,"U,X",12,5,7,2
+Coveo,32,((sp U X(X(X(true)))) U X(X(a))),"a,sp","U,X",10,5,5,2
+Coveo,33,((p2 U X(X(X(true)))) U X(X(a))),"a,p2","U,X",10,5,5,2
+Coveo,34,((rp U X(X(X(true)))) U X(X(a))),"a,rp","U,X",10,5,5,2
+Coveo,35,((cc U true) U X(X(a))),"a,cc","U,X",7,3,2,2
+Coveo,36,((X(true) U X(X(X(true)))) U X(X(a))),a,"U,X",11,5,6,2
+Coveo,37,((X(r) U true) U X(X(a))),"a,r","U,X",8,3,3,2
+Coveo,38,((rc U true) U X(X(a))),"a,rc","U,X",7,3,2,2
+Coveo,39,((sc U true) U X(X(a))),"a,sc","U,X",7,3,2,2
+Coveo,40,((true U X(true)) U X(X(a))),a,"U,X",8,3,3,2
+Coveo,41,((b U !(X(X(a)))) U X(X(a))),"a,b","!,U,X",10,5,4,2
+Coveo,42,((X(true) U b) U X(X(a))),"a,b","U,X",8,3,3,2
+Coveo,43,((p3 U X(X(X(true)))) U X(X(a))),"a,p3","U,X",10,5,5,2
+Coveo,44,((X(b) U X(X(X(true)))) U X(X(a))),"a,b","U,X",11,5,6,2
+Coveo,45,((X(fp) U true) U X(X(a))),"a,fp","U,X",8,3,3,2
+Coveo,46,((a U !(X(X(a)))) U X(X(a))),a,"!,U,X",10,5,4,2
+Coveo,47,((X(pc) U true) U X(X(a))),"a,pc","U,X",8,3,3,2
+Coveo,48,((X(X(X(X(X(a))))) U X(X(X(true)))) U X(X(a))),a,"U,X",15,7,10,2
+Coveo,49,((true U X(X(X(X(X(b)))))) U X(X(a))),"a,b","U,X",12,7,7,2
+Coveo,50,((true U X(X(X(X(X(true)))))) U X(X(a))),a,"U,X",12,7,7,2
+Coveo,51,((b U X(X(X(X(X(true)))))) U X(X(a))),"a,b","U,X",12,7,7,2
+Coveo,52,((true U X(X(X(rp)))) U X(X(a))),"a,rp","U,X",10,5,5,2
+Coveo,53,((true U X(X(X(p2)))) U X(X(a))),"a,p2","U,X",10,5,5,2
+Coveo,54,((true U X(X(X(a)))) U X(X(X(a)))),a,"U,X",11,5,6,2
+Coveo,55,((true U true) U X(X(X(a)))),a,"U,X",8,4,3,2
+Coveo,56,((true U X(X(X(a)))) U X(X(p2))),"a,p2","U,X",10,5,5,2
+Coveo,57,((true U X(X(X(a)))) U X(X(rp))),"a,rp","U,X",10,5,5,2
+Coveo,58,((true U sp) U X(X(a))),"a,sp","U,X",7,3,2,2
+Coveo,59,((true U X(X(X(sp)))) U X(X(a))),"a,sp","U,X",10,5,5,2
+Coveo,60,((true U true) U X(X(sp))),sp,"U,X",7,3,2,2
+Coveo,61,((true U X(X(X(true)))) U X(X(sp))),sp,"U,X",10,5,5,2
+Coveo,62,((true U b) U X(X(sp))),"b,sp","U,X",7,3,2,2
+Coveo,63,((true U X(X(X(a)))) U X(X(X(X(a))))),a,"U,X",12,5,7,2
+Coveo,64,((true U true) U X(X(X(X(a))))),a,"U,X",9,5,4,2
+Coveo,65,((true U X(X(X(true)))) U X(X(X(X(a))))),a,"U,X",12,5,7,2
+Coveo,66,((true U b) U X(X(X(X(a))))),"a,b","U,X",9,5,4,2
+Coveo,67,((true U X(X(X(a)))) U X(X(sp))),"a,sp","U,X",10,5,5,2
+Coveo,68,((true U true) U X(X(rp))),rp,"U,X",7,3,2,2
+Coveo,69,((true U true) U X(X(p2))),p2,"U,X",7,3,2,2
+Coveo,70,((true U X(X(X(true)))) U X(X(rp))),rp,"U,X",10,5,5,2
+Coveo,71,((true U X(X(X(true)))) U X(X(p2))),p2,"U,X",10,5,5,2
+Coveo,72,((true U b) U X(X(rp))),"b,rp","U,X",7,3,2,2
+Coveo,73,((true U b) U X(X(p2))),"b,p2","U,X",7,3,2,2
+Coveo,74,((true U X(X(X(a)))) U X(X(X(X(b))))),"a,b","U,X",12,5,7,2
+Coveo,75,((true U X(X(X(a)))) U X(X(X(X(p2))))),"a,p2","U,X",12,5,7,2
+Coveo,76,((true U X(X(X(a)))) U X(X(X(X(rp))))),"a,rp","U,X",12,5,7,2
+Coveo,77,((true U fp) U X(X(a))),"a,fp","U,X",7,3,2,2
+Coveo,78,((true U true) U X(X(X(X(b))))),b,"U,X",9,5,4,2
+Coveo,79,((true U X(X(X(a)))) U X(X(X(X(sp))))),"a,sp","U,X",12,5,7,2
+Coveo,80,((true U X(X(X(a)))) U X(X(X(X(true))))),a,"U,X",12,5,7,2
+Coveo,81,((true U true) U X(X(X(X(true))))),,"U,X",9,5,4,2
+Coveo,82,((true U X(X(X(true)))) U X(X(X(X(true))))),,"U,X",12,5,7,2
+Coveo,83,((true U b) U X(X(X(X(true))))),b,"U,X",9,5,4,2
+Coveo,84,((b U X(X(X(a)))) U X(X(X(X(true))))),"a,b","U,X",12,5,7,2
+Coveo,85,((true U r) U X(X(X(X(true))))),r,"U,X",9,5,4,2
+Coveo,86,((fp U b) U X(X(a))),"a,b,fp","U,X",7,3,2,2
+Coveo,87,((true U X(X(X(a)))) U X(X(X(b)))),"a,b","U,X",11,5,6,2
+Coveo,88,((true U pc) U X(X(a))),"a,pc","U,X",7,3,2,2
+Coveo,89,((true U p3) U X(X(a))),"a,p3","U,X",7,3,2,2
+Coveo,90,((true U X(X(X(p3)))) U X(X(a))),"a,p3","U,X",10,5,5,2
+Coveo,91,((true U true) U X(X(X(b)))),b,"U,X",8,4,3,2
+Coveo,92,((true U X(X(X(true)))) U X(X(X(b)))),b,"U,X",11,5,6,2
+Coveo,93,((true U b) U X(X(X(b)))),b,"U,X",8,4,3,2
+Coveo,94,((true U X(X(X(a)))) U X(X(X(true)))),a,"U,X",11,5,6,2
+Coveo,95,((true U true) U X(X(X(true)))),,"U,X",8,4,3,2
+Coveo,96,((true U X(X(X(true)))) U X(X(X(true)))),,"U,X",11,5,6,2
+Coveo,97,((true U b) U X(X(X(true)))),b,"U,X",8,4,3,2
+Coveo,98,((b U X(X(X(a)))) U X(X(X(true)))),"a,b","U,X",11,5,6,2
+Coveo,99,((true U r) U X(X(X(true)))),r,"U,X",8,4,3,2
+Coveo,100,((b U fp) U X(X(a))),"a,b,fp","U,X",7,3,2,2
+Coveo,101,((pc U b) U X(X(a))),"a,b,pc","U,X",7,3,2,2
+Coveo,102,((true U X(X(X(a)))) U X(X(true))),a,"U,X",10,5,5,2
+Coveo,103,((true U true) U X(X(true))),,"U,X",7,3,2,2
+Coveo,104,((true U X(X(X(true)))) U X(X(true))),,"U,X",10,5,5,2
+Coveo,105,((true U b) U X(X(true))),b,"U,X",7,3,2,2
+Coveo,106,((b U X(X(X(a)))) U X(X(true))),"a,b","U,X",10,5,5,2
+Coveo,107,((true U r) U X(X(true))),r,"U,X",7,3,2,2
+Coveo,108,((a U X(X(X(a)))) U X(X(true))),a,"U,X",10,5,5,2
+Coveo,109,((r U X(X(X(a)))) U X(X(true))),"a,r","U,X",10,5,5,2
+Coveo,110,((true U X(X(X(r)))) U X(X(true))),r,"U,X",10,5,5,2
+Coveo,111,((fp U X(X(X(a)))) U X(X(true))),"a,fp","U,X",10,5,5,2
+Coveo,112,((true U !(X(X(a)))) U X(X(true))),a,"!,U,X",10,5,4,2
+Coveo,113,((b U true) U X(X(true))),b,"U,X",7,3,2,2
+Coveo,114,((true U fp) U X(X(true))),fp,"U,X",7,3,2,2
+Coveo,115,((true U X(X(X(X(X(true)))))) U X(X(true))),,"U,X",12,7,7,2
+Coveo,116,((true U X(X(X(X(true))))) U X(X(true))),,"U,X",11,6,6,2
+Coveo,117,((pc U X(X(X(a)))) U X(X(true))),"a,pc","U,X",10,5,5,2
+Coveo,118,((sp U X(X(X(a)))) U X(X(true))),"a,sp","U,X",10,5,5,2
+Coveo,119,((rp U X(X(X(a)))) U X(X(true))),"a,rp","U,X",10,5,5,2
+Coveo,120,((p2 U X(X(X(a)))) U X(X(true))),"a,p2","U,X",10,5,5,2
+Coveo,121,((a U true) U X(X(true))),a,"U,X",7,3,2,2
+Coveo,122,((r U true) U X(X(true))),r,"U,X",7,3,2,2
+Coveo,123,((X(true) U X(X(X(a)))) U X(X(true))),a,"U,X",11,5,6,2
+Coveo,124,((true U pc) U X(X(true))),pc,"U,X",7,3,2,2
+Coveo,125,((true U X(X(X(sp)))) U X(X(true))),sp,"U,X",10,5,5,2
+Coveo,126,((true U X(X(X(rp)))) U X(X(true))),rp,"U,X",10,5,5,2
+Coveo,127,((true U X(X(X(p2)))) U X(X(true))),p2,"U,X",10,5,5,2
+Coveo,128,((true U X(X(X(X(X(a)))))) U X(X(true))),a,"U,X",12,7,7,2
+Coveo,129,((true U X(X(X(X(b))))) U X(X(true))),b,"U,X",11,6,6,2
+Coveo,130,((b U X(X(X(true)))) U X(X(true))),b,"U,X",10,5,5,2
+Coveo,131,((fp U true) U X(X(true))),fp,"U,X",7,3,2,2
+Coveo,132,((p3 U X(X(X(a)))) U X(X(true))),"a,p3","U,X",10,5,5,2
+Coveo,133,((b U b) U X(X(true))),b,"U,X",7,3,2,2
+Coveo,134,((X(b) U X(X(X(a)))) U X(X(true))),"a,b","U,X",11,5,6,2
+Coveo,135,((X(X(X(X(X(a))))) U X(X(X(a)))) U X(X(true))),a,"U,X",15,7,10,2
+Coveo,136,((true U X(X(X(a)))) U X(X(b))),"a,b","U,X",10,5,5,2
+Coveo,137,((true U X(X(X(a)))) U X(X(p3))),"a,p3","U,X",10,5,5,2
+Coveo,138,((true U X(X(X(X(X(p2)))))) U X(X(a))),"a,p2","U,X",12,7,7,2
+Coveo,139,((true U X(X(X(X(X(rp)))))) U X(X(a))),"a,rp","U,X",12,7,7,2
+Coveo,140,((p2 U b) U X(X(a))),"a,b,p2","U,X",7,3,2,2
+Coveo,141,((rp U b) U X(X(a))),"a,b,rp","U,X",7,3,2,2
+Coveo,142,((X(b) U X(X(X(a)))) U X(X(a))),"a,b","U,X",11,5,6,2
+Coveo,143,((b U X(X(X(a)))) U X(X(a))),"a,b","U,X",10,5,5,2
+Coveo,144,((p3 U b) U X(X(a))),"a,b,p3","U,X",7,3,2,2
+Coveo,145,((true U X(X(X(X(X(sp)))))) U X(X(a))),"a,sp","U,X",12,7,7,2
+Coveo,146,((r U b) U X(X(a))),"a,b,r","U,X",7,3,2,2
+Coveo,147,((sp U b) U X(X(a))),"a,b,sp","U,X",7,3,2,2
+Coveo,148,((a U b) U X(X(a))),"a,b","U,X",7,3,2,2
+Coveo,149,((b U b) U X(X(a))),"a,b","U,X",7,3,2,2
+Coveo,150,((true U X(X(X(X(X(r)))))) U X(X(a))),"a,r","U,X",12,7,7,2
+Coveo,151,((true U r) U X(X(a))),"a,r","U,X",7,3,2,2
+Coveo,152,((true U X(X(r))) U X(X(a))),"a,r","U,X",9,4,4,2
+Coveo,153,((true U true) U X(X(r))),r,"U,X",7,3,2,2
+Coveo,154,((true U X(X(X(true)))) U X(X(r))),r,"U,X",10,5,5,2
+Coveo,155,((true U b) U X(X(r))),"b,r","U,X",7,3,2,2
+Coveo,156,((true U r) U X(X(r))),r,"U,X",7,3,2,2
+Coveo,157,((true U X(X(X(r)))) U X(X(r))),r,"U,X",10,5,5,2
+Coveo,158,((true U X(X(X(r)))) U X(X(a))),"a,r","U,X",10,5,5,2
+Coveo,159,((true U X(X(X(X(r))))) U X(X(a))),"a,r","U,X",11,6,6,2
+Coveo,160,((true U true) U X(X(X(X(r))))),r,"U,X",9,5,4,2
+Coveo,161,((true U X(X(X(X(a))))) U X(X(a))),a,"U,X",11,6,6,2
+Coveo,162,((true U X(X(X(X(X(a)))))) U X(X(a))),a,"U,X",12,7,7,2
+Coveo,163,((true U X(X(X(a)))) U X(X(X(X(r))))),"a,r","U,X",12,5,7,2
+Coveo,164,((!(b) U X(X(X(a)))) U X(X(a))),"a,b","!,U,X",11,5,5,2
+Coveo,165,((true U cc) U X(X(a))),"a,cc","U,X",7,3,2,2
+Coveo,166,((fp U X(X(X(a)))) U X(X(a))),"a,fp","U,X",10,5,5,2
+Coveo,167,((X(fp) U X(X(X(a)))) U X(X(a))),"a,fp","U,X",11,5,6,2
+Coveo,168,((true U X(X(X(a)))) U X(X(X(r)))),"a,r","U,X",11,5,6,2
+Coveo,169,((X(X(X(X(X(a))))) U X(X(X(a)))) U X(X(a))),a,"U,X",15,7,10,2
+Coveo,170,((X(pc) U X(X(X(a)))) U X(X(a))),"a,pc","U,X",11,5,6,2
+Coveo,171,((rc U X(X(X(a)))) U X(X(a))),"a,rc","U,X",10,5,5,2
+Coveo,172,((sc U X(X(X(a)))) U X(X(a))),"a,sc","U,X",10,5,5,2
+Coveo,173,((rp U X(X(X(a)))) U X(X(a))),"a,rp","U,X",10,5,5,2
+Coveo,174,((p2 U X(X(X(a)))) U X(X(a))),"a,p2","U,X",10,5,5,2
+Coveo,175,((pc U X(X(X(a)))) U X(X(a))),"a,pc","U,X",10,5,5,2
+Coveo,176,((p3 U X(X(X(a)))) U X(X(a))),"a,p3","U,X",10,5,5,2
+Coveo,177,((sp U X(X(X(a)))) U X(X(a))),"a,sp","U,X",10,5,5,2
+Coveo,178,((r U X(X(X(a)))) U X(X(a))),"a,r","U,X",10,5,5,2
+Coveo,179,((a U X(X(X(a)))) U X(X(a))),a,"U,X",10,5,5,2
+Coveo,180,((X(r) U X(X(X(a)))) U X(X(a))),"a,r","U,X",11,5,6,2
+Coveo,181,((cc U X(X(X(a)))) U X(X(a))),"a,cc","U,X",10,5,5,2
+Coveo,182,((!(true) U X(X(X(a)))) U X(X(a))),a,"!,U,X",11,5,5,2
+Coveo,183,((true U X(X(X(a)))) U X(true)),a,"U,X",9,5,4,2
+Coveo,184,((b U X(X(X(r)))) U X(X(a))),"a,b,r","U,X",10,5,5,2
+Coveo,185,((true U X(X(X(a)))) U X(X(r))),"a,r","U,X",10,5,5,2
+Coveo,186,((true U X(X(X(a)))) U X(r)),"a,r","U,X",9,5,4,2
+Coveo,187,((b U r) U X(X(a))),"a,b,r","U,X",7,3,2,2
+Coveo,188,((fp U X(X(X(r)))) U X(X(a))),"a,fp,r","U,X",10,5,5,2
+Coveo,189,((r U X(X(X(r)))) U X(X(a))),"a,r","U,X",10,5,5,2
+Coveo,190,((a U r) U X(X(a))),"a,r","U,X",7,3,2,2
+Coveo,191,((r U r) U X(X(a))),"a,r","U,X",7,3,2,2
+Coveo,192,((fp U r) U X(X(a))),"a,fp,r","U,X",7,3,2,2
+Coveo,193,((pc U r) U X(X(a))),"a,pc,r","U,X",7,3,2,2
+Coveo,194,((a U X(X(X(r)))) U X(X(a))),"a,r","U,X",10,5,5,2
+Coveo,195,((b U X(X(X(a)))) U X(X(r))),"a,b,r","U,X",10,5,5,2
+Coveo,196,((fp U X(X(X(a)))) U X(X(r))),"a,fp,r","U,X",10,5,5,2
+Coveo,197,((a U X(X(X(a)))) U X(X(r))),"a,r","U,X",10,5,5,2
+Coveo,198,((r U X(X(X(a)))) U X(X(r))),"a,r","U,X",10,5,5,2
+Coveo,199,((true U X(X(X(a)))) U true),a,"U,X",8,5,3,2
+Electronics,0,X((true U a)),a,"U,X",4,2,1,1
+Electronics,1,X((d U a)),"a,d","U,X",4,2,1,1
+Electronics,2,X((true U X(a))),a,"U,X",5,3,2,1
+Electronics,3,((true U a) && X(a)),a,"&&,U,X",6,2,1,1
+Electronics,4,X((rc U a)),"a,rc","U,X",4,2,1,1
+Electronics,5,X((true U p3)),p3,"U,X",4,2,1,1
+Electronics,6,X(a),a,X,2,1,1,0
+Electronics,7,true,,,1,0,0,0
+Electronics,8,d,d,,1,0,0,0
+Electronics,9,fp,fp,,1,0,0,0
+Electronics,10,p3,p3,,1,0,0,0
+Electronics,11,rp,rp,,1,0,0,0
+Electronics,12,sc,sc,,1,0,0,0
+Electronics,13,rc,rc,,1,0,0,0
+Electronics,14,sp,sp,,1,0,0,0
+Electronics,15,p2,p2,,1,0,0,0
+Electronics,16,a,a,,1,0,0,0
+Electronics,17,pc,pc,,1,0,0,0
+Electronics,18,cc,cc,,1,0,0,0
+Electronics,19,X((true U X(X(a)))),a,"U,X",6,4,3,1
+Electronics,20,!((true U a)),a,"!,U",4,2,0,1
+Electronics,21,X((sc U a)),"a,sc","U,X",4,2,1,1
+Electronics,22,X((d U X(a))),"a,d","U,X",5,3,2,1
+Electronics,23,X((rp U a)),"a,rp","U,X",4,2,1,1
+Electronics,24,((true U a) U X(a)),a,"U,X",6,2,1,2
+Electronics,25,((d U a) && X(a)),"a,d","&&,U,X",6,2,1,1
+Electronics,26,X((true U true)),,"U,X",4,2,1,1
+Electronics,27,((true U X(a)) && X(a)),a,"&&,U,X",7,3,2,1
+Electronics,28,X(rp),rp,X,2,1,1,0
+Electronics,29,X((true U rc)),rc,"U,X",4,2,1,1
+Electronics,30,X((true U rp)),rp,"U,X",4,2,1,1
+Electronics,31,X(sp),sp,X,2,1,1,0
+Electronics,32,X((true U sc)),sc,"U,X",4,2,1,1
+Electronics,33,X(rc),rc,X,2,1,1,0
+Electronics,34,X(sc),sc,X,2,1,1,0
+Electronics,35,X((rc U X(a))),"a,rc","U,X",5,3,2,1
+Electronics,36,X((true U (d U X(a)))),"a,d","U,X",7,4,2,2
+Electronics,37,X((sp U a)),"a,sp","U,X",4,2,1,1
+Electronics,38,X((d U p3)),"d,p3","U,X",4,2,1,1
+Electronics,39,X((p2 U a)),"a,p2","U,X",4,2,1,1
+Electronics,40,X((fp U a)),"a,fp","U,X",4,2,1,1
+Electronics,41,X((true U X(p3))),p3,"U,X",5,3,2,1
+Electronics,42,X(true),,X,2,1,1,0
+Electronics,43,((rc U a) && X(a)),"a,rc","&&,U,X",6,2,1,1
+Electronics,44,X(p3),p3,X,2,1,1,0
+Electronics,45,X(d),d,X,2,1,1,0
+Electronics,46,X((true U (d U X(X(a))))),"a,d","U,X",8,5,3,2
+Electronics,47,((true U a) && X(p3)),"a,p3","&&,U,X",6,2,1,1
+Electronics,48,((true U p3) && X(a)),"a,p3","&&,U,X",6,2,1,1
+Electronics,49,X(fp),fp,X,2,1,1,0
+Electronics,50,X(pc),pc,X,2,1,1,0
+Electronics,51,X(p2),p2,X,2,1,1,0
+Electronics,52,X((true && a)),a,"&&,X",4,2,1,0
+Electronics,53,(a && X(a)),a,"&&,X",4,2,1,0
+Electronics,54,X(cc),cc,X,2,1,1,0
+Electronics,55,X((p3 U a)),"a,p3","U,X",4,2,1,1
+Electronics,56,X((pc U a)),"a,pc","U,X",4,2,1,1
+Electronics,57,X((((d U X(a)) U d) U a)),"a,d","U,X",9,5,2,3
+Electronics,58,X((true U p2)),p2,"U,X",4,2,1,1
+Electronics,59,X((true U cc)),cc,"U,X",4,2,1,1
+Electronics,60,((true U a) && X(X(a))),a,"&&,U,X",7,3,2,1
+Electronics,61,X((cc U a)),"a,cc","U,X",4,2,1,1
+Electronics,62,X((true U sp)),sp,"U,X",4,2,1,1
+Electronics,63,X((d U X(X(a)))),"a,d","U,X",6,4,3,1
+Electronics,64,X((true U fp)),fp,"U,X",4,2,1,1
+Electronics,65,X((a U a)),a,"U,X",4,2,1,1
+Electronics,66,!((d U a)),"a,d","!,U",4,2,0,1
+Electronics,67,X((((d U X(a)) U X(a)) U a)),"a,d","U,X",10,5,3,3
+Electronics,68,!((true U X(a))),a,"!,U,X",5,3,1,1
+Electronics,69,X((true U pc)),pc,"U,X",4,2,1,1
+Electronics,70,X((true U d)),d,"U,X",4,2,1,1
+Electronics,71,X(X(true)),,X,3,2,2,0
+Electronics,72,X(!(true)),,"!,X",3,2,1,0
+Electronics,73,X((sc U X(a))),"a,sc","U,X",5,3,2,1
+Electronics,74,X((true U rp)),rp,"U,X",4,2,1,1
+Electronics,75,X((true U true)),,"U,X",4,2,1,1
+Electronics,76,X((true U d)),d,"U,X",4,2,1,1
+Electronics,77,X((rc U p3)),"p3,rc","U,X",4,2,1,1
+Electronics,78,((true U X(X(a))) && X(a)),a,"&&,U,X",8,4,3,1
+Electronics,79,X((((d U X(X(a))) U d) U a)),"a,d","U,X",10,6,3,3
+Electronics,80,X((true U rp)),rp,"U,X",4,2,1,1
+Electronics,81,X((true U a)),a,"U,X",4,2,1,1
+Electronics,82,((sc U a) && X(a)),"a,sc","&&,U,X",6,2,1,1
+Electronics,83,X((((d U X(X(a))) U X(a)) U a)),"a,d","U,X",11,6,4,3
+Electronics,84,((d U a) U X(a)),"a,d","U,X",6,2,1,2
+Electronics,85,((true U a) && true),a,"&&,U",5,2,0,1
+Electronics,86,X((rp U X(a))),"a,rp","U,X",5,3,2,1
+Electronics,87,X((true U (true U X(a)))),a,"U,X",7,4,2,2
+Electronics,88,((true U X(a)) U X(a)),a,"U,X",7,3,2,2
+Electronics,89,X((d U true)),d,"U,X",4,2,1,1
+Electronics,90,X((((d U X(a)) U rp) U a)),"a,d,rp","U,X",9,5,2,3
+Electronics,91,((d U X(a)) && X(a)),"a,d","&&,U,X",7,3,2,1
+Electronics,92,X((((d U X(a)) U rp) U a)),"a,d,rp","U,X",9,5,2,3
+Electronics,93,X((true U X(true))),,"U,X",5,3,2,1
+Electronics,94,((true U a) && a),a,"&&,U",5,2,0,1
+Electronics,95,X((X((d U X(a))) U a)),"a,d","U,X",8,5,3,2
+Electronics,96,X((!((d U X(a))) U a)),"a,d","!,U,X",8,5,2,2
+Electronics,97,X((true U (X(a) U a))),a,"U,X",7,4,2,2
+Electronics,98,((true U a) && a),a,"&&,U",5,2,0,1
+Electronics,99,X((true U d)),d,"U,X",4,2,1,1
+Electronics,100,X((d U rc)),"d,rc","U,X",4,2,1,1
+Electronics,101,X((true U p3)),p3,"U,X",4,2,1,1
+Electronics,102,X((true U true)),,"U,X",4,2,1,1
+Electronics,103,X((true U X(rc))),rc,"U,X",5,3,2,1
+Electronics,104,X((d U rp)),"d,rp","U,X",4,2,1,1
+Electronics,105,((rp U a) && X(a)),"a,rp","&&,U,X",6,2,1,1
+Electronics,106,((true U a) && d),"a,d","&&,U",5,2,0,1
+Electronics,107,X((true U X(rp))),rp,"U,X",5,3,2,1
+Electronics,108,X(((true U d) U a)),"a,d","U,X",6,3,1,2
+Electronics,109,X((rc U X(X(a)))),"a,rc","U,X",6,4,3,1
+Electronics,110,((true U true) && X(a)),a,"&&,U,X",6,2,1,1
+Electronics,111,((true U a) && X(true)),a,"&&,U,X",6,2,1,1
+Electronics,112,X((true U true)),,"U,X",4,2,1,1
+Electronics,113,!((rc U a)),"a,rc","!,U",4,2,0,1
+Electronics,114,((true U a) && rp),"a,rp","&&,U",5,2,0,1
+Electronics,115,(rp && X(a)),"a,rp","&&,X",4,2,1,0
+Electronics,116,X((true U true)),,"U,X",4,2,1,1
+Electronics,117,X((true U (d U rp))),"d,rp","U,X",6,3,1,2
+Electronics,118,X((true U (true U X(X(a))))),a,"U,X",8,5,3,2
+Electronics,119,X((d U sc)),"d,sc","U,X",4,2,1,1
+Electronics,120,X((true U !(a))),a,"!,U,X",5,3,1,1
+Electronics,121,X((true U !(X(a)))),a,"!,U,X",6,4,2,1
+Electronics,122,X((((d U X(X(a))) U rp) U a)),"a,d,rp","U,X",10,6,3,3
+Electronics,123,((true U a) && p3),"a,p3","&&,U",5,2,0,1
+Electronics,124,((true U a) && true),a,"&&,U",5,2,0,1
+Electronics,125,X((true U X(sc))),sc,"U,X",5,3,2,1
+Electronics,126,((true U a) && X(rc)),"a,rc","&&,U,X",6,2,1,1
+Electronics,127,((true U rc) && X(a)),"a,rc","&&,U,X",6,2,1,1
+Electronics,128,X((true U (d U rp))),"d,rp","U,X",6,3,1,2
+Electronics,129,X((((d U X(X(a))) U rp) U a)),"a,d,rp","U,X",10,6,3,3
+Electronics,130,X(((true U X(a)) U a)),a,"U,X",7,4,2,2
+Electronics,131,X((true U X(X(p3)))),p3,"U,X",6,4,3,1
+Electronics,132,X((X((d U X(X(a)))) U a)),"a,d","U,X",9,6,4,2
+Electronics,133,X((!((d U X(X(a)))) U a)),"a,d","!,U,X",9,6,3,2
+Electronics,134,X((((d U X(a)) U true) U a)),"a,d","U,X",9,5,2,3
+Electronics,135,((true U a) && X(rp)),"a,rp","&&,U,X",6,2,1,1
+Electronics,136,((true U rp) && X(a)),"a,rp","&&,U,X",6,2,1,1
+Electronics,137,((true U a) && rp),"a,rp","&&,U",5,2,0,1
+Electronics,138,!((true U p3)),p3,"!,U",4,2,0,1
+Electronics,139,(sp && X(a)),"a,sp","&&,X",4,2,1,0
+Electronics,140,X((((true U X(a)) U d) U a)),"a,d","U,X",9,5,2,3
+Electronics,141,X((((d U X(a)) U true) U a)),"a,d","U,X",9,5,2,3
+Electronics,142,X((true U rp)),rp,"U,X",4,2,1,1
+Electronics,143,!(a),a,!,2,1,0,0
+Electronics,144,X((d U (d U X(a)))),"a,d","U,X",7,4,2,2
+Electronics,145,X((true U fp)),fp,"U,X",4,2,1,1
+Electronics,146,((true U a) && (d U X(a))),"a,d","&&,U,X",8,3,1,2
+Electronics,147,X((true U cc)),cc,"U,X",4,2,1,1
+Electronics,148,X((sc U p3)),"p3,sc","U,X",4,2,1,1
+Electronics,149,X((true U d)),d,"U,X",4,2,1,1
+Electronics,150,((true U a) && !(a)),a,"!,&&,U",6,2,0,1
+Electronics,151,X((((d U X(a)) U true) U a)),"a,d","U,X",9,5,2,3
+Electronics,152,X(((d U d) U a)),"a,d","U,X",6,3,1,2
+Electronics,153,X((sp U X(a))),"a,sp","U,X",5,3,2,1
+Electronics,154,X((((true U X(a)) U X(a)) U a)),a,"U,X",10,5,3,3
+Electronics,155,((true U a) && X(sc)),"a,sc","&&,U,X",6,2,1,1
+Electronics,156,((true U sc) && X(a)),"a,sc","&&,U,X",6,2,1,1
+Electronics,157,X((d U X(p3))),"d,p3","U,X",5,3,2,1
+Electronics,158,X((true U d)),d,"U,X",4,2,1,1
+Electronics,159,X((true U rc)),rc,"U,X",4,2,1,1
+Electronics,160,X((p2 U X(a))),"a,p2","U,X",5,3,2,1
+Electronics,161,X((fp U X(a))),"a,fp","U,X",5,3,2,1
+Electronics,162,X((((d U X(a)) U X(X(a))) U a)),"a,d","U,X",11,5,4,3
+Electronics,163,(rc && X(a)),"a,rc","&&,X",4,2,1,0
+Electronics,164,((rc U a) U X(a)),"a,rc","U,X",6,2,1,2
+Electronics,165,X((true U rp)),rp,"U,X",4,2,1,1
+Electronics,166,X((true U pc)),pc,"U,X",4,2,1,1
+Electronics,167,X((true U (rp U X(a)))),"a,rp","U,X",7,4,2,2
+Electronics,168,((true U a) && rp),"a,rp","&&,U",5,2,0,1
+Electronics,169,(sc && X(a)),"a,sc","&&,X",4,2,1,0
+Electronics,170,X((true U p3)),p3,"U,X",4,2,1,1
+Electronics,171,X((rc U true)),rc,"U,X",4,2,1,1
+Electronics,172,X((true U true)),,"U,X",4,2,1,1
+Electronics,173,((rc U X(a)) && X(a)),"a,rc","&&,U,X",7,3,2,1
+Electronics,174,X((true U p3)),p3,"U,X",4,2,1,1
+Electronics,175,((true U a) && fp),"a,fp","&&,U",5,2,0,1
+Electronics,176,((true U (d U X(a))) && X(a)),"a,d","&&,U,X",9,4,2,2
+Electronics,177,X(((d U X(a)) U a)),"a,d","U,X",7,4,2,2
+Electronics,178,X((true U p2)),p2,"U,X",4,2,1,1
+Electronics,179,X((true U rc)),rc,"U,X",4,2,1,1
+Electronics,180,X((true U rc)),rc,"U,X",4,2,1,1
+Electronics,181,X((true U p3)),p3,"U,X",4,2,1,1
+Electronics,182,X((true U rc)),rc,"U,X",4,2,1,1
+Electronics,183,((true U a) && cc),"a,cc","&&,U",5,2,0,1
+Electronics,184,X((((d U X(X(a))) U true) U a)),"a,d","U,X",10,6,3,3
+Electronics,185,X((true U true)),,"U,X",4,2,1,1
+Electronics,186,X((((d U rp) U d) U a)),"a,d,rp","U,X",8,4,1,3
+Electronics,187,X((((d U X(a)) U d) U a)),"a,d","U,X",9,5,2,3
+Electronics,188,X((true U (d U true))),d,"U,X",6,3,1,2
+Electronics,189,X((true U sp)),sp,"U,X",4,2,1,1
+Electronics,190,X((rp U p3)),"p3,rp","U,X",4,2,1,1
+Electronics,191,((true U a) && d),"a,d","&&,U",5,2,0,1
+Electronics,192,X((((true U X(X(a))) U d) U a)),"a,d","U,X",10,6,3,3
+Electronics,193,X((((d U X(X(a))) U true) U a)),"a,d","U,X",10,6,3,3
+Electronics,194,X((true U (p3 U X(a)))),"a,p3","U,X",7,4,2,2
+Electronics,195,X((true U d)),d,"U,X",4,2,1,1
+Electronics,196,((true U p3) U X(a)),"a,p3","U,X",6,2,1,2
+Electronics,197,((true U a) U X(p3)),"a,p3","U,X",6,2,1,2
+Electronics,198,X(((true U rp) U a)),"a,rp","U,X",6,3,1,2
+Electronics,199,((sp U a) && X(a)),"a,sp","&&,U,X",6,2,1,1
+Electronics,200,((true U a) && true),a,"&&,U",5,2,0,1
+Electronics,201,X((rc U rc)),rc,"U,X",4,2,1,1
+Electronics,202,X(((true U rp) U a)),"a,rp","U,X",6,3,1,2
+Electronics,203,X((true U sc)),sc,"U,X",4,2,1,1
+Electronics,204,X((d U (d U X(X(a))))),"a,d","U,X",8,5,3,2
+Electronics,205,(a U X(a)),a,"U,X",4,2,1,1
+Electronics,206,((true U a) && true),a,"&&,U",5,2,0,1
+Electronics,207,((d U a) && X(p3)),"a,d,p3","&&,U,X",6,2,1,1
+Electronics,208,((d U p3) && X(a)),"a,d,p3","&&,U,X",6,2,1,1
+Electronics,209,X((X(true) U a)),a,"U,X",5,3,2,1
+Electronics,210,X((!(true) U a)),a,"!,U,X",5,3,1,1
+Electronics,211,X((true U (d U true))),d,"U,X",6,3,1,2
+Electronics,212,X((((d U rp) U d) U a)),"a,d,rp","U,X",8,4,1,3
+Electronics,213,((p2 U a) && X(a)),"a,p2","&&,U,X",6,2,1,1
+Electronics,214,((fp U a) && X(a)),"a,fp","&&,U,X",6,2,1,1
+Electronics,215,X((rc U rp)),"rc,rp","U,X",4,2,1,1
+Electronics,216,((true U X(p3)) && X(a)),"a,p3","&&,U,X",7,3,2,1
+Electronics,217,((true U X(a)) && X(p3)),"a,p3","&&,U,X",7,3,2,1
+Electronics,218,X((true U (rc U X(a)))),"a,rc","U,X",7,4,2,2
+Electronics,219,X((d && a)),"a,d","&&,X",4,2,1,0
+Electronics,220,X((true U (X(a) && a))),a,"&&,U,X",7,4,2,1
+Electronics,221,((true U a) && (d U X(X(a)))),"a,d","&&,U,X",9,4,2,2
+Electronics,222,((true U a) && pc),"a,pc","&&,U",5,2,0,1
+Electronics,223,X((((d U X(a)) U p3) U a)),"a,d,p3","U,X",9,5,2,3
+Electronics,224,!((true U X(X(a)))),a,"!,U,X",6,4,2,1
+Electronics,225,X((true U d)),d,"U,X",4,2,1,1
+Electronics,226,X((((d U X(a)) U rc) U a)),"a,d,rc","U,X",9,5,2,3
+Electronics,227,X((true && X(a))),a,"&&,X",5,3,2,0
+Electronics,228,X((((d U rp) U X(a)) U a)),"a,d,rp","U,X",9,4,2,3
+Electronics,229,X((((d U X(X(a))) U true) U a)),"a,d","U,X",10,6,3,3
+Electronics,230,(true && X(a)),a,"&&,X",4,2,1,0
+Electronics,231,X((((true U X(X(a))) U X(a)) U a)),a,"U,X",11,6,4,3
+Electronics,232,X((p3 U X(a))),"a,p3","U,X",5,3,2,1
+Electronics,233,((true U a) && p2),"a,p2","&&,U",5,2,0,1
+Electronics,234,X((pc U X(a))),"a,pc","U,X",5,3,2,1
+Electronics,235,((true U a) && rc),"a,rc","&&,U",5,2,0,1
+Electronics,236,X((d U p2)),"d,p2","U,X",4,2,1,1
+Electronics,237,X((((d U X(a)) U d) U X(a))),"a,d","U,X",10,5,3,3
+Electronics,238,X((((d U X(a)) U p3) U a)),"a,d,p3","U,X",9,5,2,3
+Electronics,239,X((d U cc)),"cc,d","U,X",4,2,1,1
+Electronics,240,X((true U X(p2))),p2,"U,X",5,3,2,1
+Electronics,241,X((((d U rp) U X(a)) U a)),"a,d,rp","U,X",9,4,2,3
+Electronics,242,((true U a) U X(X(a))),a,"U,X",7,3,2,2
+Electronics,243,X((((d U X(X(a))) U X(X(a))) U a)),"a,d","U,X",12,6,5,3
+Electronics,244,X((sc U X(X(a)))),"a,sc","U,X",6,4,3,1
+Electronics,245,((true U a) && sp),"a,sp","&&,U",5,2,0,1
+Electronics,246,X((((true U X(a)) U rp) U a)),"a,rp","U,X",9,5,2,3
+Electronics,247,X((true U X(cc))),cc,"U,X",5,3,2,1
+Electronics,248,X((true U p2)),p2,"U,X",4,2,1,1
+Electronics,249,(p3 && X(a)),"a,p3","&&,X",4,2,1,0
+Cosmetics,0,(hp U a),"a,hp",U,3,1,0,1
+Cosmetics,1,(true U a),a,U,3,1,0,1
+Cosmetics,2,(hc U a),"a,hc",U,3,1,0,1
+Cosmetics,3,(hp U X(a)),"a,hp","U,X",4,2,1,1
+Cosmetics,4,(hc U X(a)),"a,hc","U,X",4,2,1,1
+Cosmetics,5,(true U X(a)),a,"U,X",4,2,1,1
+Cosmetics,6,(hp U p2),"hp,p2",U,3,1,0,1
+Cosmetics,7,(true U rp),rp,U,3,1,0,1
+Cosmetics,8,(true U p2),p2,U,3,1,0,1
+Cosmetics,9,(hc U rp),"hc,rp",U,3,1,0,1
+Cosmetics,10,(hp U rp),"hp,rp",U,3,1,0,1
+Cosmetics,11,(hc U p2),"hc,p2",U,3,1,0,1
+Cosmetics,12,(true U (p2 && (X(a) U true))),"a,p2","&&,U,X",8,4,1,2
+Cosmetics,13,(hc U (rp && (X(a) U hp))),"a,hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,14,(hc U (rp && (X(a) U hc))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,15,(hp U (p2 && (X(a) U hp))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,16,(true U (rp && (X(a) U true))),"a,rp","&&,U,X",8,4,1,2
+Cosmetics,17,(hp U (rp && (X(a) U hp))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,18,(hp U (rp && (X(a) U hc))),"a,hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,19,(hc U (p2 && (X(a) U hp))),"a,hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,20,(hc U (rp && (X(a) U true))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,21,(hc U (p2 && (X(a) U true))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,22,(true U (rp && (X(a) U hp))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,23,(true U (rp && (X(a) U hc))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,24,(true U (p2 && (X(a) U hc))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,25,(true U (p2 && (X(a) U hp))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,26,(hc U (p2 && (X(a) U hc))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,27,(hp U (p2 && (X(a) U true))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,28,(hp U (rp && (X(a) U true))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,29,(hp U (p2 && (X(a) U hc))),"a,hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,30,(true U (rp && (X(r) U hp))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,31,(hc U (rp && (X(r) U hp))),"hc,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,32,(true U (p2 && (X(r) U hp))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,33,(hp U (rp && (X(r) U true))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,34,(hc U (rp && (X(r) U true))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,35,(hp U (p2 && (X(r) U hc))),"hc,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,36,(true U (p2 && (X(r) U true))),"p2,r","&&,U,X",8,4,1,2
+Cosmetics,37,(true U (p2 && (X(r) U hc))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,38,(true U (rp && (X(r) U hc))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,39,(hc U (p2 && (X(r) U hp))),"hc,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,40,(hc U (p2 && (X(r) U true))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,41,(hc U (p2 && (X(r) U hc))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,42,(hp U (p2 && (X(r) U hp))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,43,(hp U (p2 && (X(r) U true))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,44,(hp U (rp && (X(r) U hp))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,45,(hp U (rp && (X(r) U hc))),"hc,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,46,(hc U (rp && (X(r) U hc))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,47,(true U (rp && (X(r) U true))),"r,rp","&&,U,X",8,4,1,2
+Cosmetics,48,(true U (rp && (X(hp) U hp))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,49,(true U (rp && (X(hp) U true))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,50,(hp U (rp && (X(hp) U hc))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,51,(hp U (rp && (X(true) U hc))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,52,(true U (rp && (X(hc) U true))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,53,(true U (rp && (X(true) U true))),rp,"&&,U,X",8,4,1,2
+Cosmetics,54,(hp U (p2 && (X(true) U true))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,55,(hp U (rp && (X(hc) U hp))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,56,(hp U (p2 && (X(hc) U true))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,57,(hc U (rp && (X(hc) U hc))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,58,(hc U (p2 && (X(hp) U true))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,59,(hp U (rp && (X(hp) U true))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,60,(true U (p2 && (X(true) U hp))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,61,(true U (rp && (X(hc) U hc))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,62,(true U (rp && (X(true) U hc))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,63,(hp U (rp && (X(hc) U hc))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,64,(true U (rp && (X(true) U hp))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,65,(hp U (rp && (X(true) U hp))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,66,(hp U (p2 && (X(true) U hp))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,67,(hc U (p2 && (X(true) U hc))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,68,(hp U (p2 && (X(hp) U true))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,69,(true U (p2 && (X(hc) U hp))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,70,(hc U (rp && (X(hc) U hp))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,71,(hp U (rp && (X(true) U true))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,72,(true U (rp && (X(hp) U hc))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,73,(hc U (rp && (X(true) U hc))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,74,(hc U (rp && (X(hc) U true))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,75,(hp U (p2 && (X(hc) U hp))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,76,(hp U (rp && (X(hc) U true))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,77,(true U (p2 && (X(hp) U hc))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,78,(true U (p2 && (X(true) U hc))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,79,(true U (p2 && (X(true) U true))),p2,"&&,U,X",8,4,1,2
+Cosmetics,80,(true U (rp && (X(hc) U hp))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,81,(hc U (p2 && (X(hp) U hc))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,82,(hc U (p2 && (X(hc) U hp))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,83,(true U (p2 && (X(hc) U true))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,84,(true U (p2 && (X(hp) U true))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,85,(hp U (p2 && (X(hp) U hp))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,86,(hp U (p2 && (X(true) U hc))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,87,(hc U (rp && (X(hp) U true))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,88,(hc U (rp && (X(true) U true))),"hc,rp","&&,U,X",8,4,1,2
+Cosmetics,89,(hc U (p2 && (X(hp) U hp))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,90,(hc U (p2 && (X(hc) U true))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,91,(hc U (rp && (X(true) U hp))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,92,(hc U (p2 && (X(true) U true))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,93,(hp U (p2 && (X(hc) U hc))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,94,(hc U (p2 && (X(true) U hp))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,95,(hp U (rp && (X(hp) U hp))),"hp,rp","&&,U,X",8,4,1,2
+Cosmetics,96,(true U (p2 && (X(hc) U hc))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,97,(hc U (p2 && (X(hc) U hc))),"hc,p2","&&,U,X",8,4,1,2
+Cosmetics,98,(hc U (rp && (X(hp) U hc))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,99,(true U (p2 && (X(hp) U hp))),"hp,p2","&&,U,X",8,4,1,2
+Cosmetics,100,(hp U (p2 && (X(hp) U hc))),"hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,101,(hc U (rp && (X(hp) U hp))),"hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,102,(hc U X(p2)),"hc,p2","U,X",4,2,1,1
+Cosmetics,103,(true U X(rp)),rp,"U,X",4,2,1,1
+Cosmetics,104,(true U X(p2)),p2,"U,X",4,2,1,1
+Cosmetics,105,(hp U X(p2)),"hp,p2","U,X",4,2,1,1
+Cosmetics,106,(hc U X(rp)),"hc,rp","U,X",4,2,1,1
+Cosmetics,107,(hp U X(rp)),"hp,rp","U,X",4,2,1,1
+Cosmetics,108,(hp U (rp && (X(hp) U a))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,109,(true U (rp && (X(hc) U a))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,110,(true U (p2 && (X(hp) U a))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,111,(hc U (rp && (X(hc) U a))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,112,(true U (p2 && (X(hc) U a))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,113,(hp U (rp && (X(hc) U a))),"a,hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,114,(true U (rp && (X(true) U a))),"a,rp","&&,U,X",8,4,1,2
+Cosmetics,115,(hc U (p2 && (X(true) U a))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,116,(hc U (p2 && (X(hc) U a))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,117,(hc U (rp && (X(true) U a))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,118,(hc U (p2 && (X(hp) U a))),"a,hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,119,(hp U (p2 && (X(hc) U a))),"a,hc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,120,(hp U (rp && (X(true) U a))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,121,(hp U (p2 && (X(hp) U a))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,122,(true U (p2 && (X(true) U a))),"a,p2","&&,U,X",8,4,1,2
+Cosmetics,123,(hc U (rp && (X(hp) U a))),"a,hc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,124,(true U (rp && (X(hp) U a))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,125,(hp U (p2 && (X(true) U a))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,126,X(hp),hp,X,2,1,1,0
+Cosmetics,127,X(true),,X,2,1,1,0
+Cosmetics,128,X(hc),hc,X,2,1,1,0
+Cosmetics,129,(hp U rc),"hp,rc",U,3,1,0,1
+Cosmetics,130,(true U rc),rc,U,3,1,0,1
+Cosmetics,131,(hc U rc),"hc,rc",U,3,1,0,1
+Cosmetics,132,(hc U (rp && (X(a) U a))),"a,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,133,(hp U (rp && (X(a) U a))),"a,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,134,(true U (p2 && (X(a) U a))),"a,p2","&&,U,X",8,4,1,2
+Cosmetics,135,(true U (rp && (X(a) U a))),"a,rp","&&,U,X",8,4,1,2
+Cosmetics,136,(hc U (p2 && (X(a) U a))),"a,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,137,(hp U (p2 && (X(a) U a))),"a,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,138,(hc U sc),"hc,sc",U,3,1,0,1
+Cosmetics,139,(true U sc),sc,U,3,1,0,1
+Cosmetics,140,(hp U sc),"hp,sc",U,3,1,0,1
+Cosmetics,141,(true U sp),sp,U,3,1,0,1
+Cosmetics,142,(hc U sp),"hc,sp",U,3,1,0,1
+Cosmetics,143,(hp U sp),"hp,sp",U,3,1,0,1
+Cosmetics,144,(hp U pc),"hp,pc",U,3,1,0,1
+Cosmetics,145,(hc U pc),"hc,pc",U,3,1,0,1
+Cosmetics,146,(true U pc),pc,U,3,1,0,1
+Cosmetics,147,(hp U cc),"cc,hp",U,3,1,0,1
+Cosmetics,148,(hc U cc),"cc,hc",U,3,1,0,1
+Cosmetics,149,(true U cc),cc,U,3,1,0,1
+Cosmetics,150,(hc U r),"hc,r",U,3,1,0,1
+Cosmetics,151,(true U r),r,U,3,1,0,1
+Cosmetics,152,(hp U r),"hp,r",U,3,1,0,1
+Cosmetics,153,(hp U (p2 && (X(r) U a))),"a,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,154,(hp U (rp && (X(r) U a))),"a,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,155,(true U (rp && (X(r) U a))),"a,r,rp","&&,U,X",8,4,1,2
+Cosmetics,156,(true U (p2 && (X(r) U a))),"a,p2,r","&&,U,X",8,4,1,2
+Cosmetics,157,(hc U (p2 && (X(r) U a))),"a,hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,158,(hc U (rp && (X(r) U a))),"a,hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,159,(d U a),"a,d",U,3,1,0,1
+Cosmetics,160,(hc U dp3),"dp3,hc",U,3,1,0,1
+Cosmetics,161,(true U dp3),dp3,U,3,1,0,1
+Cosmetics,162,(hp U dp3),"dp3,hp",U,3,1,0,1
+Cosmetics,163,(hc U X(r)),"hc,r","U,X",4,2,1,1
+Cosmetics,164,(hp U X(r)),"hp,r","U,X",4,2,1,1
+Cosmetics,165,(true U X(r)),r,"U,X",4,2,1,1
+Cosmetics,166,(fp U a),"a,fp",U,3,1,0,1
+Cosmetics,167,(true U (p2 && (X(hc) U r))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,168,(true U (rp && (X(hc) U r))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,169,(true U (p2 && (X(hp) U r))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,170,(hc U (p2 && (X(hc) U r))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,171,(hc U (p2 && (X(true) U r))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,172,(hp U (rp && (X(hc) U r))),"hc,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,173,(hp U (rp && (X(true) U r))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,174,(hp U (p2 && (X(hp) U r))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,175,(hc U (rp && (X(hp) U r))),"hc,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,176,(hc U (p2 && (X(hp) U r))),"hc,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,177,(hp U (rp && (X(hp) U r))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,178,(hc U (rp && (X(true) U r))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,179,(hc U (rp && (X(hc) U r))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,180,(true U (rp && (X(true) U r))),"r,rp","&&,U,X",8,4,1,2
+Cosmetics,181,(hp U (p2 && (X(true) U r))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,182,(true U (p2 && (X(true) U r))),"p2,r","&&,U,X",8,4,1,2
+Cosmetics,183,(true U (rp && (X(hp) U r))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,184,(hp U (p2 && (X(hc) U r))),"hc,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,185,(hc U (rp && (X(r) U r))),"hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,186,(true U (p2 && (X(r) U r))),"p2,r","&&,U,X",8,4,1,2
+Cosmetics,187,(true U (rp && (X(r) U r))),"r,rp","&&,U,X",8,4,1,2
+Cosmetics,188,(hc U (p2 && (X(r) U r))),"hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,189,(hp U (rp && (X(r) U r))),"hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,190,(hp U (p2 && (X(r) U r))),"hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,191,(true U (rp && (X(a) U r))),"a,r,rp","&&,U,X",8,4,1,2
+Cosmetics,192,(hp U (p2 && (X(a) U r))),"a,hp,p2,r","&&,U,X",8,4,1,2
+Cosmetics,193,(hp U (rp && (X(a) U r))),"a,hp,r,rp","&&,U,X",8,4,1,2
+Cosmetics,194,(hc U (rp && (X(a) U r))),"a,hc,r,rp","&&,U,X",8,4,1,2
+Cosmetics,195,(true U (p2 && (X(a) U r))),"a,p2,r","&&,U,X",8,4,1,2
+Cosmetics,196,(hc U (p2 && (X(a) U r))),"a,hc,p2,r","&&,U,X",8,4,1,2
+Cosmetics,197,(dp1 U a),"a,dp1",U,3,1,0,1
+Cosmetics,198,(true U (p2 && (X(a) U cc))),"a,cc,p2","&&,U,X",8,4,1,2
+Cosmetics,199,(true U (rp && (X(a) U cc))),"a,cc,rp","&&,U,X",8,4,1,2
+Cosmetics,200,(hp U (p2 && (X(a) U cc))),"a,cc,hp,p2","&&,U,X",8,4,1,2
+Cosmetics,201,(hp U (rp && (X(a) U cc))),"a,cc,hp,rp","&&,U,X",8,4,1,2
+Cosmetics,202,(hc U (rp && (X(a) U cc))),"a,cc,hc,rp","&&,U,X",8,4,1,2
+Cosmetics,203,(hc U (p2 && (X(a) U cc))),"a,cc,hc,p2","&&,U,X",8,4,1,2
+Cosmetics,204,(dp3 U a),"a,dp3",U,3,1,0,1
+Cosmetics,205,(rc U a),"a,rc",U,3,1,0,1
+Cosmetics,206,(pc U a),"a,pc",U,3,1,0,1
+Cosmetics,207,(r U a),"a,r",U,3,1,0,1
+Cosmetics,208,(sc U a),"a,sc",U,3,1,0,1
+Cosmetics,209,(rp U a),"a,rp",U,3,1,0,1
+Cosmetics,210,(p2 U a),"a,p2",U,3,1,0,1
+Cosmetics,211,(cc U a),"a,cc",U,3,1,0,1
+Cosmetics,212,(dp3 U r),"dp3,r",U,3,1,0,1
+Cosmetics,213,(p3 U a),"a,p3",U,3,1,0,1
+Cosmetics,214,(sp U a),"a,sp",U,3,1,0,1
+Cosmetics,215,(dp2 U a),"a,dp2",U,3,1,0,1
+Cosmetics,216,a,a,,1,0,0,0
+Cosmetics,217,(hp && a),"a,hp",&&,3,1,0,0
+Cosmetics,218,(hc && a),"a,hc",&&,3,1,0,0
+Cosmetics,219,(true && a),a,&&,3,1,0,0
+Cosmetics,220,(a U a),a,U,3,1,0,1
+Cosmetics,221,(b U a),"a,b",U,3,1,0,1
+Cosmetics,222,(np U a),"a,np",U,3,1,0,1
+Cosmetics,223,(fp U r),"fp,r",U,3,1,0,1
+Cosmetics,224,(true U (r && (X(a) U a))),"a,r","&&,U,X",8,4,1,2
+Cosmetics,225,(hc U (r && (X(a) U a))),"a,hc,r","&&,U,X",8,4,1,2
+Cosmetics,226,(hp U (r && (X(a) U a))),"a,hp,r","&&,U,X",8,4,1,2
+Cosmetics,227,(a U r),"a,r",U,3,1,0,1
+Cosmetics,228,dp3,dp3,,1,0,0,0
+Cosmetics,229,rc,rc,,1,0,0,0
+Cosmetics,230,(rc U r),"r,rc",U,3,1,0,1
+Cosmetics,231,(dp1 U r),"dp1,r",U,3,1,0,1
+Cosmetics,232,(pc U r),"pc,r",U,3,1,0,1
+Cosmetics,233,pc,pc,,1,0,0,0
+Cosmetics,234,(sc U r),"r,sc",U,3,1,0,1
+Cosmetics,235,(d U r),"d,r",U,3,1,0,1
+Cosmetics,236,sc,sc,,1,0,0,0
+Cosmetics,237,(rp U r),"r,rp",U,3,1,0,1
+Cosmetics,238,(p2 U r),"p2,r",U,3,1,0,1
+Cosmetics,239,(cc U r),"cc,r",U,3,1,0,1
+Cosmetics,240,(p3 U r),"p3,r",U,3,1,0,1
+Cosmetics,241,(sp U r),"r,sp",U,3,1,0,1
+Cosmetics,242,rp,rp,,1,0,0,0
+Cosmetics,243,p2,p2,,1,0,0,0
+Cosmetics,244,(dp2 U r),"dp2,r",U,3,1,0,1
+Cosmetics,245,r,r,,1,0,0,0
+Cosmetics,246,(true && r),r,&&,3,1,0,0
+Cosmetics,247,(hc && r),"hc,r",&&,3,1,0,0
+Cosmetics,248,(hp && r),"hp,r",&&,3,1,0,0
+Cosmetics,249,(r U r),r,U,3,1,0,1
+Cosmetics,250,(b U r),"b,r",U,3,1,0,1
+Cosmetics,251,(np U r),"np,r",U,3,1,0,1
+Cosmetics,252,cc,cc,,1,0,0,0
+Cosmetics,253,sp,sp,,1,0,0,0
+Cosmetics,254,p3,p3,,1,0,0,0
+Cosmetics,255,dp2,dp2,,1,0,0,0
+Cosmetics,256,hp,hp,,1,0,0,0
+Cosmetics,257,true,,,1,0,0,0
+Cosmetics,258,hc,hc,,1,0,0,0
+Cosmetics,259,(true U true),,U,3,1,0,1
+Cosmetics,260,(true U hp),hp,U,3,1,0,1
+Cosmetics,261,(hp U hp),hp,U,3,1,0,1
+Cosmetics,262,(true U hc),hc,U,3,1,0,1
+Cosmetics,263,(hp U hc),"hc,hp",U,3,1,0,1
+Cosmetics,264,(hc U true),hc,U,3,1,0,1
+Cosmetics,265,(hc U hp),"hc,hp",U,3,1,0,1
+Cosmetics,266,(hc U hc),hc,U,3,1,0,1
+Cosmetics,267,(hp U true),hp,U,3,1,0,1
+Cosmetics,268,np,np,,1,0,0,0
+Cosmetics,269,b,b,,1,0,0,0
+Cosmetics,270,!(hc),hc,!,2,1,0,0
+Cosmetics,271,!(true),,!,2,1,0,0
+Cosmetics,272,!(hp),hp,!,2,1,0,0
+Cosmetics,273,(true U fp),fp,U,3,1,0,1
+Cosmetics,274,(hc U fp),"fp,hc",U,3,1,0,1
+Cosmetics,275,(hp U fp),"fp,hp",U,3,1,0,1
+Cosmetics,276,fp,fp,,1,0,0,0
+Cosmetics,277,dp1,dp1,,1,0,0,0
+Cosmetics,278,(hc U dp1),"dp1,hc",U,3,1,0,1
+Cosmetics,279,(hp U dp1),"dp1,hp",U,3,1,0,1
+Cosmetics,280,(true U dp1),dp1,U,3,1,0,1
+Cosmetics,281,d,d,,1,0,0,0

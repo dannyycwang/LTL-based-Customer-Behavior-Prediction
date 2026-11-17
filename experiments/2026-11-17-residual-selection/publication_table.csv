@@ -1,0 +1,21 @@
+dataset,protocol,condition,MCC,AP
+Coveo,full_observation,A,0.8631 +/- 0.0032,0.8890 +/- 0.0039
+Coveo,full_observation,B,0.8656 +/- 0.0032,0.8929 +/- 0.0040
+Coveo,full_observation,C,0.8663 +/- 0.0032,0.8963 +/- 0.0039
+Coveo,next_10,A,0.4674 +/- 0.0100,0.4739 +/- 0.0115
+Coveo,next_10,B,0.4715 +/- 0.0098,0.4803 +/- 0.0117
+Coveo,next_10,C,0.4678 +/- 0.0098,0.4776 +/- 0.0116
+Electronics,full_observation,A,0.6915 +/- 0.0051,0.6783 +/- 0.0084
+Electronics,full_observation,B,0.6956 +/- 0.0051,0.6789 +/- 0.0085
+Electronics,full_observation,C,0.6972 +/- 0.0050,0.6918 +/- 0.0084
+Electronics,full_observation,D,0.6956 +/- 0.0051,0.6789 +/- 0.0085
+Electronics,next_10,A,0.2688 +/- 0.0320,0.3901 +/- 0.0388
+Electronics,next_10,B,0.2664 +/- 0.0332,0.3891 +/- 0.0390
+Electronics,next_10,C,0.2998 +/- 0.0363,0.3893 +/- 0.0391
+Electronics,next_10,D,0.2664 +/- 0.0332,0.3891 +/- 0.0390
+Cosmetics,full_observation,A,0.6230 +/- 0.0058,0.6678 +/- 0.0076
+Cosmetics,full_observation,B,0.6255 +/- 0.0056,0.6706 +/- 0.0076
+Cosmetics,full_observation,C,0.6494 +/- 0.0053,0.6951 +/- 0.0075
+Cosmetics,next_10,A,0.1889 +/- 0.0149,0.4215 +/- 0.0146
+Cosmetics,next_10,B,0.1852 +/- 0.0148,0.4221 +/- 0.0146
+Cosmetics,next_10,C,0.1732 +/- 0.0142,0.4260 +/- 0.0147

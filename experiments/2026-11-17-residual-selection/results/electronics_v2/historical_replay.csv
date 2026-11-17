@@ -1,0 +1,5 @@
+file,condition,max_probability_difference
+electronics_full_observation_predictions.csv.gz,A,0.0018589459689267729
+electronics_full_observation_predictions.csv.gz,B,0.0037987311055164286
+electronics_next_10_predictions.csv.gz,A,7.914368622141676e-05
+electronics_next_10_predictions.csv.gz,B,0.00042239556978584947

@@ -1,0 +1,199 @@
+Residual-guided LTLf selection: research report
+Completed matched evaluation; existing manuscript and results unchanged.
+
+A = raw prefix + Counts + Transitions; B = A + original Top-10;
+C = A + residual Top-10. Electronics D = A + retrained standalone Top-10.
+All entries use the same audited split, classifier and observation boundary.
+
+RESULTS (estimate +/- bootstrap standard error; not a 95% interval)
+    dataset         protocol condition               MCC                AP
+      Coveo full_observation         A 0.8631 +/- 0.0032 0.8890 +/- 0.0039
+      Coveo full_observation         B 0.8656 +/- 0.0032 0.8929 +/- 0.0040
+      Coveo full_observation         C 0.8663 +/- 0.0032 0.8963 +/- 0.0039
+      Coveo          next_10         A 0.4674 +/- 0.0100 0.4739 +/- 0.0115
+      Coveo          next_10         B 0.4715 +/- 0.0098 0.4803 +/- 0.0117
+      Coveo          next_10         C 0.4678 +/- 0.0098 0.4776 +/- 0.0116
+Electronics full_observation         A 0.6915 +/- 0.0051 0.6783 +/- 0.0084
+Electronics full_observation         B 0.6956 +/- 0.0051 0.6789 +/- 0.0085
+Electronics full_observation         C 0.6972 +/- 0.0050 0.6918 +/- 0.0084
+Electronics full_observation         D 0.6956 +/- 0.0051 0.6789 +/- 0.0085
+Electronics          next_10         A 0.2688 +/- 0.0320 0.3901 +/- 0.0388
+Electronics          next_10         B 0.2664 +/- 0.0332 0.3891 +/- 0.0390
+Electronics          next_10         C 0.2998 +/- 0.0363 0.3893 +/- 0.0391
+Electronics          next_10         D 0.2664 +/- 0.0332 0.3891 +/- 0.0390
+  Cosmetics full_observation         A 0.6230 +/- 0.0058 0.6678 +/- 0.0076
+  Cosmetics full_observation         B 0.6255 +/- 0.0056 0.6706 +/- 0.0076
+  Cosmetics full_observation         C 0.6494 +/- 0.0053 0.6951 +/- 0.0075
+  Cosmetics          next_10         A 0.1889 +/- 0.0149 0.4215 +/- 0.0146
+  Cosmetics          next_10         B 0.1852 +/- 0.0148 0.4221 +/- 0.0146
+  Cosmetics          next_10         C 0.1732 +/- 0.0142 0.4260 +/- 0.0147
+
+PAIRED DIFFERENCES (95% percentile intervals)
+    dataset         protocol first second metric  estimate  lower95  upper95
+      Coveo full_observation     B      A    MCC   0.00253  0.00007  0.00500
+      Coveo full_observation     B      A     AP   0.00392  0.00116  0.00660
+      Coveo full_observation     C      A    MCC   0.00314  0.00071  0.00561
+      Coveo full_observation     C      A     AP   0.00731  0.00398  0.01095
+      Coveo full_observation     C      B    MCC   0.00062 -0.00041  0.00170
+      Coveo full_observation     C      B     AP   0.00340  0.00136  0.00566
+      Coveo          next_10     B      A    MCC   0.00410 -0.00247  0.00996
+      Coveo          next_10     B      A     AP   0.00645  0.00161  0.01166
+      Coveo          next_10     C      A    MCC   0.00042 -0.00721  0.00783
+      Coveo          next_10     C      A     AP   0.00372 -0.00182  0.00939
+      Coveo          next_10     C      B    MCC  -0.00367 -0.00921  0.00252
+      Coveo          next_10     C      B     AP  -0.00274 -0.00625  0.00058
+Electronics full_observation     B      A    MCC   0.00411  0.00115  0.00711
+Electronics full_observation     B      A     AP   0.00052 -0.00172  0.00277
+Electronics full_observation     C      A    MCC   0.00571  0.00224  0.00925
+Electronics full_observation     C      A     AP   0.01350  0.00842  0.01863
+Electronics full_observation     C      B    MCC   0.00160 -0.00178  0.00494
+Electronics full_observation     C      B     AP   0.01298  0.00799  0.01827
+Electronics full_observation     C      D    MCC   0.00160 -0.00178  0.00494
+Electronics full_observation     C      D     AP   0.01298  0.00799  0.01827
+Electronics full_observation     D      B    MCC   0.00000  0.00000  0.00000
+Electronics full_observation     D      B     AP   0.00000  0.00000  0.00000
+Electronics          next_10     B      A    MCC  -0.00236 -0.02664  0.01836
+Electronics          next_10     B      A     AP  -0.00091 -0.00991  0.00888
+Electronics          next_10     C      A    MCC   0.03095 -0.02058  0.08009
+Electronics          next_10     C      A     AP  -0.00072 -0.01623  0.01636
+Electronics          next_10     C      B    MCC   0.03331 -0.01700  0.08284
+Electronics          next_10     C      B     AP   0.00019 -0.01464  0.01513
+Electronics          next_10     C      D    MCC   0.03331 -0.01700  0.08284
+Electronics          next_10     C      D     AP   0.00019 -0.01464  0.01513
+Electronics          next_10     D      B    MCC   0.00000  0.00000  0.00000
+Electronics          next_10     D      B     AP   0.00000  0.00000  0.00000
+  Cosmetics full_observation     B      A    MCC   0.00251 -0.00287  0.00797
+  Cosmetics full_observation     B      A     AP   0.00277 -0.00027  0.00588
+  Cosmetics full_observation     C      A    MCC   0.02637  0.01953  0.03370
+  Cosmetics full_observation     C      A     AP   0.02727  0.01974  0.03469
+  Cosmetics full_observation     C      B    MCC   0.02387  0.01830  0.03027
+  Cosmetics full_observation     C      B     AP   0.02450  0.01741  0.03144
+  Cosmetics          next_10     B      A    MCC  -0.00370 -0.01446  0.00661
+  Cosmetics          next_10     B      A     AP   0.00063 -0.00228  0.00360
+  Cosmetics          next_10     C      A    MCC  -0.01564 -0.03496  0.00343
+  Cosmetics          next_10     C      A     AP   0.00452 -0.00118  0.00996
+  Cosmetics          next_10     C      B    MCC  -0.01194 -0.03088  0.00696
+  Cosmetics          next_10     C      B     AP   0.00389 -0.00166  0.00965
+
+CROSS-DATASET ASSESSMENT
+C minus A, MCC: 5/6 positive point estimates; 3 intervals wholly positive; 0 wholly negative.
+C minus A, AP: 5/6 positive point estimates; 3 intervals wholly positive; 0 wholly negative.
+C minus B, MCC: 4/6 positive point estimates; 1 intervals wholly positive; 0 wholly negative.
+C minus B, AP: 5/6 positive point estimates; 3 intervals wholly positive; 0 wholly negative.
+
+SELECTION COST
+    dataset         protocol  selection_seconds  eligible_candidates  original_top10_retained  validation_log_loss_gain
+      Coveo full_observation        1277.723510                   76                        2                  0.012044
+      Coveo          next_10         210.488901                   70                        2                  0.009341
+Electronics full_observation         346.708540                   74                        0                  0.008416
+Electronics          next_10           5.886996                   59                        1                  0.011275
+  Cosmetics full_observation         131.658600                   31                        1                  0.032063
+  Cosmetics          next_10          15.472548                   30                        0                  0.003507
+
+METHOD AND INTERPRETATION
+Selection maximizes validation log-loss reduction with a C=1 logistic model
+conditional on Counts + Transitions. Raw-prefix features are included in all
+final classifiers, not in the selection proxy. K=10 is fixed, even if later
+development gains are negative. Exact training duplicates and constants are
+excluded; each exclusion and every evaluated step are saved.
+The original marginal class-separation ranking can favor count/length proxies.
+Per-candidate diagnostics quantify conditional gains instead of assuming that
+additional temporal operators necessarily supply additional predictive value.
+Training-only equal-summary witnesses and correlation files are provided in
+each dataset/protocol directory. Redundancy diagnostics compare both the
+selected ten and ALL adjacent proposition-pair occurrence bits. Saved witness
+pairs match counts and ALL such bits. This does not establish information
+absent from raw events or transition-frequency features. A length predicate or thresholded
+count can aid a linear classifier without adding temporal information.
+
+ELECTRONICS RETRAINING
+The missing candidate pool was regenerated from the historical training recipe:
+8000 training traces, seed 42, last 10 events, BP/Act+Rel, 50 epochs.
+Training took 601.95 seconds and extraction 34.21 seconds on the available GPU.
+250 candidates, 122 fitting-sample signatures; 49344 independent semantic
+checks passed and all 250 support pairs were reproduced. This is a new model,
+not an exact restoration of the missing historical checkpoint. However, its
+standalone Top-10 has exactly the same ordered formula structures as the
+historical basis: B and D predictions are identical in both protocols.
+
+SELECTED FORMULA INTERPRETATIONS
+Electronics full: X(F d) requires a detail event after the first event;
+it is not just any-detail presence. !(F X X a) excludes cart events at
+positions three and later. X X true is merely a length >=3 indicator:
+it can help a linear classifier but introduces no information beyond length.
+Cosmetics full: d U r requires a removal witness preceded only by detail
+events from the start. A U B is strong until: B must occur, including the
+possibility of an immediate witness. Nested expressions must not be casually
+described as strict sequences or long-distance dependencies without checking
+these boundary semantics. The full selected lists are in the comparison CSV.
+A verified Electronics training pair has action sequences D D A D D and
+D D D A D, with identical Act+Rel counts and ALL adjacent proposition-pair
+occurrence bits after excluding dwell atoms. X(pc U X(a)) distinguishes
+them. In this pair pc is false at the second position, so the distinction
+is whether the third event is cart. This is concrete positional information
+beyond those summaries, not evidence that the benefit requires a long gap.
+
+ASSESSMENT OF THE PAPER CONTRIBUTION
+Cosmetics full observation improves over the original basis in both MCC and
+AP with paired intervals above zero. Electronics full improves AP, while
+its MCC difference from the original basis remains uncertain. Coveo also
+improves full-observation AP (delta 0.00340, 95% interval 0.00136 to
+0.00566), but its MCC difference is uncertain (delta 0.00062, interval
+-0.00041 to 0.00171). All three full-observation AP differences are positive
+with marginal paired intervals excluding zero. Only Cosmetics has a clear
+MCC improvement over the original basis in this experiment. Event-10
+results for these datasets do not establish consistent improvement.
+The method therefore supports a qualified feature-selection ablation rather
+than a general superiority claim over behavioral summaries. In particular,
+Cosmetics full observation has no selected-formula witness in the observed
+training data when ALL adjacent occurrence bits and counts are held equal.
+Its improvement may reflect omitted adjacent features or nonlinear summaries
+better suited to the linear predictor, rather than new nonlocal information.
+Electronics has such all-adjacent witnesses for 2/10 full and 4/10 event-10
+selected formulas; Coveo has 7/10 and 8/10, respectively. Cosmetics event-10
+has 2/10. An absence of observed witnesses is not proof of logical equivalence.
+This is finite-sample representation evidence, not proof
+of predictive usefulness of those individual nonlocal distinctions.
+Selection has measurable one-time cost and no increase in feature count at
+deployment. Complexity is justified only for settings with reliable benefit;
+the current event-10 evidence does not justify an accuracy-based blanket claim.
+
+LIMITATIONS
+One split, one formula-training seed, one fixed classifier; no claim of broad
+model or split robustness. Bootstrap holds models, thresholds and selected
+formulas fixed: it quantifies test sampling, not selection/mining uncertainty.
+Electronics and Cosmetics resample users; Coveo resamples sessions. Each
+comparison shares bootstrap draws. Intervals are marginal, not adjusted for
+the multiple datasets, metrics and comparisons.
+Fixed-origin selection uses its future-purchase development target whereas
+the historical basis was frozen for session purchase. Thus this contrast also
+includes target adaptation. Cosmetics historical formula fitting/ranking had
+some purchase-masked histories extending past purchase; preserve and disclose
+that historical transfer limitation rather than silently changing the cohort.
+The selection proxy omits raw prefix features that enter the final classifier.
+A formula valuable beyond Counts+Transitions can be redundant with that raw
+prefix. Log loss also need not optimize MCC or AP. Small event-10 development
+cohorts, greedy multiple comparisons and the marginally mined candidate pools
+are plausible reasons for uncertain or negative early-prediction results.
+Full-observation cutoffs are purchase-relative, unlike event-10 prediction;
+length and boundary features can exploit this protocol without demonstrating
+general early-prediction value. No result-driven protocol changes were made.
+Electronics shares users across splits; user-bootstrap uncertainty does not
+turn its session-generalization evaluation into an unseen-user evaluation.
+The test cohorts have been used in the earlier paper development. A new cohort
+would be required for stronger independent confirmation.
+Selection runtimes are measured wall time with concurrent workloads; they are
+not isolated hardware benchmarks. Cached preparation and checker validation
+must not be compared as if they measured identical feature-construction work.
+Small effects or intervals spanning zero do not establish an improvement.
+A/B replay matches sample IDs and labels but is not bit-identical to historical
+probabilities. Maximum absolute replay differences are saved per run; all
+contrasts here use newly fitted matched A/B/C models, never mixed old/new fits.
+Results support a selection-method claim only to the extent that conditional
+held-out gains are consistent and scientifically meaningful. Inspect the
+paired intervals above before trading substantial selection cost for benefit.
+
+REPRODUCIBILITY
+See README.txt, retrain_electronics.py, run_residual.py, manifests, selection
+traces, cached features, predictions, historical_replay.csv and bootstrap.csv.
+Interrupted v1/v2 development runs are excluded from this report.

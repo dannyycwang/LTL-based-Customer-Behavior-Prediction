@@ -1,0 +1,21 @@
+condition,rank,candidate,formula_tree,formula_str,source
+B,1,0,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",((true U X(X(X(X(true))))) U X(X(a))),candidate_export
+B,2,4,"('U', ('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),candidate_export
+B,3,5,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((true U X(X(X(a)))) U X(X(a))),candidate_export
+B,4,49,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(b)))))) U X(X(a))),candidate_export
+B,5,50,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(true)))))) U X(X(a))),candidate_export
+B,6,52,"('U', ('U', 'true', ('X', ('X', ('X', 'rp')))), ('X', ('X', 'a')))",((true U X(X(X(rp)))) U X(X(a))),candidate_export
+B,7,54,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', 'a'))))",((true U X(X(X(a)))) U X(X(X(a)))),candidate_export
+B,8,56,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'p2')))",((true U X(X(X(a)))) U X(X(p2))),candidate_export
+B,9,58,"('U', ('U', 'true', 'sp'), ('X', ('X', 'a')))",((true U sp) U X(X(a))),candidate_export
+B,10,59,"('U', ('U', 'true', ('X', ('X', ('X', 'sp')))), ('X', ('X', 'a')))",((true U X(X(X(sp)))) U X(X(a))),candidate_export
+C,1,1,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'b'))))), ('X', ('X', 'a')))",((true U X(X(X(X(b))))) U X(X(a))),candidate_export
+C,2,78,"('U', ('U', 'true', 'true'), ('X', ('X', ('X', ('X', 'b')))))",((true U true) U X(X(X(X(b))))),candidate_export
+C,3,77,"('U', ('U', 'true', 'fp'), ('X', ('X', 'a')))",((true U fp) U X(X(a))),candidate_export
+C,4,183,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', 'true'))",((true U X(X(X(a)))) U X(true)),candidate_export
+C,5,102,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'true')))",((true U X(X(X(a)))) U X(X(true))),candidate_export
+C,6,138,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'p2')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(p2)))))) U X(X(a))),candidate_export
+C,7,49,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(b)))))) U X(X(a))),candidate_export
+C,8,160,"('U', ('U', 'true', 'true'), ('X', ('X', ('X', ('X', 'r')))))",((true U true) U X(X(X(X(r))))),candidate_export
+C,9,186,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', 'r'))",((true U X(X(X(a)))) U X(r)),candidate_export
+C,10,50,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(true)))))) U X(X(a))),candidate_export

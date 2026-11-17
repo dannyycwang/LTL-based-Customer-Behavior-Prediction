@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "netlen": 10,
+  "epochs": 50,
+  "lr": 0.01,
+  "batch_size": 100,
+  "extraction_limit": 250,
+  "train_sha256": "6ab6e24b81b3dbc39247a4aa921b642f97f009aa088e63c615118a4e8b2964ac",
+  "json_sha256": "bf682241d0f2b2ea8d505dcb7f4edd4edf741faa1c37fe6e72d7966123778ad8",
+  "notebook_sha256": "301a38a5002c1fe3447b5f87e1c218883ec6fe0569dfc4cf97b28c60a3228c2b",
+  "sources": {
+    "data.py": {
+      "original_sha256": "3033d022a078310f0b49e8dc49dd9dff1dd24257822ba782d12baef6ab44f8d7",
+      "copied_sha256": "e75cd3a5d8cc0c8f3d09ed47fad1439995c169a0472379d9ababb63515d8c1c7"
+    },
+    "model.py": {
+      "original_sha256": "a3c2a6f9b6e784cb92db4e0b3854f98b6e59c87ff532b2aef59ff1a19b051c90",
+      "copied_sha256": "226e90a85ba0527b76b17615613a74479f55b2dbbb12ff14a3cd43fd0d78c2ca"
+    },
+    "interpret.py": {
+      "original_sha256": "a00a4b0ba271661b682ce0f0188b4c0469d1f977012fb54a974195f09c853d78",
+      "copied_sha256": "a00a4b0ba271661b682ce0f0188b4c0469d1f977012fb54a974195f09c853d78"
+    }
+  },
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.3",
+  "device": "cuda",
+  "status": "complete",
+  "note": "New candidate pool, not recovery of the missing historical checkpoint.",
+  "training": {
+    "best_loss": 699.4264669418335,
+    "train_time_sec": 601.9521169662476,
+    "vocab_size": 12,
+    "n_train": 8000
+  },
+  "extraction_seconds": 34.212491899961606,
+  "candidate_count": 250,
+  "signature_count": 122,
+  "checkpoint_sha256": "f91362f03cffd87989e33d2fd865a840b917375ccd8d7f5cabfdba1bec8970a7",
+  "candidate_sha256": "a91ea97d521cc8c65c59ee9010c93c3c6db7953bd199e20054b299de26be69f7"
+}

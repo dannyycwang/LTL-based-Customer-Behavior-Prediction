@@ -1,0 +1,141 @@
+condition,rank,candidate,formula_tree,formula_str,source,dataset,protocol
+B,1,0,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",((true U X(X(X(X(true))))) U X(X(a))),candidate_export,Coveo,full_observation
+B,2,4,"('U', ('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),candidate_export,Coveo,full_observation
+B,3,5,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((true U X(X(X(a)))) U X(X(a))),candidate_export,Coveo,full_observation
+B,4,49,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(b)))))) U X(X(a))),candidate_export,Coveo,full_observation
+B,5,50,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(true)))))) U X(X(a))),candidate_export,Coveo,full_observation
+B,6,52,"('U', ('U', 'true', ('X', ('X', ('X', 'rp')))), ('X', ('X', 'a')))",((true U X(X(X(rp)))) U X(X(a))),candidate_export,Coveo,full_observation
+B,7,54,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', 'a'))))",((true U X(X(X(a)))) U X(X(X(a)))),candidate_export,Coveo,full_observation
+B,8,56,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'p2')))",((true U X(X(X(a)))) U X(X(p2))),candidate_export,Coveo,full_observation
+B,9,58,"('U', ('U', 'true', 'sp'), ('X', ('X', 'a')))",((true U sp) U X(X(a))),candidate_export,Coveo,full_observation
+B,10,59,"('U', ('U', 'true', ('X', ('X', ('X', 'sp')))), ('X', ('X', 'a')))",((true U X(X(X(sp)))) U X(X(a))),candidate_export,Coveo,full_observation
+C,1,1,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'b'))))), ('X', ('X', 'a')))",((true U X(X(X(X(b))))) U X(X(a))),candidate_export,Coveo,full_observation
+C,2,78,"('U', ('U', 'true', 'true'), ('X', ('X', ('X', ('X', 'b')))))",((true U true) U X(X(X(X(b))))),candidate_export,Coveo,full_observation
+C,3,77,"('U', ('U', 'true', 'fp'), ('X', ('X', 'a')))",((true U fp) U X(X(a))),candidate_export,Coveo,full_observation
+C,4,183,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', 'true'))",((true U X(X(X(a)))) U X(true)),candidate_export,Coveo,full_observation
+C,5,102,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'true')))",((true U X(X(X(a)))) U X(X(true))),candidate_export,Coveo,full_observation
+C,6,138,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'p2')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(p2)))))) U X(X(a))),candidate_export,Coveo,full_observation
+C,7,49,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(b)))))) U X(X(a))),candidate_export,Coveo,full_observation
+C,8,160,"('U', ('U', 'true', 'true'), ('X', ('X', ('X', ('X', 'r')))))",((true U true) U X(X(X(X(r))))),candidate_export,Coveo,full_observation
+C,9,186,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', 'r'))",((true U X(X(X(a)))) U X(r)),candidate_export,Coveo,full_observation
+C,10,50,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(true)))))) U X(X(a))),candidate_export,Coveo,full_observation
+B,1,0,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",((true U X(X(X(X(true))))) U X(X(a))),candidate_export,Coveo,next_10
+B,2,4,"('U', ('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),candidate_export,Coveo,next_10
+B,3,5,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((true U X(X(X(a)))) U X(X(a))),candidate_export,Coveo,next_10
+B,4,49,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'b')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(b)))))) U X(X(a))),candidate_export,Coveo,next_10
+B,5,50,"('U', ('U', 'true', ('X', ('X', ('X', ('X', ('X', 'true')))))), ('X', ('X', 'a')))",((true U X(X(X(X(X(true)))))) U X(X(a))),candidate_export,Coveo,next_10
+B,6,52,"('U', ('U', 'true', ('X', ('X', ('X', 'rp')))), ('X', ('X', 'a')))",((true U X(X(X(rp)))) U X(X(a))),candidate_export,Coveo,next_10
+B,7,54,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', 'a'))))",((true U X(X(X(a)))) U X(X(X(a)))),candidate_export,Coveo,next_10
+B,8,56,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'p2')))",((true U X(X(X(a)))) U X(X(p2))),candidate_export,Coveo,next_10
+B,9,58,"('U', ('U', 'true', 'sp'), ('X', ('X', 'a')))",((true U sp) U X(X(a))),candidate_export,Coveo,next_10
+B,10,59,"('U', ('U', 'true', ('X', ('X', ('X', 'sp')))), ('X', ('X', 'a')))",((true U X(X(X(sp)))) U X(X(a))),candidate_export,Coveo,next_10
+C,1,8,"('U', ('U', 'true', 'b'), ('X', ('X', 'a')))",((true U b) U X(X(a))),candidate_export,Coveo,next_10
+C,2,142,"('U', ('U', ('X', 'b'), ('X', ('X', ('X', 'a')))), ('X', ('X', 'a')))",((X(b) U X(X(X(a)))) U X(X(a))),candidate_export,Coveo,next_10
+C,3,0,"('U', ('U', 'true', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",((true U X(X(X(X(true))))) U X(X(a))),candidate_export,Coveo,next_10
+C,4,186,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', 'r'))",((true U X(X(X(a)))) U X(r)),candidate_export,Coveo,next_10
+C,5,72,"('U', ('U', 'true', 'b'), ('X', ('X', 'rp')))",((true U b) U X(X(rp))),candidate_export,Coveo,next_10
+C,6,56,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', 'p2')))",((true U X(X(X(a)))) U X(X(p2))),candidate_export,Coveo,next_10
+C,7,148,"('U', ('U', 'a', 'b'), ('X', ('X', 'a')))",((a U b) U X(X(a))),candidate_export,Coveo,next_10
+C,8,163,"('U', ('U', 'true', ('X', ('X', ('X', 'a')))), ('X', ('X', ('X', ('X', 'r')))))",((true U X(X(X(a)))) U X(X(X(X(r))))),candidate_export,Coveo,next_10
+C,9,91,"('U', ('U', 'true', 'true'), ('X', ('X', ('X', 'b'))))",((true U true) U X(X(X(b)))),candidate_export,Coveo,next_10
+C,10,86,"('U', ('U', 'fp', 'b'), ('X', ('X', 'a')))",((fp U b) U X(X(a))),candidate_export,Coveo,next_10
+B,1,0,"('X', ('U', 'true', 'a'))",X((true U a)),candidate_export,Electronics,full_observation
+B,2,80,"('&&', ('U', 'true', 'a'), 'true')",((true U a) && true),candidate_export,Electronics,full_observation
+B,3,96,"('&&', ('U', 'true', 'a'), 'd')",((true U a) && d),candidate_export,Electronics,full_observation
+B,4,127,"('&&', ('U', 'true', 'a'), ('U', 'd', ('X', 'a')))",((true U a) && (d U X(a))),candidate_export,Electronics,full_observation
+B,5,145,"('&&', ('U', 'true', 'a'), 'fp')",((true U a) && fp),candidate_export,Electronics,full_observation
+B,6,113,"('&&', ('U', 'true', 'a'), ('X', 'rc'))",((true U a) && X(rc)),candidate_export,Electronics,full_observation
+B,7,133,"('&&', ('U', 'true', 'a'), ('X', 'sc'))",((true U a) && X(sc)),candidate_export,Electronics,full_observation
+B,8,4,"('X', ('U', 'rc', 'a'))",X((rc U a)),candidate_export,Electronics,full_observation
+B,9,21,"('X', ('U', 'sc', 'a'))",X((sc U a)),candidate_export,Electronics,full_observation
+B,10,110,"('X', ('U', ('U', ('U', 'd', ('X', ('X', 'a'))), 'rp'), 'a'))",X((((d U X(X(a))) U rp) U a)),candidate_export,Electronics,full_observation
+C,1,70,"('X', ('U', 'true', 'd'))",X((true U d)),candidate_export,Electronics,full_observation
+C,2,177,"('!', ('U', 'true', ('X', ('X', 'a'))))",!((true U X(X(a)))),candidate_export,Electronics,full_observation
+C,3,185,"('X', ('U', 'pc', ('X', 'a')))",X((pc U X(a))),candidate_export,Electronics,full_observation
+C,4,156,"('U', ('U', 'true', 'a'), ('X', 'p3'))",((true U a) U X(p3)),candidate_export,Electronics,full_observation
+C,5,71,"('X', ('X', 'true'))",X(X(true)),candidate_export,Electronics,full_observation
+C,6,112,"('X', ('U', 'true', ('X', 'sc')))",X((true U X(sc))),candidate_export,Electronics,full_observation
+C,7,81,"('X', ('U', 'rp', ('X', 'a')))",X((rp U X(a))),candidate_export,Electronics,full_observation
+C,8,190,"('X', ('U', 'true', ('X', 'p2')))",X((true U X(p2))),candidate_export,Electronics,full_observation
+C,9,62,"('X', ('U', 'true', 'sp'))",X((true U sp)),candidate_export,Electronics,full_observation
+C,10,138,"('X', ('U', ('U', ('U', 'd', ('X', 'a')), ('X', ('X', 'a'))), 'a'))",X((((d U X(a)) U X(X(a))) U a)),candidate_export,Electronics,full_observation
+D,1,0,"('X', ('U', 'true', 'a'))",X((true U a)),candidate_export,Electronics,full_observation
+D,2,80,"('&&', ('U', 'true', 'a'), 'true')",((true U a) && true),candidate_export,Electronics,full_observation
+D,3,96,"('&&', ('U', 'true', 'a'), 'd')",((true U a) && d),candidate_export,Electronics,full_observation
+D,4,127,"('&&', ('U', 'true', 'a'), ('U', 'd', ('X', 'a')))",((true U a) && (d U X(a))),candidate_export,Electronics,full_observation
+D,5,145,"('&&', ('U', 'true', 'a'), 'fp')",((true U a) && fp),candidate_export,Electronics,full_observation
+D,6,113,"('&&', ('U', 'true', 'a'), ('X', 'rc'))",((true U a) && X(rc)),candidate_export,Electronics,full_observation
+D,7,133,"('&&', ('U', 'true', 'a'), ('X', 'sc'))",((true U a) && X(sc)),candidate_export,Electronics,full_observation
+D,8,4,"('X', ('U', 'rc', 'a'))",X((rc U a)),candidate_export,Electronics,full_observation
+D,9,21,"('X', ('U', 'sc', 'a'))",X((sc U a)),candidate_export,Electronics,full_observation
+D,10,110,"('X', ('U', ('U', ('U', 'd', ('X', ('X', 'a'))), 'rp'), 'a'))",X((((d U X(X(a))) U rp) U a)),candidate_export,Electronics,full_observation
+B,1,0,"('X', ('U', 'true', 'a'))",X((true U a)),candidate_export,Electronics,next_10
+B,2,80,"('&&', ('U', 'true', 'a'), 'true')",((true U a) && true),candidate_export,Electronics,next_10
+B,3,96,"('&&', ('U', 'true', 'a'), 'd')",((true U a) && d),candidate_export,Electronics,next_10
+B,4,127,"('&&', ('U', 'true', 'a'), ('U', 'd', ('X', 'a')))",((true U a) && (d U X(a))),candidate_export,Electronics,next_10
+B,5,145,"('&&', ('U', 'true', 'a'), 'fp')",((true U a) && fp),candidate_export,Electronics,next_10
+B,6,113,"('&&', ('U', 'true', 'a'), ('X', 'rc'))",((true U a) && X(rc)),candidate_export,Electronics,next_10
+B,7,133,"('&&', ('U', 'true', 'a'), ('X', 'sc'))",((true U a) && X(sc)),candidate_export,Electronics,next_10
+B,8,4,"('X', ('U', 'rc', 'a'))",X((rc U a)),candidate_export,Electronics,next_10
+B,9,21,"('X', ('U', 'sc', 'a'))",X((sc U a)),candidate_export,Electronics,next_10
+B,10,110,"('X', ('U', ('U', ('U', 'd', ('X', ('X', 'a'))), 'rp'), 'a'))",X((((d U X(X(a))) U rp) U a)),candidate_export,Electronics,next_10
+C,1,168,"('X', ('U', 'rc', 'rp'))",X((rc U rp)),candidate_export,Electronics,next_10
+C,2,136,"('X', ('U', 'p2', ('X', 'a')))",X((p2 U X(a))),candidate_export,Electronics,next_10
+C,3,137,"('X', ('U', 'fp', ('X', 'a')))",X((fp U X(a))),candidate_export,Electronics,next_10
+C,4,187,"('X', ('U', 'd', 'p2'))",X((d U p2)),candidate_export,Electronics,next_10
+C,5,45,"('X', 'd')",X(d),candidate_export,Electronics,next_10
+C,6,56,"('X', ('U', 'pc', 'a'))",X((pc U a)),candidate_export,Electronics,next_10
+C,7,81,"('X', ('U', 'rp', ('X', 'a')))",X((rp U X(a))),candidate_export,Electronics,next_10
+C,8,113,"('&&', ('U', 'true', 'a'), ('X', 'rc'))",((true U a) && X(rc)),candidate_export,Electronics,next_10
+C,9,99,"('X', ('U', 'rc', ('X', ('X', 'a'))))",X((rc U X(X(a)))),candidate_export,Electronics,next_10
+C,10,156,"('U', ('U', 'true', 'a'), ('X', 'p3'))",((true U a) U X(p3)),candidate_export,Electronics,next_10
+D,1,0,"('X', ('U', 'true', 'a'))",X((true U a)),candidate_export,Electronics,next_10
+D,2,80,"('&&', ('U', 'true', 'a'), 'true')",((true U a) && true),candidate_export,Electronics,next_10
+D,3,96,"('&&', ('U', 'true', 'a'), 'd')",((true U a) && d),candidate_export,Electronics,next_10
+D,4,127,"('&&', ('U', 'true', 'a'), ('U', 'd', ('X', 'a')))",((true U a) && (d U X(a))),candidate_export,Electronics,next_10
+D,5,145,"('&&', ('U', 'true', 'a'), 'fp')",((true U a) && fp),candidate_export,Electronics,next_10
+D,6,113,"('&&', ('U', 'true', 'a'), ('X', 'rc'))",((true U a) && X(rc)),candidate_export,Electronics,next_10
+D,7,133,"('&&', ('U', 'true', 'a'), ('X', 'sc'))",((true U a) && X(sc)),candidate_export,Electronics,next_10
+D,8,4,"('X', ('U', 'rc', 'a'))",X((rc U a)),candidate_export,Electronics,next_10
+D,9,21,"('X', ('U', 'sc', 'a'))",X((sc U a)),candidate_export,Electronics,next_10
+D,10,110,"('X', ('U', ('U', ('U', 'd', ('X', ('X', 'a'))), 'rp'), 'a'))",X((((d U X(X(a))) U rp) U a)),candidate_export,Electronics,next_10
+B,1,0,"('U', 'hp', 'a')",(hp U a),candidate_export,Cosmetics,full_observation
+B,2,3,"('U', 'hp', ('X', 'a'))",(hp U X(a)),candidate_export,Cosmetics,full_observation
+B,3,6,"('U', 'hp', 'p2')",(hp U p2),candidate_export,Cosmetics,full_observation
+B,4,102,"('U', 'hc', ('X', 'p2'))",(hc U X(p2)),candidate_export,Cosmetics,full_observation
+B,5,108,"('U', 'hp', ('&&', 'rp', ('U', ('X', 'hp'), 'a')))",(hp U (rp && (X(hp) U a))),candidate_export,Cosmetics,full_observation
+B,6,126,"('X', 'hp')",X(hp),candidate_export,Cosmetics,full_observation
+B,7,129,"('U', 'hp', 'rc')",(hp U rc),candidate_export,Cosmetics,full_observation
+B,8,132,"('U', 'hc', ('&&', 'rp', ('U', ('X', 'a'), 'a')))",(hc U (rp && (X(a) U a))),candidate_export,Cosmetics,full_observation
+B,9,138,"('U', 'hc', 'sc')",(hc U sc),candidate_export,Cosmetics,full_observation
+B,10,141,"('U', 'true', 'sp')",(true U sp),candidate_export,Cosmetics,full_observation
+C,1,150,"('U', 'hc', 'r')",(hc U r),candidate_export,Cosmetics,full_observation
+C,2,0,"('U', 'hp', 'a')",(hp U a),candidate_export,Cosmetics,full_observation
+C,3,167,"('U', 'true', ('&&', 'p2', ('U', ('X', 'hc'), 'r')))",(true U (p2 && (X(hc) U r))),candidate_export,Cosmetics,full_observation
+C,4,147,"('U', 'hp', 'cc')",(hp U cc),candidate_export,Cosmetics,full_observation
+C,5,159,"('U', 'd', 'a')",(d U a),candidate_export,Cosmetics,full_observation
+C,6,235,"('U', 'd', 'r')",(d U r),candidate_export,Cosmetics,full_observation
+C,7,153,"('U', 'hp', ('&&', 'p2', ('U', ('X', 'r'), 'a')))",(hp U (p2 && (X(r) U a))),candidate_export,Cosmetics,full_observation
+C,8,224,"('U', 'true', ('&&', 'r', ('U', ('X', 'a'), 'a')))",(true U (r && (X(a) U a))),candidate_export,Cosmetics,full_observation
+C,9,207,"('U', 'r', 'a')",(r U a),candidate_export,Cosmetics,full_observation
+C,10,160,"('U', 'hc', 'dp3')",(hc U dp3),candidate_export,Cosmetics,full_observation
+B,1,0,"('U', 'hp', 'a')",(hp U a),candidate_export,Cosmetics,next_10
+B,2,3,"('U', 'hp', ('X', 'a'))",(hp U X(a)),candidate_export,Cosmetics,next_10
+B,3,6,"('U', 'hp', 'p2')",(hp U p2),candidate_export,Cosmetics,next_10
+B,4,102,"('U', 'hc', ('X', 'p2'))",(hc U X(p2)),candidate_export,Cosmetics,next_10
+B,5,108,"('U', 'hp', ('&&', 'rp', ('U', ('X', 'hp'), 'a')))",(hp U (rp && (X(hp) U a))),candidate_export,Cosmetics,next_10
+B,6,126,"('X', 'hp')",X(hp),candidate_export,Cosmetics,next_10
+B,7,129,"('U', 'hp', 'rc')",(hp U rc),candidate_export,Cosmetics,next_10
+B,8,132,"('U', 'hc', ('&&', 'rp', ('U', ('X', 'a'), 'a')))",(hc U (rp && (X(a) U a))),candidate_export,Cosmetics,next_10
+B,9,138,"('U', 'hc', 'sc')",(hc U sc),candidate_export,Cosmetics,next_10
+B,10,141,"('U', 'true', 'sp')",(true U sp),candidate_export,Cosmetics,next_10
+C,1,163,"('U', 'hc', ('X', 'r'))",(hc U X(r)),candidate_export,Cosmetics,next_10
+C,2,153,"('U', 'hp', ('&&', 'p2', ('U', ('X', 'r'), 'a')))",(hp U (p2 && (X(r) U a))),candidate_export,Cosmetics,next_10
+C,3,159,"('U', 'd', 'a')",(d U a),candidate_export,Cosmetics,next_10
+C,4,224,"('U', 'true', ('&&', 'r', ('U', ('X', 'a'), 'a')))",(true U (r && (X(a) U a))),candidate_export,Cosmetics,next_10
+C,5,235,"('U', 'd', 'r')",(d U r),candidate_export,Cosmetics,next_10
+C,6,223,"('U', 'fp', 'r')",(fp U r),candidate_export,Cosmetics,next_10
+C,7,227,"('U', 'a', 'r')",(a U r),candidate_export,Cosmetics,next_10
+C,8,147,"('U', 'hp', 'cc')",(hp U cc),candidate_export,Cosmetics,next_10
+C,9,191,"('U', 'true', ('&&', 'rp', ('U', ('X', 'a'), 'r')))",(true U (rp && (X(a) U r))),candidate_export,Cosmetics,next_10
+C,10,212,"('U', 'dp3', 'r')",(dp3 U r),candidate_export,Cosmetics,next_10

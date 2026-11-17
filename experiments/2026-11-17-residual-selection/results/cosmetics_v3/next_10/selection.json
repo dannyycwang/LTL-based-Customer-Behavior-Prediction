@@ -1,0 +1,22 @@
+{
+  "indices": [
+    163,
+    153,
+    159,
+    224,
+    235,
+    223,
+    227,
+    147,
+    191,
+    212
+  ],
+  "baseline_validation_log_loss": 0.5423395876478884,
+  "final_validation_log_loss": 0.5388330678896954,
+  "seconds": 15.472548100166023,
+  "conditioning": "Counts + fixed selected Transitions; no raw prefix",
+  "metric": "validation log loss",
+  "K": 10,
+  "eligible_count": 30,
+  "duplicate_policy": "first exported representative by exact training signature; constants excluded"
+}

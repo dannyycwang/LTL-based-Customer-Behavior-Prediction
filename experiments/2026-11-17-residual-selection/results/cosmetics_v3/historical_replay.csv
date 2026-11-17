@@ -1,0 +1,5 @@
+file,condition,max_probability_difference
+cosmetics_full_observation_predictions.csv.gz,A,0.00474255014559255
+cosmetics_full_observation_predictions.csv.gz,B,0.007786510670642954
+cosmetics_next_10_predictions.csv.gz,A,1.5280352260504948e-05
+cosmetics_next_10_predictions.csv.gz,B,0.00023279594356684363

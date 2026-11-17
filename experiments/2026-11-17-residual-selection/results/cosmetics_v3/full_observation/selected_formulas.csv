@@ -1,0 +1,21 @@
+condition,rank,candidate,formula_tree,formula_str,source
+B,1,0,"('U', 'hp', 'a')",(hp U a),candidate_export
+B,2,3,"('U', 'hp', ('X', 'a'))",(hp U X(a)),candidate_export
+B,3,6,"('U', 'hp', 'p2')",(hp U p2),candidate_export
+B,4,102,"('U', 'hc', ('X', 'p2'))",(hc U X(p2)),candidate_export
+B,5,108,"('U', 'hp', ('&&', 'rp', ('U', ('X', 'hp'), 'a')))",(hp U (rp && (X(hp) U a))),candidate_export
+B,6,126,"('X', 'hp')",X(hp),candidate_export
+B,7,129,"('U', 'hp', 'rc')",(hp U rc),candidate_export
+B,8,132,"('U', 'hc', ('&&', 'rp', ('U', ('X', 'a'), 'a')))",(hc U (rp && (X(a) U a))),candidate_export
+B,9,138,"('U', 'hc', 'sc')",(hc U sc),candidate_export
+B,10,141,"('U', 'true', 'sp')",(true U sp),candidate_export
+C,1,150,"('U', 'hc', 'r')",(hc U r),candidate_export
+C,2,0,"('U', 'hp', 'a')",(hp U a),candidate_export
+C,3,167,"('U', 'true', ('&&', 'p2', ('U', ('X', 'hc'), 'r')))",(true U (p2 && (X(hc) U r))),candidate_export
+C,4,147,"('U', 'hp', 'cc')",(hp U cc),candidate_export
+C,5,159,"('U', 'd', 'a')",(d U a),candidate_export
+C,6,235,"('U', 'd', 'r')",(d U r),candidate_export
+C,7,153,"('U', 'hp', ('&&', 'p2', ('U', ('X', 'r'), 'a')))",(hp U (p2 && (X(r) U a))),candidate_export
+C,8,224,"('U', 'true', ('&&', 'r', ('U', ('X', 'a'), 'a')))",(true U (r && (X(a) U a))),candidate_export
+C,9,207,"('U', 'r', 'a')",(r U a),candidate_export
+C,10,160,"('U', 'hc', 'dp3')",(hc U dp3),candidate_export
