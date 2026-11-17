@@ -1,0 +1,13 @@
+{
+  "dataset": "Cosmetics",
+  "condition": "counts",
+  "seed": 44,
+  "MCC": 0.22282487205872387,
+  "AP": 0.43121111317985716,
+  "threshold": 0.52,
+  "best_epoch": 2,
+  "epochs": 7,
+  "training_validation_seconds": 8.470901599619538,
+  "inference_precomputed_seconds": 0.11396280000917614,
+  "n_test": 4185
+}

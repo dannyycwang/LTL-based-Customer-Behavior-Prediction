@@ -1,0 +1,8 @@
+{
+  "basis_sha256": "d5923e40f7c2ca9869eaf70aaa466c6f4b027d1e3d961f5a695308de1ef15bb8",
+  "source_sha256": "fee14efbf4d68043c864b0c1f931ba6e9a304ceabd692c4f5944ba67687eb184",
+  "rule": "Actual clean_pack from electronics_nb_0_cells.txt lines 744-776: all candidates preferred; remove formulas with no dataset atoms; sort balanced_accuracy, signed support_gap, pos_support descending; drop duplicate formula_str; top20 then first10",
+  "not_empirical_dedup": true,
+  "reason": "Recovered notebook cleanup overrides misleading semantic_unique file naming. This rule was identified before any new basis-source test evaluation.",
+  "primary_basis_unchanged": true
+}

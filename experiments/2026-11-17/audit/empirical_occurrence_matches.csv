@@ -1,0 +1,15 @@
+dataset,formula,equal_to_occurrence_of,scope,logical_claim
+Electronics,2,a,"first 10, train and validation only",False
+Electronics,5,a,"first 10, train and validation only",False
+Cosmetics,1,a,"first 10, train and validation only",False
+Cosmetics,3,rp,"first 10, train and validation only",False
+Cosmetics,3,p2,"first 10, train and validation only",False
+Cosmetics,4,rp,"first 10, train and validation only",False
+Cosmetics,4,p2,"first 10, train and validation only",False
+Cosmetics,6,hp,"first 10, train and validation only",False
+Cosmetics,6,fp,"first 10, train and validation only",False
+Cosmetics,6,dp1,"first 10, train and validation only",False
+Cosmetics,6,hc,"first 10, train and validation only",False
+Cosmetics,7,rc,"first 10, train and validation only",False
+Cosmetics,9,sc,"first 10, train and validation only",False
+Cosmetics,10,sp,"first 10, train and validation only",False

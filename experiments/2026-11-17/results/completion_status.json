@@ -1,0 +1,27 @@
+{
+  "neural_runs": 36,
+  "template_linear_runs": 14,
+  "cosmetics_source_linear_runs": 2,
+  "formal_formula_relearning": "completed 60 epochs on CPU, seed 42",
+  "main_basis": "frozen basis unchanged",
+  "not_run": [
+    {
+      "name": "Electronics common-ranker learned K=10 sensitivity",
+      "reason": "Only four usable empirically unique candidates in the recovered ten-formula pool; no invented or test-selected replacements"
+    },
+    {
+      "name": "prefix-trained formula sensitivity",
+      "reason": "Not required for the primary source contrast; no observation-scope/target conflation"
+    },
+    {
+      "name": "new fixed-versus-dynamic Full-raw timing",
+      "reason": "Audited existing Full-raw cost code already uses dynamic per-batch widths"
+    }
+  ],
+  "limitations": [
+    "Exact LaTeX of latest attached PDF not recovered; compiled manuscript uses recovered source and latest-PDF replacement text is supplied.",
+    "Cosmetics source contrast excludes 45 fitting and 21 ranking histories with no observable pre-purchase event. CPU and gradient-accumulation implementation differ from historical GPU execution.",
+    "Original Electronics split-file exact identity remains unverified; historical train/test users overlap.",
+    "Historical formula-learning and ranking end-to-end costs are not fully reconstructed for Coveo/Electronics. No overall training speedup claimed."
+  ]
+}

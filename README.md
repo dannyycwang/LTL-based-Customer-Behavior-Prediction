@@ -1,10 +1,16 @@
 # LTL-based-Customer-Behavior-Prediction
 
-## Current experiment snapshot
+## Latest follow-up
+
+[Fixed-origin neural and formula-source experiments — 2026-11-17](experiments/2026-11-17/README.md)
+
+36 matched neural runs, DECLARE controls, Cosmetics pre-purchase formula relearning, formula audits, paired confidence intervals, and revised manuscript.
+
+## Previous experiment snapshot
 
 [Logic-guided session prediction — 2026-11-16](experiments/2026-11-16/README.md)
 
-The current snapshot contains the audited Coveo, Electronics, and Cosmetics experiments: 27 completed neural runs, count/transition controls, fixed-origin prediction, measured computational costs, frozen formula bases, and reproducible aggregate analysis.
+The previous snapshot contains the audited Coveo, Electronics, and Cosmetics experiments: 27 completed neural runs, count/transition controls, fixed-origin prediction, measured computational costs, frozen formula bases, and reproducible aggregate analysis.
 
 ```bash
 cd experiments/2026-11-16

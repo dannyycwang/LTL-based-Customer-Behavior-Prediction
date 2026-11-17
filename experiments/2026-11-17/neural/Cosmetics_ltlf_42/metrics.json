@@ -1,0 +1,13 @@
+{
+  "dataset": "Cosmetics",
+  "condition": "ltlf",
+  "seed": 42,
+  "MCC": 0.25043175728494,
+  "AP": 0.4326373635906352,
+  "threshold": 0.56,
+  "best_epoch": 2,
+  "epochs": 7,
+  "training_validation_seconds": 8.807960300007835,
+  "inference_precomputed_seconds": 0.13668709993362427,
+  "n_test": 4185
+}

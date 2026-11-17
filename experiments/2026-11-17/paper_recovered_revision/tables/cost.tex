@@ -1,0 +1,19 @@
+\begin{revblock}
+\begin{tabular}{@{}llr@{\hspace{14pt}}rrr@{}}
+\toprule
+Dataset & Neural input & MCC & Train + val. s (epochs) & Test cohort s & CUDA MiB \\
+\midrule
+Coveo & Full raw & 0.868 & 2240.3 (25) & \vse{3.18}{0.14} & 382.1 \\
+ & + Counts & 0.867 & 568.5 (25) & \vse{3.29}{0.03} & 23.4 \\
+ & + Full-LTLf & 0.865 & 481.2 (25) & \vse{4.65}{0.12} & 23.4 \\
+\midrule
+Electronics & Full raw & 0.711 & 102.4 (8) & \vse{1.32}{0.08} & 2229.7 \\
+ & + Counts & 0.696 & 56.4 (7) & \vse{1.45}{0.05} & 24.0 \\
+ & + Full-LTLf & 0.702 & 63.3 (8) & \vse{1.82}{0.06} & 24.0 \\
+\midrule
+Cosmetics & Full raw & 0.562 & 589.9 (11) & \vse{2.11}{0.06} & 1581.6 \\
+ & + Counts & 0.648 & 85.1 (9) & \vse{1.87}{0.01} & 52.5 \\
+ & + Full-LTLf & 0.621 & 74.7 (8) & \vse{2.33}{0.05} & 52.4 \\
+\bottomrule
+\end{tabular}
+\end{revblock}

@@ -1,0 +1,7 @@
+run,split,n,threshold,predicted_positive,MCC
+Electronics_ltlf_42,validation,339,0.65,14,0.3271853497907094
+Electronics_ltlf_42,test,759,0.65,26,0.046888500402842925
+Electronics_ltlf_43,validation,339,0.42,183,0.24792303784525535
+Electronics_ltlf_43,test,759,0.42,397,0.2987917296681285
+Electronics_ltlf_44,validation,339,0.79,47,0.33430093864442584
+Electronics_ltlf_44,test,759,0.79,96,0.21668253441789975

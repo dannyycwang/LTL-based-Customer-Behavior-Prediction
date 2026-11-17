@@ -1,0 +1,11 @@
+{
+  "learning_and_ranking_seconds": 1304.2384442000184,
+  "source": "new local run; includes interpretation/ranking",
+  "provisional_basis_sha256": "dccc0126c08cd960bba874bcc0da1056761aded2a9c5e7f39892567e6943c386",
+  "final_basis_sha256": "d5923e40f7c2ca9869eaf70aaa466c6f4b027d1e3d961f5a695308de1ef15bb8",
+  "training_wall_seconds_from_log": 1278.33,
+  "remaining_setup_interpretation_ranking_serialization_seconds": 25.908444200018494,
+  "training_log_precision_seconds": 0.01,
+  "device": "CPU",
+  "not_a_controlled_hardware_benchmark": true
+}

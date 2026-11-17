@@ -1,0 +1,18 @@
+{
+  "run_id": "next_round_20261116_v1",
+  "registered_before_new_test_evaluation": true,
+  "primary_basis": "existing frozen first ten formulas for every dataset; Cosmetics historical-source basis explicitly retained",
+  "observation": 10,
+  "raw_window": 10,
+  "future_recognized_events": 10,
+  "eligibility": "pre-first-purchase history length >= 10; positive iff original purchase=1 and retained length <20",
+  "split": "existing audited seed-42 split; no resampling",
+  "training_seeds": [42,43,44],
+  "conditions": ["raw","counts","transitions","ltlf"],
+  "neural": {"epochs":25,"patience":5,"batch_size":256,"learning_rate":0.001,"weight_decay":0.0001,"checkpoint":"maximum validation AP, earliest tie","threshold":"maximum validation MCC on .001,.01,...,.99,.999; earliest tie","fusion_width":64,"raw_encoder":"original dataset-specific encoder; common 64-wide head within dataset"},
+  "transitions_primary": "same as historical Table 4b: train at-risk cohort, eventual purchase label, absolute support gap, support>=20 and <=n-20, index tie break; ten Boolean features",
+  "template_sensitivity": "existence,response,strict precedence,chain response over same vocabulary; shared train at-risk IDs/eventual purchase labels and absolute-gap ranker for DECLARE, Transitions and frozen learned candidate pool. Empirical duplicate removal before selecting K=10. Frozen learned main result separately identified. No claim of matched original candidate generation.",
+  "bootstrap": {"seed":20261116,"replicates":1500,"fixed_model_seed":42,"units":{"Coveo":"session","Electronics":"user","Cosmetics":"user"},"interval":"paired percentile 95%; identical resampling weights across all conditions"},
+  "cosmetics_source_control": "same replayed fitting/ranking IDs, eventual purchase labels, last-20 restriction and learner settings wherever recoverable; truncate at first purchase before tail selection; no prefix-trained arm conflation",
+  "test_policy": "no hyperparameter/basis selection based on new test scores; smoke results excluded"
+}

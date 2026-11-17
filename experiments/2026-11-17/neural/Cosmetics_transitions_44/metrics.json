@@ -1,0 +1,13 @@
+{
+  "dataset": "Cosmetics",
+  "condition": "transitions",
+  "seed": 44,
+  "MCC": 0.2386509747142426,
+  "AP": 0.4336145219620948,
+  "threshold": 0.53,
+  "best_epoch": 1,
+  "epochs": 6,
+  "training_validation_seconds": 7.2131650999654084,
+  "inference_precomputed_seconds": 0.17296200012788177,
+  "n_test": 4185
+}

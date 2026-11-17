@@ -1,0 +1,13 @@
+{
+  "dataset": "Electronics",
+  "condition": "counts",
+  "seed": 43,
+  "MCC": 0.2537281731228195,
+  "AP": 0.394491525958259,
+  "threshold": 0.2,
+  "best_epoch": 10,
+  "epochs": 15,
+  "training_validation_seconds": 3.644853599835187,
+  "inference_precomputed_seconds": 0.033271600026637316,
+  "n_test": 759
+}

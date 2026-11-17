@@ -1,0 +1,13 @@
+{
+  "dataset": "Electronics",
+  "condition": "transitions",
+  "seed": 44,
+  "MCC": 0.2915901121523476,
+  "AP": 0.39029319692895176,
+  "threshold": 0.19,
+  "best_epoch": 8,
+  "epochs": 13,
+  "training_validation_seconds": 3.311417399905622,
+  "inference_precomputed_seconds": 0.03704650001600385,
+  "n_test": 759
+}

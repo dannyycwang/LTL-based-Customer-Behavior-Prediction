@@ -1,0 +1,136 @@
+dataset,first,second,train_columns_equal,val_columns_equal,logic_status,witness,automaton_states
+Coveo,2,1,True,True,not_equivalent,"[[], [], [], [""a""]]",6
+Coveo,3,1,False,False,not_equivalent,"[[], [], [], [""a""]]",5
+Coveo,3,2,False,False,not_equivalent,"[[], [], [], [], [""a""]]",7
+Coveo,4,1,False,False,not_equivalent,"[[], [], [], [""a""], []]",6
+Coveo,4,2,False,False,not_equivalent,"[[], [], [], [""a""]]",6
+Coveo,4,3,False,False,not_equivalent,"[[], [], [], [""a""]]",5
+Coveo,5,1,False,False,not_equivalent,"[[], [], [], [""a""], []]",6
+Coveo,5,2,False,False,not_equivalent,"[[], [], [], [""a""]]",6
+Coveo,5,3,False,False,not_equivalent,"[[], [], [], [""a""]]",5
+Coveo,5,4,False,False,not_equivalent,"[[], [], [], [""a""], [], []]",7
+Coveo,6,1,False,False,not_equivalent,"[[], [], [], [""a"", ""rp""]]",6
+Coveo,6,2,False,False,not_equivalent,"[[], [], [], [""a""]]",6
+Coveo,6,3,False,False,not_equivalent,"[[], [], [], [""a""]]",5
+Coveo,6,4,False,False,not_equivalent,"[[], [], [], [""a"", ""rp""]]",6
+Coveo,6,5,False,False,not_equivalent,"[[], [], [], [""a"", ""rp""]]",6
+Coveo,7,1,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,7,2,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,7,3,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,7,4,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,7,5,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,7,6,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,1,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,2,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,3,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,4,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,5,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,6,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,8,7,False,False,not_equivalent,"[[], [], [""p2""]]",4
+Coveo,9,1,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",12
+Coveo,9,2,False,False,not_equivalent,"[[], [], [], [""a""]]",12
+Coveo,9,3,False,False,not_equivalent,"[[], [], [], [""a""]]",8
+Coveo,9,4,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",12
+Coveo,9,5,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",12
+Coveo,9,6,False,False,not_equivalent,"[[], [], [], [""a"", ""rp""]]",12
+Coveo,9,7,False,False,not_equivalent,"[[], [], [""a""]]",7
+Coveo,9,8,False,False,not_equivalent,"[[], [], [""a""]]",7
+Coveo,10,1,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",6
+Coveo,10,2,False,False,not_equivalent,"[[], [], [], [""a""]]",6
+Coveo,10,3,False,False,not_equivalent,"[[], [], [], [""a""]]",5
+Coveo,10,4,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",6
+Coveo,10,5,False,False,not_equivalent,"[[], [], [], [""a"", ""sp""]]",6
+Coveo,10,6,False,False,not_equivalent,"[[], [], [], [""a"", ""rp""]]",6
+Coveo,10,7,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,10,8,False,False,not_equivalent,"[[], [], [""a""]]",4
+Coveo,10,9,False,False,not_equivalent,"[[], [], [""sp""], [""a""]]",12
+Electronics,2,1,True,False,not_equivalent,"[[""a""]]",2
+Electronics,3,1,True,True,not_equivalent,"[[""a"", ""d""]]",3
+Electronics,3,2,True,False,not_equivalent,"[[""a""]]",2
+Electronics,4,1,True,True,not_equivalent,"[[], [], [""a""]]",11
+Electronics,4,2,True,False,not_equivalent,"[[""a""]]",2
+Electronics,4,3,True,True,not_equivalent,"[[""a"", ""d""]]",4
+Electronics,5,1,True,False,not_equivalent,"[[""a"", ""fp""]]",3
+Electronics,5,2,True,True,not_equivalent,"[[""a""]]",2
+Electronics,5,3,True,False,not_equivalent,"[[""a"", ""d""]]",3
+Electronics,5,4,True,False,not_equivalent,"[[""a"", ""fp""]]",6
+Electronics,6,1,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,6,2,False,False,not_equivalent,"[[""a""]]",2
+Electronics,6,3,False,False,not_equivalent,"[[""a"", ""d""]]",4
+Electronics,6,4,False,False,not_equivalent,"[[], [""a""]]",6
+Electronics,6,5,False,False,not_equivalent,"[[""a"", ""fp""]]",4
+Electronics,7,1,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,7,2,False,False,not_equivalent,"[[""a""]]",2
+Electronics,7,3,False,False,not_equivalent,"[[""a"", ""d""]]",4
+Electronics,7,4,False,False,not_equivalent,"[[], [""a""]]",6
+Electronics,7,5,False,False,not_equivalent,"[[""a"", ""fp""]]",4
+Electronics,7,6,True,True,not_equivalent,"[[], [""a"", ""rc""]]",5
+Electronics,8,1,False,False,not_equivalent,"[[], [], [""a""]]",5
+Electronics,8,2,False,False,not_equivalent,"[[""a""]]",2
+Electronics,8,3,False,False,not_equivalent,"[[""a"", ""d""]]",3
+Electronics,8,4,False,False,not_equivalent,"[[], [""rc""], [""a""]]",16
+Electronics,8,5,False,False,not_equivalent,"[[""a"", ""fp""]]",3
+Electronics,8,6,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,8,7,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,9,1,False,False,not_equivalent,"[[], [], [""a""]]",5
+Electronics,9,2,False,False,not_equivalent,"[[""a""]]",2
+Electronics,9,3,False,False,not_equivalent,"[[""a"", ""d""]]",3
+Electronics,9,4,False,False,not_equivalent,"[[], [""sc""], [""a""]]",16
+Electronics,9,5,False,False,not_equivalent,"[[""a"", ""fp""]]",3
+Electronics,9,6,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,9,7,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,9,8,True,True,not_equivalent,"[[], [""rc""], [""a""]]",7
+Electronics,10,1,False,False,not_equivalent,"[[], [], [""a""]]",7
+Electronics,10,2,False,False,not_equivalent,"[[""a""]]",2
+Electronics,10,3,False,False,not_equivalent,"[[""a"", ""d""]]",3
+Electronics,10,4,False,False,not_equivalent,"[[], [""rp""], [""a""]]",29
+Electronics,10,5,False,False,not_equivalent,"[[""a"", ""fp""]]",3
+Electronics,10,6,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,10,7,False,False,not_equivalent,"[[], [""a""]]",4
+Electronics,10,8,False,False,not_equivalent,"[[], [""rc""], [""a""]]",21
+Electronics,10,9,False,False,not_equivalent,"[[], [""rp""], [""a""]]",21
+Cosmetics,2,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,3,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,3,2,False,False,not_equivalent,"[[""p2""]]",3
+Cosmetics,4,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,4,2,False,False,not_equivalent,"[[], [""a""]]",6
+Cosmetics,4,3,True,True,not_equivalent,"[[""p2""]]",5
+Cosmetics,5,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,5,2,False,False,not_equivalent,"[[""a"", ""rp""]]",4
+Cosmetics,5,3,False,False,not_equivalent,"[[""p2""]]",2
+Cosmetics,5,4,False,False,not_equivalent,"[[""a"", ""rp""]]",6
+Cosmetics,6,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,6,2,False,False,not_equivalent,"[[], [""a""]]",4
+Cosmetics,6,3,False,False,not_equivalent,"[[""p2""]]",3
+Cosmetics,6,4,False,False,not_equivalent,"[[], [""hp""]]",4
+Cosmetics,6,5,False,False,not_equivalent,"[[""a"", ""rp""]]",4
+Cosmetics,7,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,7,2,False,False,not_equivalent,"[[""rc""]]",3
+Cosmetics,7,3,False,False,not_equivalent,"[[""p2""]]",2
+Cosmetics,7,4,False,False,not_equivalent,"[[""rc""]]",5
+Cosmetics,7,5,False,False,not_equivalent,"[[""rc""]]",2
+Cosmetics,7,6,False,False,not_equivalent,"[[""rc""]]",3
+Cosmetics,8,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,8,2,False,False,not_equivalent,"[[""a"", ""rp""]]",6
+Cosmetics,8,3,False,False,not_equivalent,"[[""p2""]]",4
+Cosmetics,8,4,False,False,not_equivalent,"[[""a"", ""rp""]]",4
+Cosmetics,8,5,False,False,not_equivalent,"[[""hc""], [""a"", ""rp""]]",10
+Cosmetics,8,6,False,False,not_equivalent,"[[""a"", ""rp""]]",4
+Cosmetics,8,7,False,False,not_equivalent,"[[""rc""]]",4
+Cosmetics,9,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,9,2,False,False,not_equivalent,"[[""sc""]]",5
+Cosmetics,9,3,False,False,not_equivalent,"[[""p2""]]",4
+Cosmetics,9,4,False,False,not_equivalent,"[[""sc""]]",3
+Cosmetics,9,5,False,False,not_equivalent,"[[""a"", ""rp""]]",5
+Cosmetics,9,6,False,False,not_equivalent,"[[""sc""]]",3
+Cosmetics,9,7,False,False,not_equivalent,"[[""rc""]]",4
+Cosmetics,9,8,False,False,not_equivalent,"[[""a"", ""rp""]]",3
+Cosmetics,10,1,False,False,not_equivalent,"[[""a""]]",2
+Cosmetics,10,2,False,False,not_equivalent,"[[""sp""]]",3
+Cosmetics,10,3,False,False,not_equivalent,"[[""p2""]]",2
+Cosmetics,10,4,False,False,not_equivalent,"[[""sp""]]",3
+Cosmetics,10,5,False,False,not_equivalent,"[[""a"", ""rp""]]",3
+Cosmetics,10,6,False,False,not_equivalent,"[[""sp""]]",2
+Cosmetics,10,7,False,False,not_equivalent,"[[""rc""]]",2
+Cosmetics,10,8,False,False,not_equivalent,"[[""a"", ""rp""]]",3
+Cosmetics,10,9,False,False,not_equivalent,"[[""sc""]]",2

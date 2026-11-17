@@ -1,0 +1,33 @@
+{
+  "source_sha256": "d78eafbefa9943630817f5f11e14485e3d4c74611839916537fd8b4b38ddfe23",
+  "samples": [
+    {
+      "split": "train",
+      "n": 9955,
+      "excluded_empty": 45,
+      "positive": 4955,
+      "ids_sha256": "4b4cbe9b93ef80c4c5ea1e0347b510b55fd58a20de13460c14a5cb96995e4c21"
+    },
+    {
+      "split": "val",
+      "n": 7544,
+      "excluded_empty": 21,
+      "positive": 2544,
+      "ids_sha256": "e1df8fde03aa9985a854cd63f0dcdb944628d9f6d1363b999fd301d39e75db68"
+    }
+  ],
+  "epochs": 60,
+  "netlen": 10,
+  "lr": 0.01,
+  "batch_size": 100,
+  "restarts": 1,
+  "max_candidates": 300,
+  "seed": 42,
+  "scope": "pre-first-purchase, then last 20",
+  "selection_target": "eventual session purchase",
+  "original_training_seconds": 1058.02,
+  "original_timing_source": "electronics_nb_0_cells.txt lines 634-640",
+  "limitation": "Empty pre-purchase histories excluded, no replacement; historical training RNG/kernel versions may differ",
+  "implementation": "Equivalent additive gradient terms combined into one backward; verified on CPU; original GPU attempts archived, not used",
+  "device": "CPU selected by train-only throughput benchmark; original historical learner used GPU"
+}

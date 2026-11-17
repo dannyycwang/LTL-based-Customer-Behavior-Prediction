@@ -1,0 +1,13 @@
+{
+  "dataset": "Coveo",
+  "condition": "raw",
+  "seed": 43,
+  "MCC": 0.47057015697166155,
+  "AP": 0.5143539541520331,
+  "threshold": 0.65,
+  "best_epoch": 4,
+  "epochs": 9,
+  "training_validation_seconds": 70.27155930013396,
+  "inference_precomputed_seconds": 0.48724619997665286,
+  "n_test": 12202
+}

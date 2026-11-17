@@ -1,0 +1,38 @@
+{
+  "full_raw_padding": {
+    "Coveo": "trim_full_batch: trim trailing shared padding, no length bucketing",
+    "Electronics": "per-batch dynamic left-padding trim with original position-ID offset",
+    "Cosmetics": "per-batch dynamic right-padding trim, no length bucketing"
+  },
+  "evidence": [
+    "run_coveo.py:trim_full_batch",
+    "run_act_rel_seed42.py:to_device,model_for",
+    "benchmark_training_compute.py:DataLoader collate_fn",
+    "benchmark_submission_runtime.py:timing scope"
+  ],
+  "fixed_padding_confound": "published audited cost measurements already use dynamic batch widths; no new fixed-vs-dynamic efficiency claim",
+  "historical_inference_includes": [
+    "loaded-field parsing",
+    "raw packing",
+    "summary construction/checking",
+    "model and transfer"
+  ],
+  "historical_inference_excludes": [
+    "disk I/O",
+    "original event abstraction",
+    "formula learning",
+    "model loading"
+  ],
+  "historical_formula_learning": {
+    "Cosmetics_BP_seconds": 1058.02,
+    "source": "electronics_nb_0_cells.txt lines 634-640",
+    "Coveo": "not newly verified as full learning+ranking total",
+    "Electronics": "not newly verified as full learning+ranking total"
+  },
+  "new_timings": "prepared/*_timing.csv separate parsing/cohort, Counts, all-candidate Transitions, all-candidate formula checks and templates. These are not selected-K=10 latency benchmarks and exclude original abstraction.",
+  "neural_and_learner_concurrency": "Some new neural runs overlap the new Cosmetics learner; wall times are execution logs, not controlled efficiency comparisons. No overall training speedup claimed.",
+  "environment": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  }
+}

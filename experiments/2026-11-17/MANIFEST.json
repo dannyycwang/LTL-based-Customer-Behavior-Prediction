@@ -1,0 +1,1142 @@
+[
+  {
+    "path": "audit/all_formulas.csv",
+    "sha256": "48ed0feb26db03924e06b3ea721e0eaee664b177b080d278636290fc03895b53",
+    "bytes": 11578
+  },
+  {
+    "path": "audit/checker_validation.json",
+    "sha256": "96c2f691928cf8f2d1f5b62e695e1dc0c8f52bd2a2559507ff03174d2322b46a",
+    "bytes": 493
+  },
+  {
+    "path": "audit/electronics_decision_diagnostics.csv",
+    "sha256": "835098b81a80ae6f2dd54d52adcf0530f8695ab443f4c6ae694167a8ce22b62b",
+    "bytes": 413
+  },
+  {
+    "path": "audit/empirical_occurrence_matches.csv",
+    "sha256": "3d103c91936d6c56ae4cdf61c72d4335703c40df9fa96e4497991dbe8d4333aa",
+    "bytes": 903
+  },
+  {
+    "path": "audit/formula_pairs.csv",
+    "sha256": "d3a7ef2b104f5f65afdbcfaeb38129ef4d550657a41be3383c52098cd47f698b",
+    "bytes": 8586
+  },
+  {
+    "path": "audit/formula_support.csv",
+    "sha256": "816cf71cbd8503c7c2cd944d32613496f5a92f3725c0d2baeeb002f3cf754105",
+    "bytes": 6527
+  },
+  {
+    "path": "audit/provenance/cost_audit.json",
+    "sha256": "dc5e4e442ec64b8616e7c5289955c9ccde358737ac69872d065a307c20189890",
+    "bytes": 1831
+  },
+  {
+    "path": "audit/provenance/formula_provenance.json",
+    "sha256": "b8157263d1f24cd46f3a7f97c9bc45394873d683b552e4c416e0b4a395b423cf",
+    "bytes": 2803
+  },
+  {
+    "path": "audit/run_verification.csv",
+    "sha256": "9a30f44094901035337d9675abe7c719fae17a37bc481f733aa69d72c3182a80",
+    "bytes": 2001
+  },
+  {
+    "path": "audit/semantic_sources.json",
+    "sha256": "268cab51aa53adab8f9a7f0eaaee0cbbb9d1f2b85f05b56911a47d37b27cdaa9",
+    "bytes": 880
+  },
+  {
+    "path": "audit/simplification_proofs.json",
+    "sha256": "1003664d8a87f11f4c6dd1b073bd7f132a2b4fdafe06404c67d8c3320d0ca28f",
+    "bytes": 365
+  },
+  {
+    "path": "benchmark_learner_cpu.py",
+    "sha256": "1e21c541ceaec4d87b6f72b9546ad05dd98417fccfb9e8c39fc07223a7d0b50f",
+    "bytes": 851
+  },
+  {
+    "path": "checker_validation.py",
+    "sha256": "ab36608e8ac69aea9638231afd170390d9f933db48c11f7a0ad9e7422661061b",
+    "bytes": 2132
+  },
+  {
+    "path": "common.py",
+    "sha256": "f8424ba29086a2091407a0e3b8bf6f62b18b88277632bd2c6b7df5f466d22c11",
+    "bytes": 869
+  },
+  {
+    "path": "cosmetics_source/basis.json",
+    "sha256": "d5923e40f7c2ca9869eaf70aaa466c6f4b027d1e3d961f5a695308de1ef15bb8",
+    "bytes": 3905
+  },
+  {
+    "path": "cosmetics_source/clean_top20.csv",
+    "sha256": "144223a5af15464583070e1d1066ff334164102e867ada7e245ed1c13f5852d7",
+    "bytes": 3205
+  },
+  {
+    "path": "cosmetics_source/comparison/metrics.csv",
+    "sha256": "e3723e2083f56ed0641b51ee72872de9ec531dfef61dc3990327caaa962fe8b1",
+    "bytes": 323
+  },
+  {
+    "path": "cosmetics_source/comparison/paired_differences.csv",
+    "sha256": "fbb0594781a3d1566dfcdb697c0adc305589e2a2db50148311203840a680fda3",
+    "bytes": 294
+  },
+  {
+    "path": "cosmetics_source/final_selection.json",
+    "sha256": "5b28987698a858be58aa15725bd670b86a8800f89d30fc91e185f3159c1172f2",
+    "bytes": 668
+  },
+  {
+    "path": "cosmetics_source/gradient_equivalence.json",
+    "sha256": "6f303789a231059e48a3ad648f9b24985b525c51f6d4f4fe6b4f564bb44d5524",
+    "bytes": 227
+  },
+  {
+    "path": "cosmetics_source/protocol.json",
+    "sha256": "70a6ceae65a7de056e6f13ecb7b65b04888545254adc0e3a23428bc2f3a0943f",
+    "bytes": 1227
+  },
+  {
+    "path": "cosmetics_source/timing_breakdown.json",
+    "sha256": "f64b81fbaf55d26e46a931ea0e67a6c8cb6d0d827ddd3f65c8c6f0b145ef59ce",
+    "bytes": 557
+  },
+  {
+    "path": "decision_diagnostics.py",
+    "sha256": "f43a2b1ffee33d371fcfbc41068d0b5abd5b22ab2c30a5abb6dad4be00b0d348",
+    "bytes": 728
+  },
+  {
+    "path": "finalize.py",
+    "sha256": "b9362d3ad80c9494854dff81689cda1d3b3b59c01e65d2b2bd9c8403b1618ef9",
+    "bytes": 5954
+  },
+  {
+    "path": "finite_equivalence.py",
+    "sha256": "196910c58b0fc0a934e6bb7768729953824adeacccdf47a1ddce9c415199cc2b",
+    "bytes": 2394
+  },
+  {
+    "path": "formula_audit.py",
+    "sha256": "4bdaa561f1d5fb3e56267d9987ca9357d4775636c705ce45284d439663345824",
+    "bytes": 5569
+  },
+  {
+    "path": "implementation_snapshot/audit_cosmetics_observation_boundary.py",
+    "sha256": "d72222090c1e3adfce7627d3c94f57f53d9cf81a1f114a45102175aca31eb07b",
+    "bytes": 5073
+  },
+  {
+    "path": "implementation_snapshot/audit_coveo_observation_boundary.py",
+    "sha256": "25d67cda3663f819d49f7241c8cf84c019c46dde8c103a874eae635aaad15731",
+    "bytes": 4469
+  },
+  {
+    "path": "implementation_snapshot/audit_coveo_split_overlap.py",
+    "sha256": "9d15933c20867cd9c4d8cf9470d1020d85e5a2a30509af9d07a665a6d37f27f2",
+    "bytes": 2781
+  },
+  {
+    "path": "implementation_snapshot/audit_secondary_tables.py",
+    "sha256": "792e0afa714829f7b309c7907c7645ffab85816845802e72901906ac4b50019f",
+    "bytes": 5576
+  },
+  {
+    "path": "implementation_snapshot/audit_sources.py",
+    "sha256": "9054f904893d414853e106ea46f0c050b77da96ed6a82b5c789152182437f09c",
+    "bytes": 5018
+  },
+  {
+    "path": "implementation_snapshot/benchmark_submission_runtime.py",
+    "sha256": "895e13a46bf10db2fd2c06797b412c2cc796ce35286be41a8c7b4e3b8d92621e",
+    "bytes": 13198
+  },
+  {
+    "path": "implementation_snapshot/benchmark_training_compute.py",
+    "sha256": "62aa283a10dfd6dc12a764d7291c3a1d1da8be49b26487fb3d3b26cd2dfa51ab",
+    "bytes": 4412
+  },
+  {
+    "path": "implementation_snapshot/bootstrap_submission_controls.py",
+    "sha256": "48afcb0bc18bc9921cae89b16a5333173ff357ce314aa0b4d0b940ad47467598",
+    "bytes": 5614
+  },
+  {
+    "path": "implementation_snapshot/diagnose_cosmetics.py",
+    "sha256": "2d0d318da1eb029021414d5e33e97fbd7fc8cd26ebd99dc3e7038a746bb5c3b8",
+    "bytes": 4872
+  },
+  {
+    "path": "implementation_snapshot/diagnose_coveo.py",
+    "sha256": "4c13ab166b0e8593aa06d42d928d63b95082d55a1630c1a5a786a41f85b8c2e0",
+    "bytes": 9821
+  },
+  {
+    "path": "implementation_snapshot/diagnose_coveo_seed42.py",
+    "sha256": "1d3541592cff107255c5a82d0b6adbb5635898fb22d4c4c803a282c5f39f50ae",
+    "bytes": 8768
+  },
+  {
+    "path": "implementation_snapshot/diagnose_secondary_seed42.py",
+    "sha256": "2572ae8637450f6da39b681abce568392e47a7fb89e3fb87867905f16131dd64",
+    "bytes": 8739
+  },
+  {
+    "path": "implementation_snapshot/electronics_ltlf_pipeline.py",
+    "sha256": "ae3040d1ac1de3a6e6872c80f5fc0c440311adf9e0e79ada4c57409b2b573c3f",
+    "bytes": 47385
+  },
+  {
+    "path": "implementation_snapshot/finalize_audit.py",
+    "sha256": "35a4d783a685ca6bc46c5fc1bf82af5405d527caedb592b8d63eabe1e769caca",
+    "bytes": 13642
+  },
+  {
+    "path": "implementation_snapshot/fix_cosmetics_parser.py",
+    "sha256": "9104b6e4b800ef841842c3484d7a53d703ed8fcd81f396d3273bdf14a72fd4fe",
+    "bytes": 2630
+  },
+  {
+    "path": "implementation_snapshot/learn_cosmetics_tltlf_formulas_gpu_from_electronics_style_v3.py",
+    "sha256": "d78eafbefa9943630817f5f11e14485e3d4c74611839916537fd8b4b38ddfe23",
+    "bytes": 25805
+  },
+  {
+    "path": "implementation_snapshot/ltl_integrated_pytorch_behavior_dwell_automaton_experiment.py",
+    "sha256": "4f2af78f20c54382cd2aed17d8b33d181d47ab4f3c5806e6362f25c313495d38",
+    "bytes": 100611
+  },
+  {
+    "path": "implementation_snapshot/make_inventory.py",
+    "sha256": "c5dc34e5ba6e2520a2ca5f76552ee56c887dfe2781bb5b14b0c309b924691787",
+    "bytes": 7040
+  },
+  {
+    "path": "implementation_snapshot/prepare_cosmetics_dec_dataset.py",
+    "sha256": "69d8be5c6919b7b4752fda6604cc90764ac3f9553f28c02354924f70f7dd6d71",
+    "bytes": 37065
+  },
+  {
+    "path": "implementation_snapshot/prepare_cosmetics_pre_purchase.py",
+    "sha256": "c06bee24e77908db559233966c3e7e1ce0ea579a26641b5780b9406f4bb6e296",
+    "bytes": 8420
+  },
+  {
+    "path": "implementation_snapshot/prepare_cosmetics_seed42.py",
+    "sha256": "5e5e643d8347d1e9e977a3264af5f91d3b812da58d60fc6b9e0f60acaddf9667",
+    "bytes": 5041
+  },
+  {
+    "path": "implementation_snapshot/prepare_electronics_seed42.py",
+    "sha256": "6a495b8fc11fc5e5492343c8796f16ac1bee05d8653dfd4e35a24a728ac726d8",
+    "bytes": 5855
+  },
+  {
+    "path": "implementation_snapshot/product_rawid_vs_ltl_experiment.py",
+    "sha256": "27805e2cd34bc3b1e3a114f4ba6065739ce520a758d4b0f476999ed1a47ef16e",
+    "bytes": 47607
+  },
+  {
+    "path": "implementation_snapshot/render_figures.py",
+    "sha256": "76e718339676e688331a51a324ee168a2323cdc488e1f80870dc7c6c1efea68a",
+    "bytes": 6009
+  },
+  {
+    "path": "implementation_snapshot/report_act_rel_runtime.py",
+    "sha256": "81362554bc186f948cbc6506c2236fe5ab495ae247ef385d65fadf937334d438",
+    "bytes": 3163
+  },
+  {
+    "path": "implementation_snapshot/report_act_rel_seed42.py",
+    "sha256": "1efd33e8d0baf30e1ee84c7dc2346bc494a1800ed0cd9665e4e0c0710ef23bdf",
+    "bytes": 9942
+  },
+  {
+    "path": "implementation_snapshot/report_cosmetics_pre_purchase.py",
+    "sha256": "413d6449b01b26edbf8daadf73b4276ff0bee62f731c804226c3e3482fa7c263",
+    "bytes": 5353
+  },
+  {
+    "path": "implementation_snapshot/report_coveo_seed42.py",
+    "sha256": "657454c38feb5de3106c0c104c4d15b0c0b32e389149ae1f6a8458ee4ad25ff3",
+    "bytes": 16387
+  },
+  {
+    "path": "implementation_snapshot/report_submission_controls.py",
+    "sha256": "de74eab449a7d27e05860055b70307d3633703084cdc83c17fac039481cec4e0",
+    "bytes": 7835
+  },
+  {
+    "path": "implementation_snapshot/run_act_rel_seed42.py",
+    "sha256": "5064790ae95a91a106680ba5b3fbdf588ac93b9cd3b4e716dedb462d66c19400",
+    "bytes": 22416
+  },
+  {
+    "path": "implementation_snapshot/run_coveo.py",
+    "sha256": "df9ffacd71a7b30933e2e35004a339194eedf1e4839812b85e7c7c88abd87b46",
+    "bytes": 16853
+  },
+  {
+    "path": "implementation_snapshot/run_submission_controls.py",
+    "sha256": "b6d348c8991c6adfe4d5045506d72b93b4d75b8915206ad5786010356ba9c50c",
+    "bytes": 15106
+  },
+  {
+    "path": "implementation_snapshot/run_submission_iterations.py",
+    "sha256": "08deb3fdbb346a51a4232857febea905885b0ff5d8d8597b4c93939ce187fa01",
+    "bytes": 8921
+  },
+  {
+    "path": "implementation_snapshot/smoke_original_coveo.py",
+    "sha256": "f95bf265b50169269229b753f70fb338da002ff5012c2d7f20b2276a90536b82",
+    "bytes": 5017
+  },
+  {
+    "path": "implementation_snapshot/train_cosmetics_first_window_clean_names_v6_withBD_len20_fullfusion.py",
+    "sha256": "e55b6f97562c3b4b42eed05eb83001f9844939555105dc99a3dda4c5b95f1a7d",
+    "bytes": 35993
+  },
+  {
+    "path": "implementation_snapshot/verify_cosmetics_seed42.py",
+    "sha256": "86e0e23f3e577b282bbd05116d4a1edd15d6e153715e8fce6004bd27a90fa37e",
+    "bytes": 5864
+  },
+  {
+    "path": "implementation_snapshot/verify_electronics_rebuild.py",
+    "sha256": "03226eacca893d9c08f8b4f3a8803911e0f65ebafd8db9ebdb1313b361fbdf40",
+    "bytes": 9514
+  },
+  {
+    "path": "linear.py",
+    "sha256": "746cd5a14143b9ecba5b710a9a80c349c61585d69d4ee9b9f62cc26b26319051",
+    "bytes": 3794
+  },
+  {
+    "path": "neural/Cosmetics_counts_42/config.json",
+    "sha256": "ad88c272e40d5cef61780ee5c5728796d13d6f6e5609610c93a12b53f0e0a770",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Cosmetics_counts_42/epochs.json",
+    "sha256": "f39d6def4aedc5a4d2cfc5ca63405a988a5b3f166d20533206aa0590bf681448",
+    "bytes": 916
+  },
+  {
+    "path": "neural/Cosmetics_counts_42/metrics.json",
+    "sha256": "9772bb1f5c359c95f377892910f223793baf49c32db042411489344a9cd6149d",
+    "bytes": 332
+  },
+  {
+    "path": "neural/Cosmetics_counts_43/config.json",
+    "sha256": "0248a40b3f21a31973f8d52329f46abdf7d83d519a9711f34dfba9cccafc2350",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Cosmetics_counts_43/epochs.json",
+    "sha256": "09e73eb8b9aa34fe70e7611557f737e773557c14a6ad37da299ce37bcb97bfc5",
+    "bytes": 917
+  },
+  {
+    "path": "neural/Cosmetics_counts_43/metrics.json",
+    "sha256": "d407570bde171f9be0e9b3c11690e67f2a13d99eb342244c3c4324406342bc25",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Cosmetics_counts_44/config.json",
+    "sha256": "8ad4d4845dea675af3fae522a32d25728b7d6f5a461afd2d96dc3dfbb73bff2d",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Cosmetics_counts_44/epochs.json",
+    "sha256": "2d45c5cbd9b1f3c4500391740f09358a815355960c3bf8030cb396413e622ac1",
+    "bytes": 924
+  },
+  {
+    "path": "neural/Cosmetics_counts_44/metrics.json",
+    "sha256": "d62d4c6cf48757afc39193477caf4a1f465b34b81021afa46373b14bd2ae544d",
+    "bytes": 319
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_42/config.json",
+    "sha256": "78371fd8cbbca2584ef91844e97fca4c6e9fd00779343009aad8f47611fa54aa",
+    "bytes": 813
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_42/epochs.json",
+    "sha256": "1a68d6fd9c1c0c1db6b53169aa0211fabccaed687f43dcc1364d19437b33558d",
+    "bytes": 921
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_42/metrics.json",
+    "sha256": "2bad2f0fe87ffa856720ec730660971c672843d731ee84c70fa60bca260968bd",
+    "bytes": 313
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_43/config.json",
+    "sha256": "c9b56ab2728dd7504583caa515d89d85189d13c91144ce9fa301e05234788cea",
+    "bytes": 813
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_43/epochs.json",
+    "sha256": "1a23d5a8aeff6e46ac995779f537d3ea97c7e7c1d24c3825845967b790d2ff06",
+    "bytes": 790
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_43/metrics.json",
+    "sha256": "d38ab748df79db3a9d067d3154fc9433455e84b232f8e0cd782fa7fae07a0c8f",
+    "bytes": 317
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_44/config.json",
+    "sha256": "75e9c65747b8a974a459c7655ff79b1ec1fafdd703273b5bc8f9004a70724f5b",
+    "bytes": 813
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_44/epochs.json",
+    "sha256": "f36cfe1adede36b97ceeef22948bebffbd85d106076636c363141d533ef38273",
+    "bytes": 1048
+  },
+  {
+    "path": "neural/Cosmetics_ltlf_44/metrics.json",
+    "sha256": "ebc7eec7404d36ff3a03c63b626a87132e2ed7c28c6a87f898160ebd4e5184e0",
+    "bytes": 317
+  },
+  {
+    "path": "neural/Cosmetics_raw_42/config.json",
+    "sha256": "3b2afd7ca509c1083b73beffa023eb2b38b0ec7788c623607883b108359d0366",
+    "bytes": 812
+  },
+  {
+    "path": "neural/Cosmetics_raw_42/epochs.json",
+    "sha256": "5deda15f2822b19e7c8a0d6dede00d99f5a6acef609c8656fe7aad920f4ca345",
+    "bytes": 2646
+  },
+  {
+    "path": "neural/Cosmetics_raw_42/metrics.json",
+    "sha256": "04cfdf3586a849044acb8ecd4e6e9f6ab28c532fceda56a9813802e2106c832c",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Cosmetics_raw_43/config.json",
+    "sha256": "1444613dc6814856fac359392c7ada1128caca3f8bd8ed912d79c2a94d4e9b71",
+    "bytes": 812
+  },
+  {
+    "path": "neural/Cosmetics_raw_43/epochs.json",
+    "sha256": "5cf6b904ba0a1781013eec2242d21572217afc3879cdaa25ca0664d9690fd051",
+    "bytes": 789
+  },
+  {
+    "path": "neural/Cosmetics_raw_43/metrics.json",
+    "sha256": "9754dadaf1b4431835abc8d76f16d52c0a7294975eb8ba1057356a80542014e2",
+    "bytes": 330
+  },
+  {
+    "path": "neural/Cosmetics_raw_44/config.json",
+    "sha256": "1dedbfd55cec7aafc34c2423efa418642b1e1e5aa8d63e894244cb26daa94ade",
+    "bytes": 812
+  },
+  {
+    "path": "neural/Cosmetics_raw_44/epochs.json",
+    "sha256": "73b7685920ebe1067689fae74941c385b3387a4699b1268172f9310690cf797a",
+    "bytes": 1054
+  },
+  {
+    "path": "neural/Cosmetics_raw_44/metrics.json",
+    "sha256": "07cb426190adad604d3ee19d135146e52f19fa16664c483b0c789b3eb47c7a5b",
+    "bytes": 315
+  },
+  {
+    "path": "neural/Cosmetics_transitions_42/config.json",
+    "sha256": "7220a1ae7f9d1514019be7abb40566a3dc4dbbc4f492aa3a21686f6d72d060d0",
+    "bytes": 820
+  },
+  {
+    "path": "neural/Cosmetics_transitions_42/epochs.json",
+    "sha256": "34f6540921e9e23c201ea79f3743f1d73e2b0fa17f6cb281c6a8a3fc016be207",
+    "bytes": 923
+  },
+  {
+    "path": "neural/Cosmetics_transitions_42/metrics.json",
+    "sha256": "64e31666aaef34c3518fb0f3015cd3240f4be364da79ca09d6c86f55a61a2996",
+    "bytes": 322
+  },
+  {
+    "path": "neural/Cosmetics_transitions_43/config.json",
+    "sha256": "77cf5f59c12fbef07cabfe5fb5ccede2e09b8d3533367e9b434c6777b1039995",
+    "bytes": 820
+  },
+  {
+    "path": "neural/Cosmetics_transitions_43/epochs.json",
+    "sha256": "a1f42a48a39dca040858d7d63319f7ad237496b4a7ebcf42164721e4249cfd69",
+    "bytes": 920
+  },
+  {
+    "path": "neural/Cosmetics_transitions_43/metrics.json",
+    "sha256": "b5295acc515e7d315346b555acff5a619e7d1a72bdf11ccddfe0bc4ef0dad551",
+    "bytes": 321
+  },
+  {
+    "path": "neural/Cosmetics_transitions_44/config.json",
+    "sha256": "e09289477324198adfdd742bc614c0f1470c4245d14a5d7fdda572c507f762af",
+    "bytes": 820
+  },
+  {
+    "path": "neural/Cosmetics_transitions_44/epochs.json",
+    "sha256": "8cf4e373b51b9c1afc91e03160d973479cc4006514414c14a345a38e40751197",
+    "bytes": 787
+  },
+  {
+    "path": "neural/Cosmetics_transitions_44/metrics.json",
+    "sha256": "01f25fe4997613a2ed80328d7c62b797016979853df3123970950ece7890354a",
+    "bytes": 323
+  },
+  {
+    "path": "neural/Coveo_counts_42/config.json",
+    "sha256": "0bbca1c1d0509da0aeb1089166248c70fa672f09b752be22bf0a7553c9630a91",
+    "bytes": 811
+  },
+  {
+    "path": "neural/Coveo_counts_42/epochs.json",
+    "sha256": "e3243062cb24748757b25e1f0132750dde388c514ac81510b1b31fb81e3c1a7f",
+    "bytes": 1172
+  },
+  {
+    "path": "neural/Coveo_counts_42/metrics.json",
+    "sha256": "23f86e46195534795bc6e0aadcab61e7e0d8f01fd627d3f02aa40151736233a7",
+    "bytes": 312
+  },
+  {
+    "path": "neural/Coveo_counts_43/config.json",
+    "sha256": "6a49bdf2e17296efcb2f2f3b1425ea74db9076d7753531adb3f61a1599603ebf",
+    "bytes": 811
+  },
+  {
+    "path": "neural/Coveo_counts_43/epochs.json",
+    "sha256": "bf13734f0d790d64f70e15291f43e304f1973b963d3fdf4c6e25c03a8da8353c",
+    "bytes": 1174
+  },
+  {
+    "path": "neural/Coveo_counts_43/metrics.json",
+    "sha256": "f21ea75bc89ff9c93f21887a519d42bf17a3e86c89d93ef625f3cf1ac67886d5",
+    "bytes": 312
+  },
+  {
+    "path": "neural/Coveo_counts_44/config.json",
+    "sha256": "7b55ba8726e893bdd8e4b592093ca08b0108e6efb41f3eca3857b7f7501ee6cf",
+    "bytes": 811
+  },
+  {
+    "path": "neural/Coveo_counts_44/epochs.json",
+    "sha256": "ac9f9c27f68894d5bc989d6c72e469cd28c301368997a54a75675c11c31a263c",
+    "bytes": 1170
+  },
+  {
+    "path": "neural/Coveo_counts_44/metrics.json",
+    "sha256": "b7e5b6170dcdee64ffc2545af2225ba5425ee24bb31d84878c3ff3657cd6920d",
+    "bytes": 328
+  },
+  {
+    "path": "neural/Coveo_ltlf_42/config.json",
+    "sha256": "04594e327707fad37bb17a6c89a4444429f7364ae06b9b8265fd31b1b1219e64",
+    "bytes": 809
+  },
+  {
+    "path": "neural/Coveo_ltlf_42/epochs.json",
+    "sha256": "6ee06d7e46114492ba0ff1bf692919070d7ce1667f687c61c09fc379c25291bb",
+    "bytes": 910
+  },
+  {
+    "path": "neural/Coveo_ltlf_42/metrics.json",
+    "sha256": "d9ed3748e7882954e552d788baa0492a5608d774a81cb076feca0cb53b80dc9f",
+    "bytes": 311
+  },
+  {
+    "path": "neural/Coveo_ltlf_43/config.json",
+    "sha256": "c54b5f37640a33d3ab597a1e6614fa1db9181b2c6c01995573d23958d8a5b51a",
+    "bytes": 809
+  },
+  {
+    "path": "neural/Coveo_ltlf_43/epochs.json",
+    "sha256": "920558f94358e00df1c685144fa24b40a5e5eb03dadb2a6a3ebb7ae3471c3b58",
+    "bytes": 1040
+  },
+  {
+    "path": "neural/Coveo_ltlf_43/metrics.json",
+    "sha256": "2cd93837ca2e64dfb4000df2d568265e8f3cda6b61ae821635b443154d304cb9",
+    "bytes": 312
+  },
+  {
+    "path": "neural/Coveo_ltlf_44/config.json",
+    "sha256": "6af28cac38e04461e58854a9b20aeb2464ab64d744caaa255ae4f56cb92614f7",
+    "bytes": 809
+  },
+  {
+    "path": "neural/Coveo_ltlf_44/epochs.json",
+    "sha256": "617583beb0dc9c3a4359e1d30a5342e989175f1b5c547c3e20575afe2d827b2a",
+    "bytes": 1043
+  },
+  {
+    "path": "neural/Coveo_ltlf_44/metrics.json",
+    "sha256": "4a9a39b6b6597bde1016cf9ecfda7d20ffacbe568970c9a99013e46f78b9e9bb",
+    "bytes": 311
+  },
+  {
+    "path": "neural/Coveo_raw_42/config.json",
+    "sha256": "33a1b321098e0a10ebee1a1378e52c89f5a1343d7ae518a196e7be74b65776fa",
+    "bytes": 808
+  },
+  {
+    "path": "neural/Coveo_raw_42/epochs.json",
+    "sha256": "7f225b63ca99316f74b0462892bf80e9dee526d260b47e36cd19f7d2a907a69f",
+    "bytes": 910
+  },
+  {
+    "path": "neural/Coveo_raw_42/metrics.json",
+    "sha256": "5c72beb0f2f8715dff71dfc4c8a23a944c27d179ee67e4408265fb2c2f7f51c1",
+    "bytes": 309
+  },
+  {
+    "path": "neural/Coveo_raw_43/config.json",
+    "sha256": "5dce87c3d8ff7794b00d63aa19408f0a9dc6b38d32f5880445758c85c21530d2",
+    "bytes": 808
+  },
+  {
+    "path": "neural/Coveo_raw_43/epochs.json",
+    "sha256": "55b1e116e39742a4d1b05a0c51ba72d0245adad5f85324541fd05f5c46953334",
+    "bytes": 1172
+  },
+  {
+    "path": "neural/Coveo_raw_43/metrics.json",
+    "sha256": "8e0e3fe05907f4795e383f4a42b8c1ddfb17425cb1dff7a659c6da15e81efd45",
+    "bytes": 312
+  },
+  {
+    "path": "neural/Coveo_raw_44/config.json",
+    "sha256": "cb4194c65a8947f3dfba84fcfea161a104f8ae03bfcf751f4d7d552fee61a8e4",
+    "bytes": 808
+  },
+  {
+    "path": "neural/Coveo_raw_44/epochs.json",
+    "sha256": "f56de862b7756c7ea9e19f76bb45a43b3aaa8b1b3250bc72e992c602f5da227b",
+    "bytes": 1171
+  },
+  {
+    "path": "neural/Coveo_raw_44/metrics.json",
+    "sha256": "4bc736b1e131628a97306c74f4e42722ac8ad1e7b6d06bcd2acd8db7291bf9d0",
+    "bytes": 310
+  },
+  {
+    "path": "neural/Coveo_transitions_42/config.json",
+    "sha256": "67a6856c246de4afe6fbfc14a17b2b96afb79bda3755439c02eb14cd1d05e0c2",
+    "bytes": 816
+  },
+  {
+    "path": "neural/Coveo_transitions_42/epochs.json",
+    "sha256": "cc7cab5ec155fa7e81b1e8c2d71b04dbdb646bf932b894c6e2349555150e42d6",
+    "bytes": 1175
+  },
+  {
+    "path": "neural/Coveo_transitions_42/metrics.json",
+    "sha256": "1c1e97d6777eb0ab6a565f21cf487454ae6ad74a7809c6d51379831cf0079736",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Coveo_transitions_43/config.json",
+    "sha256": "d7fc3ce153ab9bde8f209eace02c03f5beb726976171aaeb0b9be78f86eb0d7a",
+    "bytes": 816
+  },
+  {
+    "path": "neural/Coveo_transitions_43/epochs.json",
+    "sha256": "cace413cdfbec004a639491f9ccb8017bcde0af741a809fa88e1b1bf3cccfb68",
+    "bytes": 1172
+  },
+  {
+    "path": "neural/Coveo_transitions_43/metrics.json",
+    "sha256": "b72a80c17222fcc612e183978fcce72507bc4048645f071021afa1aca4e89ece",
+    "bytes": 333
+  },
+  {
+    "path": "neural/Coveo_transitions_44/config.json",
+    "sha256": "ececddfcdcff5c09a5748d74e60bc5390aefb16d58768a9717ba43d23de8cfbc",
+    "bytes": 816
+  },
+  {
+    "path": "neural/Coveo_transitions_44/epochs.json",
+    "sha256": "f03922e241aed1a4f4df900d5113ff6e4309977c9239edae1d54853d9df2697b",
+    "bytes": 912
+  },
+  {
+    "path": "neural/Coveo_transitions_44/metrics.json",
+    "sha256": "a4945646e00b2830eff2451a796b7efda757a8cde2d19263aa1525407bca5cb0",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Electronics_counts_42/config.json",
+    "sha256": "0fe6a09daa04ad89b023e2d40ef67439987de994a095b9209b933d09988649ee",
+    "bytes": 817
+  },
+  {
+    "path": "neural/Electronics_counts_42/epochs.json",
+    "sha256": "4d389e1da8ade08f84e7aa2d11ac9ad0220a58cfb8cf641aa4530bbe58f579d4",
+    "bytes": 790
+  },
+  {
+    "path": "neural/Electronics_counts_42/metrics.json",
+    "sha256": "69f5f922d1ac0e17e0e8136bdec1290e3ed1135393a205547123f3dd94a945a7",
+    "bytes": 320
+  },
+  {
+    "path": "neural/Electronics_counts_43/config.json",
+    "sha256": "ebff767a2e50d733818f2af6996facd0b301c2dafbd6d9f0792be23bc137c889",
+    "bytes": 817
+  },
+  {
+    "path": "neural/Electronics_counts_43/epochs.json",
+    "sha256": "6cd815dde879d2dc20895910b1f16103022a38022f0414d14d9b356aac34bc72",
+    "bytes": 1990
+  },
+  {
+    "path": "neural/Electronics_counts_43/metrics.json",
+    "sha256": "10b2fbd6c2b6eb0a7b314d9cf1e3194180d3ce3e1e6cadbc9b1c5215bca1e6cc",
+    "bytes": 319
+  },
+  {
+    "path": "neural/Electronics_counts_44/config.json",
+    "sha256": "47d8b1541fb3219f392b76f76d4a29bbd0e1fe2fc305710aea93ef06b76b8da1",
+    "bytes": 817
+  },
+  {
+    "path": "neural/Electronics_counts_44/epochs.json",
+    "sha256": "5c6506006258969f7f7c590f9e363fd1b492815402a5d7257c65396258f8155f",
+    "bytes": 2122
+  },
+  {
+    "path": "neural/Electronics_counts_44/metrics.json",
+    "sha256": "958f3a739aa6a58933ad0ccfd0a9d130d365abb3b3711b6662100dcdf919ba73",
+    "bytes": 319
+  },
+  {
+    "path": "neural/Electronics_ltlf_42/config.json",
+    "sha256": "3ca0dad21aaa370a96f041799588b2540ae0a138048bb1295c9c9352c94825b6",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Electronics_ltlf_42/epochs.json",
+    "sha256": "2791bd7bb6d61db66e3dec91cce62f2cde86772411528c2d108604eab882a2fa",
+    "bytes": 799
+  },
+  {
+    "path": "neural/Electronics_ltlf_42/metrics.json",
+    "sha256": "67e413c7113de1c0c0df6f2212b4668a57f05e3599c433066f667570087d43d8",
+    "bytes": 319
+  },
+  {
+    "path": "neural/Electronics_ltlf_43/config.json",
+    "sha256": "126640b0440bae9fd737b0cc797f44c1a21055d74ea9b9655e9512b33d755bad",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Electronics_ltlf_43/epochs.json",
+    "sha256": "a099046c6964e38cd27316a54d0e8900bd0bda355f57bc4c15c161141ee64757",
+    "bytes": 791
+  },
+  {
+    "path": "neural/Electronics_ltlf_43/metrics.json",
+    "sha256": "8834b60c88f4d358609e12002687cb7d53685cbe91d9e28b6c853cb60de4bb92",
+    "bytes": 334
+  },
+  {
+    "path": "neural/Electronics_ltlf_44/config.json",
+    "sha256": "934a345301f5979925ff7132e1c4c4f50803a8308fe4a76ce61093c9cc968ba7",
+    "bytes": 815
+  },
+  {
+    "path": "neural/Electronics_ltlf_44/epochs.json",
+    "sha256": "160e3e8ce09aabb20ad297316800956829da4e320d49a796a1277591bfca40fa",
+    "bytes": 1722
+  },
+  {
+    "path": "neural/Electronics_ltlf_44/metrics.json",
+    "sha256": "375cfac368b547ada35364a5137fe372b4d2d8473c7940247418677e3cfd7dd2",
+    "bytes": 320
+  },
+  {
+    "path": "neural/Electronics_raw_42/config.json",
+    "sha256": "7632838fcd96cdc59cd293beec31787a62a8fcad1e83fedc8303fb01b4496596",
+    "bytes": 814
+  },
+  {
+    "path": "neural/Electronics_raw_42/epochs.json",
+    "sha256": "4e87d814af46de4bfeaea3a49e4178e124714079a248402cc7f86a25ed95dfe7",
+    "bytes": 799
+  },
+  {
+    "path": "neural/Electronics_raw_42/metrics.json",
+    "sha256": "7c6c0e73ed87db2bbbe2b2b746a404abdd7f325aec7eb7716da006583f5b5504",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Electronics_raw_43/config.json",
+    "sha256": "7ef7bf2650d99b81b3e22363ea415a9fc635d7a64fba66c6cedd02661d16df24",
+    "bytes": 814
+  },
+  {
+    "path": "neural/Electronics_raw_43/epochs.json",
+    "sha256": "63c8991355d08ce96f1f7082ea299b1c8a4a2d62a67c0099f099914cd0e37577",
+    "bytes": 924
+  },
+  {
+    "path": "neural/Electronics_raw_43/metrics.json",
+    "sha256": "8784f136f01d4ee553bbd46624795e59ed446efcceeed87f5b96391de6832927",
+    "bytes": 316
+  },
+  {
+    "path": "neural/Electronics_raw_44/config.json",
+    "sha256": "b6a7d7b67b112f978e446aeeabfa6c8d3916e9da5c49661bb6d788ff6cd6fdb7",
+    "bytes": 814
+  },
+  {
+    "path": "neural/Electronics_raw_44/epochs.json",
+    "sha256": "7c5985fc64918514927b01aab734912e6a12629619cdce560ef478337fd991ff",
+    "bytes": 1591
+  },
+  {
+    "path": "neural/Electronics_raw_44/metrics.json",
+    "sha256": "c720306175588c305d26ee4ed6b97a84ba071c3179ecd7b8ead0b6f9ffc0ee52",
+    "bytes": 318
+  },
+  {
+    "path": "neural/Electronics_transitions_42/config.json",
+    "sha256": "ddab825d7f490e49699369cccd0d4f02fe3c855f54da68a095ea24d736ca5250",
+    "bytes": 822
+  },
+  {
+    "path": "neural/Electronics_transitions_42/epochs.json",
+    "sha256": "bfdd899ee241aa9e51b63448bb23938d967ddc095b3b160c28ab536063489f40",
+    "bytes": 795
+  },
+  {
+    "path": "neural/Electronics_transitions_42/metrics.json",
+    "sha256": "229f0deda7bb0d4d05a1ca5452d8d7690da15b95270c8fb077996ecef7024a93",
+    "bytes": 325
+  },
+  {
+    "path": "neural/Electronics_transitions_43/config.json",
+    "sha256": "e66e8122a6ce19ee438c9cca5d8f8e3aec2adc191d17d4602aa1cf349920ec7b",
+    "bytes": 822
+  },
+  {
+    "path": "neural/Electronics_transitions_43/epochs.json",
+    "sha256": "a7a071eb7fdebe4b1e80681baceb4f158d6f7ebc87b5287f4ba90149eedea974",
+    "bytes": 795
+  },
+  {
+    "path": "neural/Electronics_transitions_43/metrics.json",
+    "sha256": "e4eea66da2643adb629e6b9994080620a03c1126e27f98b26225429cbf4e34d7",
+    "bytes": 325
+  },
+  {
+    "path": "neural/Electronics_transitions_44/config.json",
+    "sha256": "8cc15aedd26a1c994858cdb863c45e971f679b0485656de13122e81c5058f28d",
+    "bytes": 822
+  },
+  {
+    "path": "neural/Electronics_transitions_44/epochs.json",
+    "sha256": "4f48b5e64722adcd21652df8fe96fab82243370407b2f8c12b6534a0b2aa41ca",
+    "bytes": 1723
+  },
+  {
+    "path": "neural/Electronics_transitions_44/metrics.json",
+    "sha256": "11b79ca98d64ce91ab8922ce8be0a64fe0b74cf11581172fab41b3008525eaf1",
+    "bytes": 325
+  },
+  {
+    "path": "neural.py",
+    "sha256": "d647daaf68912b979fc78b3d201f780abf5702b84e44845d0a1d5a7e01fcf8cd",
+    "bytes": 8044
+  },
+  {
+    "path": "optimize_learner.py",
+    "sha256": "8f11a2eedf3d6549f0eb6cc4364de6ae327d8c8380b140da1d0173ca8d9d864e",
+    "bytes": 2596
+  },
+  {
+    "path": "paper_recovered_revision/ACM-Reference-Format.bst",
+    "sha256": "4342d27456645567ef1a027f6474e894715bc31d468f040142fa54540440ad04",
+    "bytes": 94292
+  },
+  {
+    "path": "paper_recovered_revision/acmart.cls",
+    "sha256": "784c4f2fb07a70d8a797ee9d1c63f441c10fbd2f915c9c615d28cda35c0b742a",
+    "bytes": 121874
+  },
+  {
+    "path": "paper_recovered_revision/clean.pdf",
+    "sha256": "30ad3674530191dea79c4ac37376cd4e5448618dd37e9add4e1404e53c723ca3",
+    "bytes": 874979
+  },
+  {
+    "path": "paper_recovered_revision/clean.tex",
+    "sha256": "7de1b1cfbcb9629e4ad7b836a0ff4b2132fedbed8168219dc351f4708c3865fd",
+    "bytes": 41
+  },
+  {
+    "path": "paper_recovered_revision/figures/fig1_patterns.pdf",
+    "sha256": "717a905efe41ab28ac9c706c22c4479bc059c7ecd145f945f2f747e72065871e",
+    "bytes": 75554
+  },
+  {
+    "path": "paper_recovered_revision/figures/fig2_framework.pdf",
+    "sha256": "b7143f436de4bfa346ada76691987b0e5f9cddf0ad125d013d0ceae131a13a5e",
+    "bytes": 91781
+  },
+  {
+    "path": "paper_recovered_revision/figures/fixed_neural_differences.pdf",
+    "sha256": "444f57d7b6edd927f6566fbdb707fc1404fe6b69f88e1b5b13ccecc55891341b",
+    "bytes": 17803
+  },
+  {
+    "path": "paper_recovered_revision/figures/rq1_scope.pdf",
+    "sha256": "89d4106ea2ed836251717583825d8bbdc278af60a3ffd3379c04db025cbe6369",
+    "bytes": 14248
+  },
+  {
+    "path": "paper_recovered_revision/figures/rq3_horizon.pdf",
+    "sha256": "5f19de2470f8a7708504b61149b445a4067278456ebbbcc856f65688c00cda76",
+    "bytes": 17508
+  },
+  {
+    "path": "paper_recovered_revision/figures/rq4_cost.pdf",
+    "sha256": "86907dff57c8d3930fa610d46fcece7b1b0cebdd86dd26b4bc023df19c277d3e",
+    "bytes": 19166
+  },
+  {
+    "path": "paper_recovered_revision/main.tex",
+    "sha256": "ec0517833cc0e1df56a93ad4e2e3e9711d3a260a39fb58afacabd49525b562a4",
+    "bytes": 58415
+  },
+  {
+    "path": "paper_recovered_revision/reference.bib",
+    "sha256": "16a3384c458f0724d45da6f68f2e715284ee6d3909cbb7dced01be1a09f004bf",
+    "bytes": 11545
+  },
+  {
+    "path": "paper_recovered_revision/tables/cohorts.tex",
+    "sha256": "2aa62f7f4575601c137a029fae59711925b3e55c5ba9f866ed91518257eb34d3",
+    "bytes": 495
+  },
+  {
+    "path": "paper_recovered_revision/tables/cost.tex",
+    "sha256": "514ba5e73c481abedfb79fec0802b8967e5cc4b637d99ed8e541217faf5491d8",
+    "bytes": 833
+  },
+  {
+    "path": "paper_recovered_revision/tables/fixed_neural.tex",
+    "sha256": "7a4da89c491ce6b20a29bbea763d44828577471da63227f269d20e72b3da78d8",
+    "bytes": 816
+  },
+  {
+    "path": "paper_recovered_revision/tables/linear.tex",
+    "sha256": "e753a3e8725379d7660ed62e1c7d07af7b59dbca631899dd8f46c9b4a0ed69ce",
+    "bytes": 1914
+  },
+  {
+    "path": "paper_recovered_revision/tables/neural.tex",
+    "sha256": "3df4acf7532c33df127ffee0d5da27b22262d2f08ee3519ab170b2a06fa77d1a",
+    "bytes": 1033
+  },
+  {
+    "path": "prepare.py",
+    "sha256": "e3075d54aea5a94a260107bed42a5e63ed810cd32d8f65b52ede4611f8c297ce",
+    "bytes": 7139
+  },
+  {
+    "path": "protocol.json",
+    "sha256": "11e8e4d4b2eaac2381bafb6ceee65d60ddf8ab81011113be5fc458df4fd7e2cb",
+    "bytes": 2041
+  },
+  {
+    "path": "provenance.py",
+    "sha256": "5be9e9716c32d2e3529400775851c415c6a6dfa9a5f00924a899f2c977dbb63a",
+    "bytes": 5722
+  },
+  {
+    "path": "README_\u5148\u8b80.txt",
+    "sha256": "420f2f86fb27cb013f339b12bdc38ebc964f80572ba1b2f67f6452270fe1187f",
+    "bytes": 7284
+  },
+  {
+    "path": "relearn_cosmetics.py",
+    "sha256": "1c33bc7fa9b231d971a3ab578b09cf6e4faf2423b7f61e72250c08162d5a044c",
+    "bytes": 4687
+  },
+  {
+    "path": "report.py",
+    "sha256": "e8d4117a12e9a6feb8f668a8c6dc2c7424f1b0264ab860a49ade034c6e940bf6",
+    "bytes": 5267
+  },
+  {
+    "path": "results/completed_experiments.csv",
+    "sha256": "7bb46389aefaa5b9462a863b7af3412f127546933238bc18d89ea0e1b1d6b50e",
+    "bytes": 10489
+  },
+  {
+    "path": "results/completion_status.json",
+    "sha256": "d52b87b11e5b4d02fe40a48ce9f39316711fddcc72c73411c0f459e2ceb25c12",
+    "bytes": 1431
+  },
+  {
+    "path": "results/cosmetics_basis_source.csv",
+    "sha256": "2ff5459711e227b98cdba6516ead4377e1440284717b9e0828ff25833222c100",
+    "bytes": 306
+  },
+  {
+    "path": "results/cosmetics_basis_source.tex",
+    "sha256": "35fd3296b62b08e9ffe54bbee1aa38aa3b684457c6a05ff63c10ebe0685d5c48",
+    "bytes": 172
+  },
+  {
+    "path": "results/cosmetics_basis_source_paired.csv",
+    "sha256": "fbb0594781a3d1566dfcdb697c0adc305589e2a2db50148311203840a680fda3",
+    "bytes": 294
+  },
+  {
+    "path": "results/environment.json",
+    "sha256": "da40d593b5d68d5e66eb36fb4fd95c5bdfe828aaa0c050d06af311b184dcde9c",
+    "bytes": 355
+  },
+  {
+    "path": "results/experiment_supplement.pdf",
+    "sha256": "7a76c45e330fd12b6dea02bcf61e87d309b143dea3ba6b4b7399c5d963fd83ea",
+    "bytes": 240709
+  },
+  {
+    "path": "results/feature_construction_timing.csv",
+    "sha256": "676e17b6d1c1dd45695ea64c8f91553308ddc1598140e82beae67b2a4e55045f",
+    "bytes": 2853
+  },
+  {
+    "path": "results/latest_pdf_replacements.tex",
+    "sha256": "e3e195cf94c28bc829f09beb5b3245a53b4b0601b65cf7068c78fcdf80cc1a45",
+    "bytes": 6481
+  },
+  {
+    "path": "results/linear_metrics.csv",
+    "sha256": "904e562aca0b948bfd85f05d26eafd250ebe19c51928131e8bd122e05f8a9f07",
+    "bytes": 1861
+  },
+  {
+    "path": "results/linear_paired_differences.csv",
+    "sha256": "44d2dc5559428b661405163667f94e2000accdbe4dacac3e64cf84f5c9e7ed26",
+    "bytes": 2339
+  },
+  {
+    "path": "results/linear_paired_differences.pdf",
+    "sha256": "01d981bde60e1394549c29744aee5b8b5638ad12403b44cdbb56c0e784a3bd30",
+    "bytes": 19158
+  },
+  {
+    "path": "results/linear_paired_differences.png",
+    "sha256": "7e3267cb2e2e039351e332135f2e05c8be78de97bb0f9ac420d82a4dbfbb7a54",
+    "bytes": 97391
+  },
+  {
+    "path": "results/manuscript_version_note.json",
+    "sha256": "db2310775c6807f771192f0d7a585a99f0f0f90e3180aabce37d989a76202647",
+    "bytes": 727
+  },
+  {
+    "path": "results/neural_execution_timing.csv",
+    "sha256": "62cf221f45ecf32d91a73811e4c2fd3fc4b5220fa138694a05f8d0fbc6a82249",
+    "bytes": 2267
+  },
+  {
+    "path": "results/neural_mean_sample_sd.csv",
+    "sha256": "38a4f83f968f5e15c5de9c82ba4fb2300b619aa8c6fad6a97f0ac6672d9a2cd0",
+    "bytes": 1222
+  },
+  {
+    "path": "results/neural_mean_sample_sd.tex",
+    "sha256": "72028b47687763ca6d003803f81d109a7b82fbaefee5feed987e0cce06afa5b5",
+    "bytes": 823
+  },
+  {
+    "path": "results/neural_metrics.csv",
+    "sha256": "30b00d9f76bb18d8aab6b7c1269c156e5677e7cab4c85521840d387073168262",
+    "bytes": 4197
+  },
+  {
+    "path": "results/neural_paired_differences.csv",
+    "sha256": "72fa22f8a1d0073a5f6ed5db4427117ce877dd3f252e74c3b44f92c43b58a6c7",
+    "bytes": 1523
+  },
+  {
+    "path": "results/neural_paired_differences.pdf",
+    "sha256": "444f57d7b6edd927f6566fbdb707fc1404fe6b69f88e1b5b13ccecc55891341b",
+    "bytes": 17803
+  },
+  {
+    "path": "results/neural_paired_differences.png",
+    "sha256": "781f6078807acc53c030e80e312baa919a9a8583aba7f1a59d7ef8164b73ab3f",
+    "bytes": 77400
+  },
+  {
+    "path": "results/neural_seed_difference_mean_sd.csv",
+    "sha256": "f4eb363173b9a192db6a97ebdae4f7ff6a066a35ccbc7cc5b8568502ad661397",
+    "bytes": 724
+  },
+  {
+    "path": "results/neural_seed_differences.csv",
+    "sha256": "e34cf505530d8ad0688ba7df7ead2d6def2a5129ccbd8f08c4f845f8dba1342c",
+    "bytes": 1225
+  },
+  {
+    "path": "results/pdf_quality_check.json",
+    "sha256": "16c652ed459bc568f93f8e8d946f701e93d824ee111788d643c3a8783fcf61f4",
+    "bytes": 400
+  },
+  {
+    "path": "results/template_comparison.tex",
+    "sha256": "76944f0c9385805f497163bbb655d2d74917d3330af90873bd32fb29d6c82203",
+    "bytes": 710
+  },
+  {
+    "path": "select_source_basis.py",
+    "sha256": "e4749bb7c476a92708ab8b24f11cf22c6eecae83b1682f4aca3499d58bb629f1",
+    "bytes": 1701
+  },
+  {
+    "path": "source_compare.py",
+    "sha256": "9b47ce1a9a97188a2d5490eb304718c40215d07c8162d9ac0255e0dff4b120e8",
+    "bytes": 2531
+  },
+  {
+    "path": "supplement.py",
+    "sha256": "e97da2991f3812ce346b9ebf28719472b2bdca1e69fed81de5936f8cef029cc6",
+    "bytes": 11810
+  },
+  {
+    "path": "update_paper.py",
+    "sha256": "e0a14b5ad2c402d8ce24fa6a1cd30a758a0eb6e5ad66ece109df7d6742a16213",
+    "bytes": 12085
+  },
+  {
+    "path": "verify_runs.py",
+    "sha256": "7c14e36e3b2e61cf2169d5b2c35ef97b87b873aada0ed2784c0e99fff8015c76",
+    "bytes": 3273
+  },
+  {
+    "path": "write_delivery.py",
+    "sha256": "0a48e3c9756bdc974b73dc7f574cb37a5d902bfd61935dd946d879d58f7836a2",
+    "bytes": 7965
+  }
+]

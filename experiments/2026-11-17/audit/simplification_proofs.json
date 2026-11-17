@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "Coveo",
+    "index": 3,
+    "original": "(F(X(X(X(a)))) U X(X(a)))",
+    "simplified": "F(X(X(a)))",
+    "status": "equivalent",
+    "states": 4
+  },
+  {
+    "dataset": "Coveo",
+    "index": 7,
+    "original": "(F(X(X(X(a)))) U X(X(X(a))))",
+    "simplified": "F(X(X(X(a))))",
+    "status": "equivalent",
+    "states": 5
+  }
+]

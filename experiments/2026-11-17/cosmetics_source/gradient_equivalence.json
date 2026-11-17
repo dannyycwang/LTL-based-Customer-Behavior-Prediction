@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "max_abs_gradient_difference": 9.313225746154785e-10,
+  "atol": 2e-05,
+  "rtol": 2e-05,
+  "change": "sum identical additive loss terms before one backward; no loss or optimizer setting changed"
+}

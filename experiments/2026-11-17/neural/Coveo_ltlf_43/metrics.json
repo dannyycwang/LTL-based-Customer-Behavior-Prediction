@@ -1,0 +1,13 @@
+{
+  "dataset": "Coveo",
+  "condition": "ltlf",
+  "seed": 43,
+  "MCC": 0.47926672417590355,
+  "AP": 0.5229492267999422,
+  "threshold": 0.67,
+  "best_epoch": 3,
+  "epochs": 8,
+  "training_validation_seconds": 46.62601069989614,
+  "inference_precomputed_seconds": 0.5553776000160724,
+  "n_test": 12202
+}

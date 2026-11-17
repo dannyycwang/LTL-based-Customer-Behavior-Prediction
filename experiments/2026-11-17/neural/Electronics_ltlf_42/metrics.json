@@ -1,0 +1,13 @@
+{
+  "dataset": "Electronics",
+  "condition": "ltlf",
+  "seed": 42,
+  "MCC": 0.046888500402842925,
+  "AP": 0.3475464830810463,
+  "threshold": 0.65,
+  "best_epoch": 1,
+  "epochs": 6,
+  "training_validation_seconds": 1.4108043995220214,
+  "inference_precomputed_seconds": 0.03484709979966283,
+  "n_test": 759
+}

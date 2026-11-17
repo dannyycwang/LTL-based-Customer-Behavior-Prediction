@@ -1,0 +1,38 @@
+% Latest uploaded PDF: replace Abstract (page 1, lines 16-29).
+\rev{We study clickstream purchase prediction using traces of actions and product and category relations (Act+Rel). A frozen basis of learned linear temporal logic over finite traces ($\mathrm{LTL}_f$) formulas provides explicit Boolean summaries alongside a short raw sequence. Across three e-commerce datasets, extending formula checking beyond a short raw window recovers information from longer histories. At a common event-10 origin, logic improves count-augmented logistic regression, but a new 36-run neural comparison does not show a consistent incremental benefit over Counts. Dimension-matched adjacent transitions and a small DECLARE-template baseline are competitive; the results do not establish an advantage from automatic formula learning. Several learned coordinates encode occurrence or simple guarded temporal conditions, and some are redundant on observed prefixes. Short raw inputs reduce measured neural-update cost and GPU allocation, while feature construction can increase inference latency. These findings delimit the predictive and computational value of explicit temporal summaries without claiming an overall training speedup.}
+
+% Insert after Section 4.3 and replace the old horizon figure with the new paired-difference plot.
+\subsection{Matched Neural and Template Controls}
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{3pt}
+\caption{\rev{Fixed-origin neural prediction, event 10 and $H=10$. All rows include the same first-ten-event raw encoder within each dataset. Values are mean $\pm$ sample SD over training seeds 42, 43, and 44.}}
+\label{tab:fixed-neural-new}
+\resizebox{\columnwidth}{!}{\input{tables/fixed_neural}}
+\end{table}
+The new comparison holds the observation boundary, raw encoder, 64-wide classification head, 25-epoch cap, patience 5, batch size 256, and optimizer settings fixed across four conditions. Vocabularies and scalers use training prefixes only. Validation AP selects checkpoints, followed by a validation-MCC threshold grid. These rules define the new controlled comparison and differ from some historical full-observation settings. The split and frozen formula bases remain unchanged; each summary uses only events 1--10.
+
+Table~\ref{tab:fixed-neural-new} does not show a stable incremental benefit from LTLf over Counts. The mean MCC differences are $-0.0003$, $-0.0453$, and $-0.0005$ for Coveo, Electronics, and Cosmetics. Electronics has substantial initialization variation: LTLf MCC is $0.187\pm0.128$. Its prespecified seed-42 MCC difference from Counts is $-0.206$ (paired 95\% CI $[-0.304,-0.108]$), whereas its AP difference is $-0.015$ ($[-0.039,0.003]$). Figure~\ref{fig:fixed-neural-new} reports all primary paired contrasts. This fixed-model result is not a statement about the mean across initializations, and intervals crossing zero are not evidence of equivalence.
+
+Under the Table~\ref{tab:linear} logistic setup, ten selected Boolean DECLARE-style coordinates yield MCC $0.470$, $0.266$, and $0.201$, compared with frozen learned LTLf $0.475$, $0.289$, and $0.188$. Existence, response, strict precedence, and chain-response candidates use the same proposition vocabulary. Template and re-ranked controls share training ranking IDs, eventual-purchase labels, an absolute-support-gap objective, and empirical-column deduplication. The frozen basis retains its historical selection protocol, so candidate generation is not fully matched. All learned-versus-template MCC and AP intervals cross zero; these experiments do not establish added value from automatic learning. The Electronics pool has only four usable distinct columns after the common prefix filter, precluding its optional ten-feature re-ranking sensitivity arm.
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{\rev{Representative actual frozen formulas; $a$ is add-to-cart. Full original syntax, provenance, and train/validation satisfaction rates appear in the experiment supplement.}}
+\label{tab:actual-formulas}
+\begin{tabular}{lll}\toprule Dataset/index & Finite-trace form & Interpretation \\
+\midrule
+Coveo/3 & $\mathbf{F}\mathbf{X}^{2}a$ & Cart at event 3 or later \\
+Electronics/1 & $\mathbf{X}\mathbf{F}a$ & Cart after event 1 \\
+Cosmetics/1 & $hp\,\mathbf{U}\,a$ & Product-present until cart \\
+Cosmetics/6 & $\mathbf{X}hp$ & Product at event 2 \\
+\bottomrule\end{tabular}
+\end{table}
+Exact finite-trace checking distinguishes all pairs within each ten-formula basis, yet observed columns can coincide. Cosmetics $\mathbf{X}hp$ is constant in the event-10 train/validation cohort, and $hp\,\mathbf{U}\,a$ coincides there with cart occurrence. Such empirical identities are not logical equivalences over arbitrary multi-proposition traces. These formulas support explicit occurrence and guarded temporal summaries, not a claim that complex long-range dependencies were learned.
+
+Prior DECLARE encoding~\cite{di2022making} separates violations from satisfaction and can distinguish vacuous cases, and combines Fisher-score ranking with a coverage rule. Our small baseline instead merges both forms of satisfaction into one Boolean value and selects ten columns by the declared support-gap rule. The experimental distinction is therefore the candidate basis and its integration with a short raw encoder, not the invention of logic-based trace encoding.
+
+A separate Cosmetics source control relearns formulas from pre-purchase histories while retaining eventual-purchase targets and the recovered learner settings. The frozen and relearned bases yield MCC 0.1875 and 0.1890, and AP 0.4172 and 0.4142. The user-cluster paired differences are $+0.0015$ (95\% CI $[-0.0096,0.0132]$) for MCC and $-0.0030$ ($[-0.0063,0.0005]$) for AP. Neither establishes a source benefit. Empty pre-purchase traces exclude 45 fitting and 21 ranking sessions without replacement; CPU execution also differs from the historical GPU run. This is a separate refit, not a replacement selected by test scores. Details and the full basis-source table appear in the supplement.
+
+
+% Replace the common-boundary claim in Conclusion (pages 8-9):
+At a common event boundary, logic improves count-augmented linear classifiers, but the matched neural comparison provides no consistent incremental benefit. Transitions and fixed DECLARE-style templates remain competitive; automatic formula learning has no established advantage in these experiments.

@@ -1,0 +1,46 @@
+{
+  "Coveo": {
+    "fitting_ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\outputs\\research_audit\\runs\\protected_first_v1_seed42_short_raw\\protected_formula_pool.csv",
+    "ranking_ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\outputs\\research_audit\\runs\\protected_first_v1_seed42_short_raw\\protected_formula_pool.csv",
+    "scope": "last 30 from historical pre-purchase traces",
+    "selection_target": "session purchase",
+    "learner_seed": 42,
+    "source_status": "exact 20000 input-trace replay verified in prior audit; protected downstream split reconstructed"
+  },
+  "Electronics": {
+    "fitting_ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\electronics_rebuild\\formula_learning_noleak_4000_last10_seed42\\BP\\formula_pool_ids.csv",
+    "ranking_ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\electronics_rebuild\\formula_learning_noleak_4000_last10_seed42\\BP\\formula_pool_ids.csv",
+    "scope": "last 10 of pre-purchase traces",
+    "selection_target": "session purchase",
+    "learner_seed": 42,
+    "source_status": "8000 train formula-pool sessions reconstructed, ten ranking support pairs replayed; original split CSV exact identity unverified"
+  },
+  "Cosmetics": {
+    "samples": [
+      {
+        "split": "train",
+        "n": 10000,
+        "ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\next_round_20261116_v1\\audit\\provenance\\Cosmetics_train_actual_replayed_ids.csv",
+        "ids_sha256": "0f1cf7ce949359eb7885c0d1ddd8067384eb0949fbf1e4fa6105df4cb3995bc3",
+        "trace_order_exact": true
+      },
+      {
+        "split": "val",
+        "n": 7565,
+        "ids": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\next_round_20261116_v1\\audit\\provenance\\Cosmetics_val_actual_replayed_ids.csv",
+        "ids_sha256": "b5f2208cdb50b7d6bc201c6d24f1c2ff78c27ca8ea9d6b688ac4e93538b3e38c",
+        "trace_order_exact": true
+      }
+    ],
+    "scope": "last 20 after removing purchases; historical traces can extend beyond first purchase",
+    "selection_target": "session purchase",
+    "learner_seed": 42,
+    "epochs": 60,
+    "netlen": 10,
+    "ranking": "Candidate learner ranking followed by actual notebook clean_pack: prefer all_candidates; remove length-only; sort balanced_accuracy, signed support_gap, pos_support descending; drop identical formula strings; first ten of clean top20. Empirical deduplication is not guaranteed by this cleanup.",
+    "post_purchase_fitting_histories": 526,
+    "post_purchase_ranking_histories": 259,
+    "test_in_formula_pools": false,
+    "source_status": "trace-matching replayed IDs used; saved sample CSV IDs differ and are not used as actual learner IDs"
+  }
+}

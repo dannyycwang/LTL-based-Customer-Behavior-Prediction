@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "three_evaluator_comparisons": 11400,
+  "finite_counterexamples_replayed": 135,
+  "original_checker_sha256": "a00a4b0ba271661b682ce0f0188b4c0469d1f977012fb54a974195f09c853d78",
+  "bit_checker_sha256": "4c13ab166b0e8593aa06d42d928d63b95082d55a1630c1a5a786a41f85b8c2e0",
+  "reference_sha256": "4f2af78f20c54382cd2aed17d8b33d181d47ab4f3c5806e6362f25c313495d38",
+  "strong_next_final": false,
+  "until_final": "right operand only",
+  "multi_proposition": true
+}

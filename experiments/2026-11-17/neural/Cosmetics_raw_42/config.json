@@ -1,0 +1,21 @@
+{
+  "dataset": "Cosmetics",
+  "condition": "raw",
+  "seed": 42,
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "checkpoint": "maximum validation AP, earliest tie",
+  "threshold": "maximum validation MCC on .001,.01,...,.99,.999; earliest tie",
+  "fusion_width": 64,
+  "raw_encoder": "original dataset-specific encoder; common 64-wide head within dataset",
+  "smoke": false,
+  "protocol_sha256": "11e8e4d4b2eaac2381bafb6ceee65d60ddf8ab81011113be5fc458df4fd7e2cb",
+  "prepared_sha256": "127876e406909bc6bdaf6935cb54ecac634e979e6d98f74d552d3545f9f536e2",
+  "runner_sha256": "d647daaf68912b979fc78b3d201f780abf5702b84e44845d0a1d5a7e01fcf8cd",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

@@ -1,0 +1,14 @@
+{
+  "finite_traces": "https://www.cs.rice.edu/~vardi/papers/ijcai13.pdf",
+  "DECLARE_encoding": "https://ceur-ws.org/Vol-3310/paper9.pdf",
+  "rules": [
+    "true U p = F p",
+    "F F p = F p",
+    "G G p = G p",
+    "p AND true = p",
+    "p U p = p"
+  ],
+  "logical_equivalence_scope": "Exact residual-language BFS for positive Boolean/X/U/F/G formulas on nonempty finite traces. A state cap produces unknown. Counterexamples saved for inequivalent pairs. Residual evaluator cross-checked against existing checker on 21000 random/boundary traces.",
+  "multi_proposition": "Unrestricted subsets, including empty states and simultaneous atoms. No exclusive-action assumption in semantic tests.",
+  "template_precedence": "G(!b) OR (!b U (a AND !b)); strict earlier a required for first b. Unlike event-exclusive syntax, simultaneous a,b does not count as precedence."
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "Coveo",
+  "condition": "transitions",
+  "seed": 44,
+  "MCC": 0.48349525560839646,
+  "AP": 0.5090245634161339,
+  "threshold": 0.66,
+  "best_epoch": 2,
+  "epochs": 7,
+  "training_validation_seconds": 39.35839549964294,
+  "inference_precomputed_seconds": 0.650484399870038,
+  "n_test": 12202
+}

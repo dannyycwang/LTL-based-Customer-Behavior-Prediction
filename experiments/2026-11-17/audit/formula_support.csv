@@ -1,0 +1,61 @@
+dataset,split,formula_index,formula,n,constant,positive_rate,negative_rate,target,scope,duplicate_of
+Coveo,train,1,((true U X(X(X(X(true))))) U X(X(a))),56853,False,0.643659870711089,0.1682123167656737,next_10,first_10,
+Coveo,train,2,((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),56853,False,0.643659870711089,0.1682123167656737,next_10,first_10,1.0
+Coveo,train,3,((true U X(X(X(a)))) U X(X(a))),56853,False,0.704027846842367,0.1873798025556647,next_10,first_10,
+Coveo,train,4,((true U X(X(X(X(X(b)))))) U X(X(a))),56853,False,0.5450024863252113,0.1385742980469251,next_10,first_10,
+Coveo,train,5,((true U X(X(X(X(X(true)))))) U X(X(a))),56853,False,0.5532570860268523,0.1453694602333433,next_10,first_10,
+Coveo,train,6,((true U X(X(X(rp)))) U X(X(a))),56853,False,0.6068622575832919,0.1676140005983161,next_10,first_10,
+Coveo,train,7,((true U X(X(X(a)))) U X(X(X(a)))),56853,False,0.6146195922426654,0.1639813667250737,next_10,first_10,
+Coveo,train,8,((true U X(X(X(a)))) U X(X(p2))),56853,False,0.5989060169070114,0.1822727466985768,next_10,first_10,
+Coveo,train,9,((true U sp) U X(X(a))),56853,False,0.6001989060169071,0.1641736826360101,next_10,first_10,
+Coveo,train,10,((true U X(X(X(sp)))) U X(X(a))),56853,False,0.5985082048731974,0.1637676823795888,next_10,first_10,
+Coveo,val,1,((true U X(X(X(X(true))))) U X(X(a))),12353,False,0.6625277161862527,0.1674589027530204,next_10,first_10,
+Coveo,val,2,((X(X(X(X(X(true))))) U X(X(X(a)))) U X(X(a))),12353,False,0.6625277161862527,0.1674589027530204,next_10,first_10,1.0
+Coveo,val,3,((true U X(X(X(a)))) U X(X(a))),12353,False,0.7197339246119734,0.1837987720340661,next_10,first_10,
+Coveo,val,4,((true U X(X(X(X(X(b)))))) U X(X(a))),12353,False,0.555210643015521,0.1373539314715785,next_10,first_10,
+Coveo,val,5,((true U X(X(X(X(X(true)))))) U X(X(a))),12353,False,0.565410199556541,0.1444840562487621,next_10,first_10,
+Coveo,val,6,((true U X(X(X(rp)))) U X(X(a))),12353,False,0.614190687361419,0.1653792830263418,next_10,first_10,
+Coveo,val,7,((true U X(X(X(a)))) U X(X(X(a)))),12353,False,0.6337028824833703,0.1591404238463062,next_10,first_10,
+Coveo,val,8,((true U X(X(X(a)))) U X(X(p2))),12353,False,0.6035476718403547,0.1815210932857991,next_10,first_10,
+Coveo,val,9,((true U sp) U X(X(a))),12353,False,0.6088691796008869,0.1622103386809269,next_10,first_10,
+Coveo,val,10,((true U X(X(X(sp)))) U X(X(a))),12353,False,0.6084257206208425,0.1622103386809269,next_10,first_10,
+Electronics,train,1,X((true U a)),2407,False,0.7535353535353535,0.3776150627615063,next_10,first_10,
+Electronics,train,2,((true U a) && true),2407,False,0.7535353535353535,0.3776150627615063,next_10,first_10,1
+Electronics,train,3,((true U a) && d),2407,False,0.7535353535353535,0.3776150627615063,next_10,first_10,"1,2"
+Electronics,train,4,((true U a) && (d U X(a))),2407,False,0.7535353535353535,0.3776150627615063,next_10,first_10,"1,2,3"
+Electronics,train,5,((true U a) && fp),2407,False,0.7535353535353535,0.3776150627615063,next_10,first_10,"1,2,3,4"
+Electronics,train,6,((true U a) && X(rc)),2407,False,0.6868686868686869,0.3462343096234309,next_10,first_10,
+Electronics,train,7,((true U a) && X(sc)),2407,False,0.6868686868686869,0.3462343096234309,next_10,first_10,6
+Electronics,train,8,X((rc U a)),2407,False,0.6464646464646465,0.3132845188284519,next_10,first_10,
+Electronics,train,9,X((sc U a)),2407,False,0.6464646464646465,0.3132845188284519,next_10,first_10,8
+Electronics,train,10,X((((d U X(X(a))) U rp) U a)),2407,False,0.5373737373737374,0.2740585774058577,next_10,first_10,
+Electronics,val,1,X((true U a)),339,False,0.8472222222222222,0.3782771535580524,next_10,first_10,
+Electronics,val,2,((true U a) && true),339,False,0.8472222222222222,0.3820224719101123,next_10,first_10,
+Electronics,val,3,((true U a) && d),339,False,0.8472222222222222,0.3782771535580524,next_10,first_10,1
+Electronics,val,4,((true U a) && (d U X(a))),339,False,0.8472222222222222,0.3782771535580524,next_10,first_10,"1,3"
+Electronics,val,5,((true U a) && fp),339,False,0.8472222222222222,0.3820224719101123,next_10,first_10,2
+Electronics,val,6,((true U a) && X(rc)),339,False,0.7638888888888888,0.3632958801498127,next_10,first_10,
+Electronics,val,7,((true U a) && X(sc)),339,False,0.7638888888888888,0.3632958801498127,next_10,first_10,6
+Electronics,val,8,X((rc U a)),339,False,0.6805555555555556,0.3295880149812734,next_10,first_10,
+Electronics,val,9,X((sc U a)),339,False,0.6805555555555556,0.3295880149812734,next_10,first_10,8
+Electronics,val,10,X((((d U X(X(a))) U rp) U a)),339,False,0.6388888888888888,0.2883895131086142,next_10,first_10,
+Cosmetics,train,1,(hp U a),14565,False,0.932828529555447,0.8227485435966001,next_10,first_10,
+Cosmetics,train,2,(hp U X(a)),14565,False,0.9247679531021006,0.8126253461942508,next_10,first_10,
+Cosmetics,train,3,(hp U p2),14565,False,0.93209574987787,0.842135421640722,next_10,first_10,
+Cosmetics,train,4,(hc U X(p2)),14565,False,0.93209574987787,0.842135421640722,next_10,first_10,3.0
+Cosmetics,train,5,(hp U (rp && (X(hp) U a))),14565,False,0.7955544699560332,0.6242001719033521,next_10,first_10,
+Cosmetics,train,6,X(hp),14565,True,1.0,1.0,next_10,first_10,
+Cosmetics,train,7,(hp U rc),14565,False,0.9997557401074744,0.9990449813771368,next_10,first_10,
+Cosmetics,train,8,(hc U (rp && (X(a) U a))),14565,False,0.7657547630679042,0.5947855983191672,next_10,first_10,
+Cosmetics,train,9,(hc U sc),14565,False,0.9956033219345384,0.9921688472925222,next_10,first_10,
+Cosmetics,train,10,(true U sp),14565,False,0.84904738641915,0.7524591729538725,next_10,first_10,
+Cosmetics,val,1,(hp U a),2089,False,0.9442508710801394,0.7900990099009901,next_10,first_10,
+Cosmetics,val,2,(hp U X(a)),2089,False,0.9337979094076656,0.7768976897689769,next_10,first_10,
+Cosmetics,val,3,(hp U p2),2089,False,0.9303135888501742,0.8343234323432344,next_10,first_10,
+Cosmetics,val,4,(hc U X(p2)),2089,False,0.9303135888501742,0.8343234323432344,next_10,first_10,3.0
+Cosmetics,val,5,(hp U (rp && (X(hp) U a))),2089,False,0.7996515679442509,0.5841584158415841,next_10,first_10,
+Cosmetics,val,6,X(hp),2089,True,1.0,1.0,next_10,first_10,
+Cosmetics,val,7,(hp U rc),2089,False,0.9982578397212544,0.9986798679867986,next_10,first_10,
+Cosmetics,val,8,(hc U (rp && (X(a) U a))),2089,False,0.7804878048780488,0.5584158415841585,next_10,first_10,
+Cosmetics,val,9,(hc U sc),2089,False,0.9878048780487804,0.988118811881188,next_10,first_10,
+Cosmetics,val,10,(true U sp),2089,False,0.8432055749128919,0.7445544554455445,next_10,first_10,

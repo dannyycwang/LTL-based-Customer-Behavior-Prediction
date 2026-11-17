@@ -1,0 +1,12 @@
+{
+  "main_pages": 11,
+  "supplement_pages": 7,
+  "visual_review": "All pages reviewed; updated source-control and DECLARE paragraphs re-rendered",
+  "latex_undefined_references": false,
+  "latex_overfull_boxes": false,
+  "vector_plots": [
+    "neural_paired_differences.pdf",
+    "linear_paired_differences.pdf"
+  ],
+  "png_exports": "matching plot PNGs and supplement_page-1 through -7"
+}
