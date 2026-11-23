@@ -1,0 +1,35 @@
+Coveo selection started
+Coveo selection frozen
+Cosmetics selection started
+Cosmetics selection frozen
+Coveo evaluation completed
+Cosmetics evaluation completed
+  dataset condition  n_test  positives  features       AP    Brier      MCC  lower_95  upper_95
+Cosmetics         A    2093        580         0 0.404481 0.207781 0.182219  0.369564  0.447677
+Cosmetics         B    2093        580         4 0.402241 0.208209 0.180466  0.367660  0.444181
+Cosmetics         C    2093        580         5 0.404974 0.207691 0.172627  0.370109  0.447919
+Cosmetics         D    2093        580        10 0.408485 0.206963 0.213031  0.372264  0.451861
+    Coveo         A    6328       1324         0 0.505594 0.127658 0.468111  0.475265  0.534428
+    Coveo         B    6328       1324        10 0.506114 0.127566 0.467683  0.476069  0.535033
+    Coveo         C    6328       1324        10 0.509207 0.127164 0.467374  0.479225  0.537375
+    Coveo         D    6328       1324        10 0.511066 0.126676 0.468398  0.480526  0.539713
+  dataset  landmark contrast metric     delta  lower_95  upper_95    unit  units  replicates  valid_replicates
+    Coveo        10      C-A     AP  0.001396 -0.001551  0.004327 session  12201        1500              1500
+    Coveo        10      C-B     AP  0.000000  0.000000  0.000000 session  12201        1500              1500
+    Coveo        10      C-D     AP -0.005599 -0.010396 -0.001121 session  12201        1500              1500
+    Coveo        20      C-A     AP  0.003613  0.000520  0.006872 session   6328        1500              1500
+    Coveo        20      C-B     AP  0.003093 -0.000957  0.007508 session   6328        1500              1500
+    Coveo        20      C-D     AP -0.001859 -0.008593  0.004703 session   6328        1500              1500
+    Coveo        30      C-A     AP -0.000303 -0.003437  0.002677 session   3786        1500              1500
+    Coveo        30      C-B     AP -0.000935 -0.007548  0.004980 session   3786        1500              1500
+    Coveo        30      C-D     AP -0.003903 -0.011988  0.003468 session   3786        1500              1500
+Cosmetics        10      C-A     AP  0.000526 -0.001093  0.002212    user   3457        1500              1500
+Cosmetics        10      C-B     AP  0.000000  0.000000  0.000000    user   3457        1500              1500
+Cosmetics        10      C-D     AP  0.000852 -0.001898  0.003497    user   3457        1500              1500
+Cosmetics        20      C-A     AP  0.000493 -0.000876  0.002046    user   1849        1500              1500
+Cosmetics        20      C-B     AP  0.002733 -0.000381  0.005943    user   1849        1500              1500
+Cosmetics        20      C-D     AP -0.003511 -0.009171  0.001934    user   1849        1500              1500
+Cosmetics        30      C-A     AP -0.002132 -0.005206  0.000627    user   1090        1500              1500
+Cosmetics        30      C-B     AP -0.000822 -0.005429  0.003994    user   1090        1500              1500
+Cosmetics        30      C-D     AP -0.004029 -0.011992  0.005584    user   1090        1500              1500
+Pilot numerical pipeline completed 105016.4934071 seconds

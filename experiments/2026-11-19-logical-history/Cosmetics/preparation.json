@@ -1,0 +1,33 @@
+{
+  "props": [
+    "b",
+    "d",
+    "a",
+    "r",
+    "hp",
+    "np",
+    "sp",
+    "pc",
+    "fp",
+    "rp",
+    "p2",
+    "p3",
+    "dp1",
+    "dp2",
+    "dp3",
+    "hc",
+    "sc",
+    "cc",
+    "rc"
+  ],
+  "split_hashes": {
+    "train": "bdcec42b8a6eac652d2b1fbd665abc5bf3f5466e18dfe6063c58f3ddd3f0e28e",
+    "val": "3f7f6d89d5f40532c0fea6fd035024febe4899bf277948da40102244e629aa8d",
+    "test": "6a79daba86e0adb9f4c37d4a25559e13830448aebfbdeb4fbe0dcfa1213036a0"
+  },
+  "checks": 36863,
+  "seconds": 35.08648839988746,
+  "config_sha256": "90155e79dadff216769695ca20448a24df1b1ce7078dbc51265c287cdf3c1906",
+  "abstract_replay": "all eligible prefixes match historical causal abstraction; B reset at window start",
+  "boundary": "Exclude original December session keys found in any of the four other released months; infer closure for remaining original sessions from session ID plus full adjacent-month follow-up; no additional modeling cohort"
+}

@@ -1,0 +1,16 @@
+__pycache__/
+vendor_liblinear/
+vendor_diagnostics/
+**/selection_model.pkl
+private_boundary_sources/
+*/prepared.pkl
+*/raw_audit.pkl
+*/cohort_t*.csv.gz
+*/cross_month_events.csv.gz
+*/cross_month_sessions.json
+*/mining/train.json
+*/mining/model.pt
+*/mining/mining_prefix_ids.csv.gz
+*/mining_failed_console_encoding/
+*/t*/frozen.pkl
+*/t*/predictions.csv.gz

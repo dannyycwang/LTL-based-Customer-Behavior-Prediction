@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "independent_summary_checks": 900,
+  "all_cohort_dimensions_aligned": true,
+  "t10_input_identity_all_sessions": true,
+  "mining_ids_and_future_labels_training_only": true,
+  "scope": "No outcomes used in abstraction scope comparison"
+}

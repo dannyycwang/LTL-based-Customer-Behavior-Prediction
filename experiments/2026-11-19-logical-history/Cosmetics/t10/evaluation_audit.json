@@ -1,0 +1,7 @@
+{
+  "shared_rows_labels": true,
+  "cohort_sha256": "7610a34bc4596edec56dc388bcf35eff5d836ae2c6fde73fa41a5665e4173637",
+  "prediction_sha256": "2ed93f717cc66d899778d3f36403e7b3ac67a379edd513a17375a09a68dcb490",
+  "t10_B_C_identical": true,
+  "model_and_formula_fixed": true
+}

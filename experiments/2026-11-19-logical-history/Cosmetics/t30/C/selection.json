@@ -1,0 +1,119 @@
+{
+  "indices": [
+    0,
+    224,
+    174,
+    82,
+    226,
+    83,
+    175,
+    135
+  ],
+  "selected": [
+    {
+      "formula_tree": "a",
+      "formula_str": "'a'",
+      "source": "candidate_export",
+      "candidate": 0
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "pc",
+          "p3"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'pc', 'p3'))",
+      "source": "candidate_export",
+      "candidate": 224
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "a"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'a'))",
+      "source": "candidate_export",
+      "candidate": 174
+    },
+    {
+      "formula_tree": [
+        "X",
+        "a"
+      ],
+      "formula_str": "('X', 'a')",
+      "source": "candidate_export",
+      "candidate": 82
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "a",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'a', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 226
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "pc",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'pc', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 83
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "U",
+          "fp",
+          "p2"
+        ]
+      ],
+      "formula_str": "('!', ('U', 'fp', 'p2'))",
+      "source": "candidate_export",
+      "candidate": 175
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', ('X', 'rp')))",
+      "source": "candidate_export",
+      "candidate": 135
+    }
+  ],
+  "eligible_count": 24,
+  "initial_candidate_count": 300,
+  "baseline_validation_log_loss": 0.6893401381963207,
+  "final_validation_log_loss": 0.6862742350621729,
+  "seconds": 185.14320099982433,
+  "threshold": 0.08,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

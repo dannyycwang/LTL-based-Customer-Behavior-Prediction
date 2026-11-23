@@ -1,0 +1,11 @@
+Coveo raw replay passed {'source': 'C:\\Users\\ycw\\Downloads\\SIGIR-ecom-data-challenge.zip', 'source_sha256': '09d82da2e0ef6b76cf674a5abc1ad74d481da371a530127d7fe99e9e22e6bdd9', 'member': 'train/browsing_train.csv', 'source_min_ms': 1547528564513, 'source_max_ms': 1555300798560, 'replayed_sessions': 256595, 'unknown_events': 0, 'max_within_session_gap_ms': 3141956.0, 'seconds': 81.6944479001686}
+dataset split  landmark  eligible_sessions  positive  negative  positive_rate users  natural_short_negatives  ends_before_t  purchase_at_or_before_t  left_boundary_uncertain
+  Coveo train        10              56851     10055     46796       0.176866  None                    17322         114964                     7799                      2.0
+  Coveo train        20              29474      6222     23252       0.211101  None                     5771         132288                    17854                      NaN
+  Coveo train        30              17481      3744     13737       0.214175  None                     2436         138059                    24076                      NaN
+  Coveo   val        10              12353      2255     10098       0.182547  None                     3793          24549                     1587                      NaN
+  Coveo   val        20               6305      1305      5000       0.206979  None                     1211          28342                     3842                      NaN
+  Coveo   val        30               3789       858      2931       0.226445  None                      530          29553                     5147                      NaN
+  Coveo  test        10              12201      2110     10091       0.172937  None                     3763          24570                     1718                      1.0
+  Coveo  test        20               6328      1324      5004       0.209229  None                     1218          28334                     3828                      NaN
+  Coveo  test        30               3786       806      2980       0.212890  None                      565          29552                     5152                      NaN

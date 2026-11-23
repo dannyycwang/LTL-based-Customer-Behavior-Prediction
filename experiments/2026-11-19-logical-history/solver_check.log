@@ -1,0 +1,2 @@
+primal {'seconds': 69.1932691000402, 'iterations': [71], 'objective': 3339.2689450357952, 'converged': True}
+dual {'seconds': 55.06601139996201, 'iterations': [2000], 'objective': 3339.2848914338856, 'converged': False}

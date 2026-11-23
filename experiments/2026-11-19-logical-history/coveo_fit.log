@@ -1,0 +1,561 @@
+t10 B step 1 candidates 32 / 81
+t10 B step 1 candidates 64 / 81
+t10 B step 1 candidates 81 / 81
+B step 1 gain 0.0003276108138620115 accepted True
+t10 B step 2 candidates 32 / 80
+t10 B step 2 candidates 64 / 80
+t10 B step 2 candidates 80 / 80
+B step 2 gain 0.00017858925923830427 accepted True
+t10 B step 3 candidates 32 / 79
+t10 B step 3 candidates 64 / 79
+t10 B step 3 candidates 79 / 79
+B step 3 gain 0.0001138406228858857 accepted True
+t10 B step 4 candidates 32 / 78
+t10 B step 4 candidates 64 / 78
+t10 B step 4 candidates 78 / 78
+B step 4 gain 6.666760652401793e-05 accepted True
+t10 B step 5 candidates 32 / 77
+t10 B step 5 candidates 64 / 77
+t10 B step 5 candidates 77 / 77
+B step 5 gain 6.573863727699081e-05 accepted True
+B resumed 5 frozen choices
+t10 B step 6 candidates 32 / 76
+t10 B step 6 candidates 64 / 76
+t10 B step 6 candidates 76 / 76
+B step 6 gain 6.283002397339255e-05 accepted True
+t10 B step 7 candidates 32 / 75
+t10 B step 7 candidates 64 / 75
+t10 B step 7 candidates 75 / 75
+B step 7 gain 5.615576447909332e-05 accepted True
+t10 B step 8 candidates 32 / 74
+t10 B step 8 candidates 64 / 74
+t10 B step 8 candidates 74 / 74
+B step 8 gain 3.9860186200557646e-05 accepted True
+t10 B step 9 candidates 32 / 73
+t10 B step 9 candidates 64 / 73
+t10 B step 9 candidates 73 / 73
+B step 9 gain 4.0465109085174866e-05 accepted True
+t10 B step 10 candidates 32 / 72
+t10 B step 10 candidates 64 / 72
+t10 B step 10 candidates 72 / 72
+B step 10 gain 6.334330705892732e-05 accepted True
+t10 D step 1 candidates 32 / 340
+t10 D step 1 candidates 64 / 340
+t10 D step 1 candidates 96 / 340
+t10 D step 1 candidates 128 / 340
+t10 D step 1 candidates 160 / 340
+t10 D step 1 candidates 192 / 340
+t10 D step 1 candidates 224 / 340
+t10 D step 1 candidates 256 / 340
+t10 D step 1 candidates 288 / 340
+t10 D step 1 candidates 320 / 340
+t10 D step 1 candidates 340 / 340
+D step 1 gain 0.00215421178323566 accepted True
+t10 D step 2 candidates 32 / 339
+t10 D step 2 candidates 64 / 339
+t10 D step 2 candidates 96 / 339
+t10 D step 2 candidates 128 / 339
+t10 D step 2 candidates 160 / 339
+t10 D step 2 candidates 192 / 339
+t10 D step 2 candidates 224 / 339
+t10 D step 2 candidates 256 / 339
+t10 D step 2 candidates 288 / 339
+t10 D step 2 candidates 320 / 339
+t10 D step 2 candidates 339 / 339
+D step 2 gain 0.0003755200017754312 accepted True
+t10 D step 3 candidates 32 / 338
+t10 D step 3 candidates 64 / 338
+t10 D step 3 candidates 96 / 338
+t10 D step 3 candidates 128 / 338
+t10 D step 3 candidates 160 / 338
+t10 D step 3 candidates 192 / 338
+t10 D step 3 candidates 224 / 338
+t10 D step 3 candidates 256 / 338
+t10 D step 3 candidates 288 / 338
+t10 D step 3 candidates 320 / 338
+t10 D step 3 candidates 338 / 338
+D step 3 gain 0.00037905121975667644 accepted True
+t10 D step 4 candidates 32 / 337
+t10 D step 4 candidates 64 / 337
+t10 D step 4 candidates 96 / 337
+t10 D step 4 candidates 128 / 337
+t10 D step 4 candidates 160 / 337
+t10 D step 4 candidates 192 / 337
+t10 D step 4 candidates 224 / 337
+t10 D step 4 candidates 256 / 337
+t10 D step 4 candidates 288 / 337
+t10 D step 4 candidates 320 / 337
+t10 D step 4 candidates 337 / 337
+D step 4 gain 0.00040109758303785714 accepted True
+t10 D step 5 candidates 32 / 336
+t10 D step 5 candidates 64 / 336
+t10 D step 5 candidates 96 / 336
+t10 D step 5 candidates 128 / 336
+t10 D step 5 candidates 160 / 336
+t10 D step 5 candidates 192 / 336
+t10 D step 5 candidates 224 / 336
+t10 D step 5 candidates 256 / 336
+t10 D step 5 candidates 288 / 336
+t10 D step 5 candidates 320 / 336
+t10 D step 5 candidates 336 / 336
+D step 5 gain 0.00042107456310103153 accepted True
+t10 D step 6 candidates 32 / 335
+t10 D step 6 candidates 64 / 335
+t10 D step 6 candidates 96 / 335
+t10 D step 6 candidates 128 / 335
+t10 D step 6 candidates 160 / 335
+t10 D step 6 candidates 192 / 335
+t10 D step 6 candidates 224 / 335
+t10 D step 6 candidates 256 / 335
+t10 D step 6 candidates 288 / 335
+t10 D step 6 candidates 320 / 335
+t10 D step 6 candidates 335 / 335
+D step 6 gain 0.00019821671267938878 accepted True
+t10 D step 7 candidates 32 / 334
+t10 D step 7 candidates 64 / 334
+t10 D step 7 candidates 96 / 334
+t10 D step 7 candidates 128 / 334
+t10 D step 7 candidates 160 / 334
+t10 D step 7 candidates 192 / 334
+t10 D step 7 candidates 224 / 334
+t10 D step 7 candidates 256 / 334
+t10 D step 7 candidates 288 / 334
+t10 D step 7 candidates 320 / 334
+t10 D step 7 candidates 334 / 334
+D step 7 gain 0.00018156392652485254 accepted True
+t10 D step 8 candidates 32 / 333
+t10 D step 8 candidates 64 / 333
+t10 D step 8 candidates 96 / 333
+t10 D step 8 candidates 128 / 333
+t10 D step 8 candidates 160 / 333
+t10 D step 8 candidates 192 / 333
+t10 D step 8 candidates 224 / 333
+t10 D step 8 candidates 256 / 333
+t10 D step 8 candidates 288 / 333
+t10 D step 8 candidates 320 / 333
+t10 D step 8 candidates 333 / 333
+D step 8 gain 0.00015969849025904148 accepted True
+t10 D step 9 candidates 32 / 332
+t10 D step 9 candidates 64 / 332
+t10 D step 9 candidates 96 / 332
+t10 D step 9 candidates 128 / 332
+t10 D step 9 candidates 160 / 332
+t10 D step 9 candidates 192 / 332
+t10 D step 9 candidates 224 / 332
+t10 D step 9 candidates 256 / 332
+t10 D step 9 candidates 288 / 332
+t10 D step 9 candidates 320 / 332
+t10 D step 9 candidates 332 / 332
+D step 9 gain 0.00014690148630780442 accepted True
+t10 D step 10 candidates 32 / 331
+t10 D step 10 candidates 64 / 331
+t10 D step 10 candidates 96 / 331
+t10 D step 10 candidates 128 / 331
+t10 D step 10 candidates 160 / 331
+t10 D step 10 candidates 192 / 331
+t10 D step 10 candidates 224 / 331
+t10 D step 10 candidates 256 / 331
+t10 D step 10 candidates 288 / 331
+t10 D step 10 candidates 320 / 331
+t10 D step 10 candidates 331 / 331
+D step 10 gain 0.00010387399770622752 accepted True
+t20 B step 1 candidates 32 / 91
+t20 B step 1 candidates 64 / 91
+t20 B step 1 candidates 91 / 91
+B step 1 gain 0.0006104461264529459 accepted True
+t20 B step 2 candidates 32 / 90
+t20 B step 2 candidates 64 / 90
+t20 B step 2 candidates 90 / 90
+B step 2 gain 0.0003370674460114742 accepted True
+t20 B step 3 candidates 32 / 89
+t20 B step 3 candidates 64 / 89
+t20 B step 3 candidates 89 / 89
+B step 3 gain 0.0002573220168955448 accepted True
+t20 B step 4 candidates 32 / 88
+t20 B step 4 candidates 64 / 88
+t20 B step 4 candidates 88 / 88
+B step 4 gain 0.0003653359412603696 accepted True
+t20 B step 5 candidates 32 / 87
+t20 B step 5 candidates 64 / 87
+t20 B step 5 candidates 87 / 87
+B step 5 gain 0.00015523645696274846 accepted True
+t20 B step 6 candidates 32 / 86
+t20 B step 6 candidates 64 / 86
+t20 B step 6 candidates 86 / 86
+B step 6 gain 9.76268887981635e-05 accepted True
+t20 B step 7 candidates 32 / 85
+t20 B step 7 candidates 64 / 85
+t20 B step 7 candidates 85 / 85
+B step 7 gain 9.563468770695804e-05 accepted True
+t20 B step 8 candidates 32 / 84
+t20 B step 8 candidates 64 / 84
+t20 B step 8 candidates 84 / 84
+B step 8 gain 6.746616504060832e-05 accepted True
+t20 B step 9 candidates 32 / 83
+t20 B step 9 candidates 64 / 83
+t20 B step 9 candidates 83 / 83
+B step 9 gain 7.571130201461385e-05 accepted True
+t20 B step 10 candidates 32 / 82
+t20 B step 10 candidates 64 / 82
+t20 B step 10 candidates 82 / 82
+B step 10 gain 6.447718349045228e-05 accepted True
+t20 C step 1 candidates 32 / 83
+t20 C step 1 candidates 64 / 83
+t20 C step 1 candidates 83 / 83
+C step 1 gain 0.0002525009347686402 accepted True
+t20 C step 2 candidates 32 / 82
+t20 C step 2 candidates 64 / 82
+t20 C step 2 candidates 82 / 82
+C step 2 gain 0.00022128721221553738 accepted True
+t20 C step 3 candidates 32 / 81
+t20 C step 3 candidates 64 / 81
+t20 C step 3 candidates 81 / 81
+C step 3 gain 0.0001473521601650929 accepted True
+t20 C step 4 candidates 32 / 80
+t20 C step 4 candidates 64 / 80
+t20 C step 4 candidates 80 / 80
+C step 4 gain 0.00013255961021518825 accepted True
+t20 C step 5 candidates 32 / 79
+t20 C step 5 candidates 64 / 79
+t20 C step 5 candidates 79 / 79
+C step 5 gain 0.00012100444306317737 accepted True
+t20 C step 6 candidates 32 / 78
+t20 C step 6 candidates 64 / 78
+t20 C step 6 candidates 78 / 78
+C step 6 gain 0.00010479761493942252 accepted True
+t20 C step 7 candidates 32 / 77
+t20 C step 7 candidates 64 / 77
+t20 C step 7 candidates 77 / 77
+C step 7 gain 6.090146542564456e-05 accepted True
+t20 C step 8 candidates 32 / 76
+t20 C step 8 candidates 64 / 76
+t20 C step 8 candidates 76 / 76
+C step 8 gain 4.662870477251113e-05 accepted True
+t20 C step 9 candidates 32 / 75
+t20 C step 9 candidates 64 / 75
+t20 C step 9 candidates 75 / 75
+C step 9 gain 3.004196684147642e-05 accepted True
+t20 C step 10 candidates 32 / 74
+t20 C step 10 candidates 64 / 74
+t20 C step 10 candidates 74 / 74
+C step 10 gain 5.295189177872972e-05 accepted True
+t20 D step 1 candidates 32 / 337
+t20 D step 1 candidates 64 / 337
+t20 D step 1 candidates 96 / 337
+t20 D step 1 candidates 128 / 337
+t20 D step 1 candidates 160 / 337
+t20 D step 1 candidates 192 / 337
+t20 D step 1 candidates 224 / 337
+t20 D step 1 candidates 256 / 337
+t20 D step 1 candidates 288 / 337
+t20 D step 1 candidates 320 / 337
+t20 D step 1 candidates 337 / 337
+D step 1 gain 0.003319584452072144 accepted True
+t20 D step 2 candidates 32 / 336
+t20 D step 2 candidates 64 / 336
+t20 D step 2 candidates 96 / 336
+t20 D step 2 candidates 128 / 336
+t20 D step 2 candidates 160 / 336
+t20 D step 2 candidates 192 / 336
+t20 D step 2 candidates 224 / 336
+t20 D step 2 candidates 256 / 336
+t20 D step 2 candidates 288 / 336
+t20 D step 2 candidates 320 / 336
+t20 D step 2 candidates 336 / 336
+D step 2 gain 0.001000231296851506 accepted True
+t20 D step 3 candidates 32 / 335
+t20 D step 3 candidates 64 / 335
+t20 D step 3 candidates 96 / 335
+t20 D step 3 candidates 128 / 335
+t20 D step 3 candidates 160 / 335
+t20 D step 3 candidates 192 / 335
+t20 D step 3 candidates 224 / 335
+t20 D step 3 candidates 256 / 335
+t20 D step 3 candidates 288 / 335
+t20 D step 3 candidates 320 / 335
+t20 D step 3 candidates 335 / 335
+D step 3 gain 0.000728412184007543 accepted True
+t20 D step 4 candidates 32 / 334
+t20 D step 4 candidates 64 / 334
+t20 D step 4 candidates 96 / 334
+t20 D step 4 candidates 128 / 334
+t20 D step 4 candidates 160 / 334
+t20 D step 4 candidates 192 / 334
+t20 D step 4 candidates 224 / 334
+t20 D step 4 candidates 256 / 334
+t20 D step 4 candidates 288 / 334
+t20 D step 4 candidates 320 / 334
+t20 D step 4 candidates 334 / 334
+D step 4 gain 0.0004661932644353106 accepted True
+t20 D step 5 candidates 32 / 333
+t20 D step 5 candidates 64 / 333
+t20 D step 5 candidates 96 / 333
+t20 D step 5 candidates 128 / 333
+t20 D step 5 candidates 160 / 333
+t20 D step 5 candidates 192 / 333
+t20 D step 5 candidates 224 / 333
+t20 D step 5 candidates 256 / 333
+t20 D step 5 candidates 288 / 333
+t20 D step 5 candidates 320 / 333
+t20 D step 5 candidates 333 / 333
+D step 5 gain 0.0005304032655166768 accepted True
+t20 D step 6 candidates 32 / 332
+t20 D step 6 candidates 64 / 332
+t20 D step 6 candidates 96 / 332
+t20 D step 6 candidates 128 / 332
+t20 D step 6 candidates 160 / 332
+t20 D step 6 candidates 192 / 332
+t20 D step 6 candidates 224 / 332
+t20 D step 6 candidates 256 / 332
+t20 D step 6 candidates 288 / 332
+t20 D step 6 candidates 320 / 332
+t20 D step 6 candidates 332 / 332
+D step 6 gain 0.0004602576033581607 accepted True
+t20 D step 7 candidates 32 / 331
+t20 D step 7 candidates 64 / 331
+t20 D step 7 candidates 96 / 331
+t20 D step 7 candidates 128 / 331
+t20 D step 7 candidates 160 / 331
+t20 D step 7 candidates 192 / 331
+t20 D step 7 candidates 224 / 331
+t20 D step 7 candidates 256 / 331
+t20 D step 7 candidates 288 / 331
+t20 D step 7 candidates 320 / 331
+t20 D step 7 candidates 331 / 331
+D step 7 gain 0.0003628325462998183 accepted True
+t20 D step 8 candidates 32 / 330
+t20 D step 8 candidates 64 / 330
+t20 D step 8 candidates 96 / 330
+t20 D step 8 candidates 128 / 330
+t20 D step 8 candidates 160 / 330
+t20 D step 8 candidates 192 / 330
+t20 D step 8 candidates 224 / 330
+t20 D step 8 candidates 256 / 330
+t20 D step 8 candidates 288 / 330
+t20 D step 8 candidates 320 / 330
+t20 D step 8 candidates 330 / 330
+D step 8 gain 0.00028501293372562575 accepted True
+t20 D step 9 candidates 32 / 329
+t20 D step 9 candidates 64 / 329
+t20 D step 9 candidates 96 / 329
+t20 D step 9 candidates 128 / 329
+t20 D step 9 candidates 160 / 329
+t20 D step 9 candidates 192 / 329
+t20 D step 9 candidates 224 / 329
+t20 D step 9 candidates 256 / 329
+t20 D step 9 candidates 288 / 329
+t20 D step 9 candidates 320 / 329
+t20 D step 9 candidates 329 / 329
+D step 9 gain 0.00031433764538035813 accepted True
+t20 D step 10 candidates 32 / 328
+t20 D step 10 candidates 64 / 328
+t20 D step 10 candidates 96 / 328
+t20 D step 10 candidates 128 / 328
+t20 D step 10 candidates 160 / 328
+t20 D step 10 candidates 192 / 328
+t20 D step 10 candidates 224 / 328
+t20 D step 10 candidates 256 / 328
+t20 D step 10 candidates 288 / 328
+t20 D step 10 candidates 320 / 328
+t20 D step 10 candidates 328 / 328
+D step 10 gain 0.00030899056129302105 accepted True
+t30 B step 1 candidates 32 / 92
+t30 B step 1 candidates 64 / 92
+t30 B step 1 candidates 92 / 92
+B step 1 gain 0.0006396355263060816 accepted True
+t30 B step 2 candidates 32 / 91
+t30 B step 2 candidates 64 / 91
+t30 B step 2 candidates 91 / 91
+B step 2 gain 0.0006819604047944572 accepted True
+t30 B step 3 candidates 32 / 90
+t30 B step 3 candidates 64 / 90
+t30 B step 3 candidates 90 / 90
+B step 3 gain 0.0006237041429187351 accepted True
+t30 B step 4 candidates 32 / 89
+t30 B step 4 candidates 64 / 89
+t30 B step 4 candidates 89 / 89
+B step 4 gain 0.0004884805679716275 accepted True
+t30 B step 5 candidates 32 / 88
+t30 B step 5 candidates 64 / 88
+t30 B step 5 candidates 88 / 88
+B step 5 gain 0.00029392167745317943 accepted True
+t30 B step 6 candidates 32 / 87
+t30 B step 6 candidates 64 / 87
+t30 B step 6 candidates 87 / 87
+B step 6 gain 0.00027747848318931956 accepted True
+t30 B step 7 candidates 32 / 86
+t30 B step 7 candidates 64 / 86
+t30 B step 7 candidates 86 / 86
+B step 7 gain 0.00022846699948536608 accepted True
+t30 B step 8 candidates 32 / 85
+t30 B step 8 candidates 64 / 85
+t30 B step 8 candidates 85 / 85
+B step 8 gain 0.00020011930586366633 accepted True
+t30 B step 9 candidates 32 / 84
+t30 B step 9 candidates 64 / 84
+t30 B step 9 candidates 84 / 84
+B step 9 gain 0.00023261290243253852 accepted True
+t30 B step 10 candidates 32 / 83
+t30 B step 10 candidates 64 / 83
+t30 B step 10 candidates 83 / 83
+B step 10 gain 0.0001217602832270237 accepted True
+t30 C step 1 candidates 32 / 82
+t30 C step 1 candidates 64 / 82
+t30 C step 1 candidates 82 / 82
+C step 1 gain 0.00036778420610333873 accepted True
+t30 C step 2 candidates 32 / 81
+t30 C step 2 candidates 64 / 81
+t30 C step 2 candidates 81 / 81
+C step 2 gain 0.00028223154679918316 accepted True
+t30 C step 3 candidates 32 / 80
+t30 C step 3 candidates 64 / 80
+t30 C step 3 candidates 80 / 80
+C step 3 gain 0.00024416411276567684 accepted True
+t30 C step 4 candidates 32 / 79
+t30 C step 4 candidates 64 / 79
+t30 C step 4 candidates 79 / 79
+C step 4 gain 0.00013977991102215315 accepted True
+t30 C step 5 candidates 32 / 78
+t30 C step 5 candidates 64 / 78
+t30 C step 5 candidates 78 / 78
+C step 5 gain 8.181947391494582e-05 accepted True
+t30 C step 6 candidates 32 / 77
+t30 C step 6 candidates 64 / 77
+t30 C step 6 candidates 77 / 77
+C step 6 gain 6.76149939251025e-05 accepted True
+t30 C step 7 candidates 32 / 76
+t30 C step 7 candidates 64 / 76
+t30 C step 7 candidates 76 / 76
+C step 7 gain 3.635181772665419e-05 accepted True
+t30 C step 8 candidates 32 / 75
+t30 C step 8 candidates 64 / 75
+t30 C step 8 candidates 75 / 75
+C step 8 gain 3.2142129648915496e-05 accepted True
+t30 C step 9 candidates 32 / 74
+t30 C step 9 candidates 64 / 74
+t30 C step 9 candidates 74 / 74
+C step 9 gain 3.0349155238473813e-05 accepted True
+t30 C step 10 candidates 32 / 73
+t30 C step 10 candidates 64 / 73
+t30 C step 10 candidates 73 / 73
+C step 10 gain 0.00011952703460216263 accepted True
+t30 D step 1 candidates 32 / 335
+t30 D step 1 candidates 64 / 335
+t30 D step 1 candidates 96 / 335
+t30 D step 1 candidates 128 / 335
+t30 D step 1 candidates 160 / 335
+t30 D step 1 candidates 192 / 335
+t30 D step 1 candidates 224 / 335
+t30 D step 1 candidates 256 / 335
+t30 D step 1 candidates 288 / 335
+t30 D step 1 candidates 320 / 335
+t30 D step 1 candidates 335 / 335
+D step 1 gain 0.0029629375717038497 accepted True
+t30 D step 2 candidates 32 / 334
+t30 D step 2 candidates 64 / 334
+t30 D step 2 candidates 96 / 334
+t30 D step 2 candidates 128 / 334
+t30 D step 2 candidates 160 / 334
+t30 D step 2 candidates 192 / 334
+t30 D step 2 candidates 224 / 334
+t30 D step 2 candidates 256 / 334
+t30 D step 2 candidates 288 / 334
+t30 D step 2 candidates 320 / 334
+t30 D step 2 candidates 334 / 334
+D step 2 gain 0.0019403710648035477 accepted True
+t30 D step 3 candidates 32 / 333
+t30 D step 3 candidates 64 / 333
+t30 D step 3 candidates 96 / 333
+t30 D step 3 candidates 128 / 333
+t30 D step 3 candidates 160 / 333
+t30 D step 3 candidates 192 / 333
+t30 D step 3 candidates 224 / 333
+t30 D step 3 candidates 256 / 333
+t30 D step 3 candidates 288 / 333
+t30 D step 3 candidates 320 / 333
+t30 D step 3 candidates 333 / 333
+D step 3 gain 0.00134835919949583 accepted True
+t30 D step 4 candidates 32 / 332
+t30 D step 4 candidates 64 / 332
+t30 D step 4 candidates 96 / 332
+t30 D step 4 candidates 128 / 332
+t30 D step 4 candidates 160 / 332
+t30 D step 4 candidates 192 / 332
+t30 D step 4 candidates 224 / 332
+t30 D step 4 candidates 256 / 332
+t30 D step 4 candidates 288 / 332
+t30 D step 4 candidates 320 / 332
+t30 D step 4 candidates 332 / 332
+D step 4 gain 0.000922846770458563 accepted True
+t30 D step 5 candidates 32 / 331
+t30 D step 5 candidates 64 / 331
+t30 D step 5 candidates 96 / 331
+t30 D step 5 candidates 128 / 331
+t30 D step 5 candidates 160 / 331
+t30 D step 5 candidates 192 / 331
+t30 D step 5 candidates 224 / 331
+t30 D step 5 candidates 256 / 331
+t30 D step 5 candidates 288 / 331
+t30 D step 5 candidates 320 / 331
+t30 D step 5 candidates 331 / 331
+D step 5 gain 0.0008589824199187746 accepted True
+t30 D step 6 candidates 32 / 330
+t30 D step 6 candidates 64 / 330
+t30 D step 6 candidates 96 / 330
+t30 D step 6 candidates 128 / 330
+t30 D step 6 candidates 160 / 330
+t30 D step 6 candidates 192 / 330
+t30 D step 6 candidates 224 / 330
+t30 D step 6 candidates 256 / 330
+t30 D step 6 candidates 288 / 330
+t30 D step 6 candidates 320 / 330
+t30 D step 6 candidates 330 / 330
+D step 6 gain 0.000859912499496851 accepted True
+t30 D step 7 candidates 32 / 329
+t30 D step 7 candidates 64 / 329
+t30 D step 7 candidates 96 / 329
+t30 D step 7 candidates 128 / 329
+t30 D step 7 candidates 160 / 329
+t30 D step 7 candidates 192 / 329
+t30 D step 7 candidates 224 / 329
+t30 D step 7 candidates 256 / 329
+t30 D step 7 candidates 288 / 329
+t30 D step 7 candidates 320 / 329
+t30 D step 7 candidates 329 / 329
+D step 7 gain 0.0005313345291025895 accepted True
+t30 D step 8 candidates 32 / 328
+t30 D step 8 candidates 64 / 328
+t30 D step 8 candidates 96 / 328
+t30 D step 8 candidates 128 / 328
+t30 D step 8 candidates 160 / 328
+t30 D step 8 candidates 192 / 328
+t30 D step 8 candidates 224 / 328
+t30 D step 8 candidates 256 / 328
+t30 D step 8 candidates 288 / 328
+t30 D step 8 candidates 320 / 328
+t30 D step 8 candidates 328 / 328
+D step 8 gain 0.00038487277952797827 accepted True
+t30 D step 9 candidates 32 / 327
+t30 D step 9 candidates 64 / 327
+t30 D step 9 candidates 96 / 327
+t30 D step 9 candidates 128 / 327
+t30 D step 9 candidates 160 / 327
+t30 D step 9 candidates 192 / 327
+t30 D step 9 candidates 224 / 327
+t30 D step 9 candidates 256 / 327
+t30 D step 9 candidates 288 / 327
+t30 D step 9 candidates 320 / 327
+t30 D step 9 candidates 327 / 327
+D step 9 gain 0.00036134553691402616 accepted True
+t30 D step 10 candidates 32 / 326
+t30 D step 10 candidates 64 / 326
+t30 D step 10 candidates 96 / 326
+t30 D step 10 candidates 128 / 326
+t30 D step 10 candidates 160 / 326
+t30 D step 10 candidates 192 / 326
+t30 D step 10 candidates 224 / 326
+t30 D step 10 candidates 256 / 326
+t30 D step 10 candidates 288 / 326
+t30 D step 10 candidates 320 / 326
+t30 D step 10 candidates 326 / 326
+D step 10 gain 0.0003531761766711883 accepted True

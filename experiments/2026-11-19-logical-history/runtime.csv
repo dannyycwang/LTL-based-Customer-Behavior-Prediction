@@ -1,0 +1,12 @@
+dataset,stage,seconds,train_seconds,known_sleep_seconds,wall_seconds_excluding_known_sleep,scope
+Coveo,raw_audit.json,81.6944479001686,,0.0,81.6944479001686,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Coveo,preparation.json,146.46117880009115,,0.0,146.46117880009115,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Coveo,mining/manifest.json,75856.435787,75855.37605500012,65590.314919,10266.120867999998,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Coveo,fit_timing.json,104809.1953122,,0.0,104809.1953122,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Coveo,evaluation_timing.json,11.58437330002198,,0.0,11.58437330002198,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,raw_audit.json,14.264546100050211,,0.0,14.264546100050211,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,preparation.json,35.08648839988746,,0.0,35.08648839988746,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,mining/manifest.json,1635.441950000124,1634.4060474999715,0.0,1635.441950000124,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,fit_timing.json,36836.64622070012,,4337.57779,32499.068430700117,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,evaluation_timing.json,5.135561999981292,,0.0,5.135561999981292,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"
+Cosmetics,boundary_followup.json,95.78720650007017,,0.0,95.78720650007017,"wall time, not CPU time; stages can overlap or nest; excludes unrecorded aborted work"

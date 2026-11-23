@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "dataset": "Coveo",
+      "landmark": 10,
+      "rows": 12201,
+      "positives": 2110,
+      "shared_cohort": true
+    },
+    {
+      "dataset": "Coveo",
+      "landmark": 20,
+      "rows": 6328,
+      "positives": 1324,
+      "shared_cohort": true
+    },
+    {
+      "dataset": "Coveo",
+      "landmark": 30,
+      "rows": 3786,
+      "positives": 806,
+      "shared_cohort": true
+    },
+    {
+      "dataset": "Cosmetics",
+      "landmark": 10,
+      "rows": 4054,
+      "positives": 1193,
+      "shared_cohort": true
+    },
+    {
+      "dataset": "Cosmetics",
+      "landmark": 20,
+      "rows": 2093,
+      "positives": 580,
+      "shared_cohort": true
+    },
+    {
+      "dataset": "Cosmetics",
+      "landmark": 30,
+      "rows": 1204,
+      "positives": 286,
+      "shared_cohort": true
+    }
+  ],
+  "all_model_formula_freezes_before_first_test_prediction": true,
+  "test_used_previously_in_research": true,
+  "bootstrap_models_and_formulas_fixed": true,
+  "report_scope": "logistic regression only; exploratory"
+}

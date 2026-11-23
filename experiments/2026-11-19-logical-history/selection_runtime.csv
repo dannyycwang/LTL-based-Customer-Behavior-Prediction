@@ -1,0 +1,17 @@
+dataset,landmark,condition,completed_steps,seconds,known_sleep_seconds,wall_seconds_excluding_known_sleep,scope
+Coveo,10,B,10,12402.378798300022,0.0,12402.378798300022,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,10,D,10,52338.23121510004,0.0,52338.23121510004,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,20,B,10,4803.035506800021,0.0,4803.035506800021,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,20,C,10,5150.997655700019,0.0,5150.997655700019,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,20,D,10,21422.009656499955,0.0,21422.009656499955,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,30,B,10,2268.500782899937,0.0,2268.500782899937,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,30,C,10,2685.206354199996,0.0,2685.206354199996,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Coveo,30,D,10,10604.955082900036,0.0,10604.955082900036,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,10,B,7,459.6820332997013,0.0,459.6820332997013,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,10,D,10,24245.98769149999,4337.57779,19908.409901499992,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,20,B,5,262.3091332996264,0.0,262.3091332996264,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,20,C,6,264.03147919964977,0.0,264.03147919964977,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,20,D,10,7744.482261199737,0.0,7744.482261199737,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,30,B,10,202.38952960027382,0.0,202.38952960027382,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,30,C,9,184.74693420017138,0.0,184.74693420017138,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time
+Cosmetics,30,D,10,3384.1554178004153,0.0,3384.1554178004153,sum of measured completed steps across invocations; excludes baseline/preparation/aborted partial work; not CPU time

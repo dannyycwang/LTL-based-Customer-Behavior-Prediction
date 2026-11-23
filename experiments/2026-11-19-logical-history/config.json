@@ -1,0 +1,15 @@
+{
+  "datasets": ["Coveo", "Cosmetics"], "landmarks": [10,20,30], "primary_landmark":20,
+  "raw_window":10, "horizon":10, "mining_seed":42, "bootstrap_seed":20261119,
+  "bootstrap_replicates":1500, "feature_budget":10, "minimum_logloss_gain":1e-10, "selection_workers":4,
+  "classifier":{"C":1.0,"solver":"liblinear","max_iter":2000,"random_state":42},
+  "classifier_backend":"official_liblinear_2.50.0_primal_warm_start",
+  "native_tolerance":0.000001,
+  "mining":{"netlen":10,"lr":0.01,"batch_size":100,"restarts":1,
+    "Coveo":{"epochs":100,"max_candidates":200,"per_class_budget":10000},
+    "Cosmetics":{"epochs":60,"max_candidates":300,"per_class_budget":5000}},
+  "source_project":"C:/Users/ycw/Documents/Codex/2026-11-10/new-chat",
+  "coveo_raw":"C:/Users/ycw/Downloads/SIGIR-ecom-data-challenge.zip",
+  "cosmetics_boundary_policy":"Exclude original December session keys found in any of the four other released months; infer closure for remaining original sessions from session ID plus full adjacent-month follow-up; no additional modeling cohort",
+  "status":"exploratory; historical test has participated in development"
+}

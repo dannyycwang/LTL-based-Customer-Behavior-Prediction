@@ -1,0 +1,13 @@
+{
+  "source": "Windows System log Microsoft-Windows-Power-Troubleshooter event 1",
+  "sleep_utc": "2026-11-19T15:22:52.885059200Z",
+  "wake_utc": "2026-11-20T09:36:03.199979100Z",
+  "interpretation": "Machine suspension interrupted ongoing mining/selection without terminating their processes. Cross-suspension elapsed durations must not be described as active computation time. Preserve raw timings and annotate this limitation.",
+  "additional_sleep_intervals": [
+    {
+      "sleep_utc": "2026-11-20T11:41:32.801972500Z",
+      "wake_utc": "2026-11-20T12:53:50.379762700Z",
+      "affected_stage": "Cosmetics t10 D step2; current formal fit invocation; confirmed Windows System event1"
+    }
+  ]
+}

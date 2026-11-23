@@ -1,0 +1,99 @@
+{
+  "official_guard_minutes": 30,
+  "maximum_observed_within_session_gap_minutes": 52.36593333333333,
+  "cohorts": [
+    {
+      "landmark": 10,
+      "split": "train",
+      "min_retained_left_margin_minutes": 65.47896666666666,
+      "min_unresolved_right_margin_minutes": 43.89915,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 2,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 2
+    },
+    {
+      "landmark": 10,
+      "split": "val",
+      "min_retained_left_margin_minutes": 82.75013333333334,
+      "min_unresolved_right_margin_minutes": 114.14865,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 10,
+      "split": "test",
+      "min_retained_left_margin_minutes": 95.53388333333334,
+      "min_unresolved_right_margin_minutes": 94.41963333333334,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 20,
+      "split": "train",
+      "min_retained_left_margin_minutes": 65.47896666666666,
+      "min_unresolved_right_margin_minutes": 72.52928333333334,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 20,
+      "split": "val",
+      "min_retained_left_margin_minutes": 84.95936666666667,
+      "min_unresolved_right_margin_minutes": 146.84211666666667,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 20,
+      "split": "test",
+      "min_retained_left_margin_minutes": 397.28291666666667,
+      "min_unresolved_right_margin_minutes": 137.96293333333332,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 30,
+      "split": "train",
+      "min_retained_left_margin_minutes": 65.47896666666666,
+      "min_unresolved_right_margin_minutes": 144.17611666666667,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 30,
+      "split": "val",
+      "min_retained_left_margin_minutes": 84.95936666666667,
+      "min_unresolved_right_margin_minutes": 209.38846666666666,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    },
+    {
+      "landmark": 30,
+      "split": "test",
+      "min_retained_left_margin_minutes": 463.2567,
+      "min_unresolved_right_margin_minutes": 194.61525,
+      "retained_left_within_max_observed_gap": 0,
+      "unresolved_right_within_max_observed_gap": 0,
+      "retained_left_within_60_minutes": 0,
+      "unresolved_right_within_60_minutes": 0
+    }
+  ],
+  "scope": "Read-only edge margin check; does not redefine the fixed 30-minute policy or run alternative models",
+  "flagged_session_count": 2,
+  "flagged_sessions_in_mining_pool": 1
+}

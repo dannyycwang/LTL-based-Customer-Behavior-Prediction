@@ -1,0 +1,87 @@
+{
+  "search_source_member": "train/search_train.csv",
+  "search_min_ms": 1547528689952.0,
+  "search_max_ms": 1555300782074.0,
+  "checks_without_identifiers": [
+    {
+      "browsing_events": 16,
+      "search_events": 0,
+      "browsing_end_margin_minutes": 49.9903,
+      "last_any_observed_activity_margin_minutes": 49.9903,
+      "closed_before_capture_end_under_official_30_minute_rule": true
+    },
+    {
+      "browsing_events": 13,
+      "search_events": 0,
+      "browsing_end_margin_minutes": 43.89915,
+      "last_any_observed_activity_margin_minutes": 43.89915,
+      "closed_before_capture_end_under_official_30_minute_rule": true
+    }
+  ],
+  "seconds": 30.249905500095338,
+  "retained_session_count": 81405,
+  "natural_short_negative_session_count": 36609,
+  "left_activity_boundary_flag_count": 0,
+  "right_unresolved_activity_boundary_flag_count": 0,
+  "minimum_retained_left_any_activity_margin_minutes": 65.47896666666666,
+  "minimum_short_negative_right_any_activity_margin_minutes": 43.89915,
+  "cohort_flags": [
+    {
+      "landmark": 10,
+      "split": "train",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 10,
+      "split": "val",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 10,
+      "split": "test",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 20,
+      "split": "train",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 20,
+      "split": "val",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 20,
+      "split": "test",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 30,
+      "split": "train",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 30,
+      "split": "val",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    },
+    {
+      "landmark": 30,
+      "split": "test",
+      "left_activity_boundary_flags": 0,
+      "right_unresolved_activity_boundary_flags": 0
+    }
+  ],
+  "all_retained_sessions_pass_combined_activity_boundary_check": true,
+  "all_flagged_sessions_have_30_minutes_of_followup_after_last_any_activity": true,
+  "scope": "Search events used only to audit closure; no change to browsing-event input/target task or candidate pool"
+}

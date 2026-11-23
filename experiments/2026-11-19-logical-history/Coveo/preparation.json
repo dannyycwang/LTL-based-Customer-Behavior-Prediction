@@ -1,0 +1,27 @@
+{
+  "props": [
+    "b",
+    "d",
+    "a",
+    "r",
+    "fp",
+    "rp",
+    "sp",
+    "pc",
+    "p2",
+    "p3",
+    "sc",
+    "cc",
+    "rc"
+  ],
+  "split_hashes": {
+    "train": "94032d78cd9dfc351b2d8142c08d871976a34752965b2ef35768c16e37907d16",
+    "val": "04063a565c0e1fddcd40b9cd198199ba6ff9b4e4c9a2820591d1ba00329338bb",
+    "test": "5f049d32a0085f96585adb00853be65bd9d1737451df7a9357a298a0e70ab7ea"
+  },
+  "checks": 148568,
+  "seconds": 146.46117880009115,
+  "config_sha256": "df9ccfc0fd3a659926aaae24bf3965d7ca4403b1529e15e8fd50e482f74cebf9",
+  "abstract_replay": "all eligible prefixes match historical causal abstraction; B reset at window start",
+  "boundary": "30 minute left/right guard; resolved horizons retained"
+}

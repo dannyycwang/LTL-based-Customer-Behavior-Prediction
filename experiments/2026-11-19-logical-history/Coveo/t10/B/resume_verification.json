@@ -1,0 +1,11 @@
+{
+  "previous_steps": 5,
+  "accepted_indices": [
+    7,
+    119,
+    163,
+    153,
+    11
+  ],
+  "baseline_and_selected_losses_replayed_to_1e_12": true
+}

@@ -1,0 +1,227 @@
+{
+  "indices": [
+    489,
+    546,
+    990,
+    893,
+    444,
+    220,
+    176,
+    400,
+    732,
+    233
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "fp",
+          [
+            "X",
+            "dp2"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'fp', ('X', 'dp2')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "rp",
+          [
+            "X",
+            "dp3"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'rp', ('X', 'dp3')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "cc",
+          [
+            "X",
+            "rc"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'cc', ('X', 'rc')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "r"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "r"
+          ],
+          [
+            "&",
+            "sc",
+            [
+              "!",
+              "r"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'r')), ('U', ('!', 'r'), ('&', 'sc', ('!', 'r'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "pc",
+          [
+            "X",
+            "sc"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'pc', ('X', 'sc')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "r",
+          [
+            "F",
+            "dp3"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'r', ('F', 'dp3')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "cc"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "cc"
+          ],
+          [
+            "&",
+            "a",
+            [
+              "!",
+              "cc"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'cc')), ('U', ('!', 'cc'), ('&', 'a', ('!', 'cc'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "pc",
+          [
+            "F",
+            "d"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'pc', ('F', 'd')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dp2",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dp2', ('X', 'r')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "rc"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "rc"
+          ],
+          [
+            "&",
+            "r",
+            [
+              "!",
+              "rc"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'rc')), ('U', ('!', 'rc'), ('&', 'r', ('!', 'rc'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    }
+  ],
+  "eligible_count": 358,
+  "initial_candidate_count": 1045,
+  "baseline_validation_log_loss": 0.6893401381963207,
+  "final_validation_log_loss": 0.6610546896729703,
+  "seconds": 3384.853345299838,
+  "threshold": 0.04,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

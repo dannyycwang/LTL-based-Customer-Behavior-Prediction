@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "exhaustive_finite_traces": 340,
+  "future_suffix_mutation": "passed",
+  "t10_window_input_identity": "passed",
+  "horizon_boundaries": "passed",
+  "selector": "constants and exact duplicates removed; beneficial feature accepted; negative marginal gain rejected"
+}

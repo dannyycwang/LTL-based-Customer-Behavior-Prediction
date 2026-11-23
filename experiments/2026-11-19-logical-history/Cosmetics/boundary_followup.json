@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "month": "2019-Oct",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/mkechinov/ecommerce-events-history-in-cosmetics-shop/2019-Oct.csv",
+      "sha256": "2ff4afaf3e18e072dac566245c57613a42ddd1927b4fbc36e82da40a961d144e",
+      "rows": 4102283
+    },
+    {
+      "month": "2019-Nov",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/mkechinov/ecommerce-events-history-in-cosmetics-shop/2019-Nov.csv",
+      "sha256": "4b2f18a74e159d929b93ec1ca01629c115e492906d97a073aebd1acd76d1b358",
+      "rows": 4635837
+    },
+    {
+      "month": "2020-Jan",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/mkechinov/ecommerce-events-history-in-cosmetics-shop/2020-Jan.csv",
+      "sha256": "f690588c004dc0e677d5a56a8f50f920cab53bd884bf1f57caabee964efa27dc",
+      "rows": 4264752
+    },
+    {
+      "month": "2020-Feb",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/mkechinov/ecommerce-events-history-in-cosmetics-shop/2020-Feb.csv",
+      "sha256": "3a0f287a7ff1206ebf88d7c0d50f9078f0bd905561ad805587dcfae23404f91b",
+      "rows": 4156682
+    }
+  ],
+  "crossing_sessions": 1066,
+  "seconds": 95.78720650007017,
+  "policy": "Exclude any original December session key (user_id,user_session) observed in any other released month. Preserve original split and December labels for remaining sessions. No event features or outcome-based selection from added months.",
+  "limitation": "Session closure inferred from session identifiers plus absence throughout adjacent released months; no explicit session-end events. Tracking gaps remain possible."
+}

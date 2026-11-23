@@ -1,0 +1,81 @@
+{
+  "indices": [
+    224,
+    226,
+    83,
+    74,
+    70
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "pc",
+          "p3"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'pc', 'p3'))",
+      "source": "candidate_export",
+      "candidate": 224
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "a",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'a', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 226
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "pc",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'pc', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 83
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "r"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'r'))",
+      "source": "candidate_export",
+      "candidate": 74
+    },
+    {
+      "formula_tree": [
+        "X",
+        "pc"
+      ],
+      "formula_str": "('X', 'pc')",
+      "source": "candidate_export",
+      "candidate": 70
+    }
+  ],
+  "eligible_count": 18,
+  "initial_candidate_count": 300,
+  "baseline_validation_log_loss": 0.6235477877310645,
+  "final_validation_log_loss": 0.6209724856594588,
+  "seconds": 639.8038380001672,
+  "threshold": 0.25,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

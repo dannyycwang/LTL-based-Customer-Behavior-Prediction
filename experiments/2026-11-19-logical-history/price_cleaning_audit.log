@@ -1,0 +1,76 @@
+{
+  "counts": {
+    "all_source_negative_price_events": 18,
+    "inherited_cohort_purchase": 17,
+    "eligible_union_purchase": 11
+  },
+  "inherited_sessions_with_negative_events": 15,
+  "eligible_union_sessions": 20213,
+  "eligible_union_sessions_with_negative_events": 10,
+  "eligible_union_sessions_with_negative_purchase_events": 10,
+  "seconds": 34.445566799957305,
+  "policy": "Existing pipeline excludes negative-price rows before event indexing; no mutation by this audit",
+  "affected_session_checks_without_identifiers": [
+    {
+      "first_purchase_position_raw": 21,
+      "first_purchase_position_clean": 21,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 50,
+      "first_purchase_position_clean": 50,
+      "negative_events_at_or_before_first_raw_purchase": 1,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 25,
+      "first_purchase_position_clean": 25,
+      "negative_events_at_or_before_first_raw_purchase": 1,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 14,
+      "first_purchase_position_clean": 14,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 12,
+      "first_purchase_position_clean": 12,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 14,
+      "first_purchase_position_clean": 14,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 17,
+      "first_purchase_position_clean": 17,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 17,
+      "first_purchase_position_clean": 17,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 145,
+      "first_purchase_position_clean": 145,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    },
+    {
+      "first_purchase_position_raw": 75,
+      "first_purchase_position_clean": 75,
+      "negative_events_at_or_before_first_raw_purchase": 0,
+      "all_pre_purchase_events_and_first_purchase_index_unchanged": true
+    }
+  ],
+  "all_eligible_prefixes_and_future_first_purchase_labels_unchanged_by_cleaning": true
+}

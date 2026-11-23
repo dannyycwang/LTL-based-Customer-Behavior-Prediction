@@ -1,0 +1,13 @@
+{
+  "identical_training_contents": {
+    "Coveo": {
+      "train.json": true,
+      "mining_prefix_ids.csv.gz": true
+    },
+    "Cosmetics": {
+      "train.json": true,
+      "mining_prefix_ids.csv.gz": true
+    }
+  },
+  "gzip_comparison": "decompressed contents; gzip container timestamps differ"
+}

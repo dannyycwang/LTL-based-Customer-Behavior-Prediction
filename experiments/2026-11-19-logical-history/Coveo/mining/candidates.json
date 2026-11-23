@@ -1,0 +1,3494 @@
+[
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 0
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 1
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 2
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 3
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 4
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 5
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 6
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 7
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 8
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 9
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 10
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 11
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 12
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 13
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 14
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 15
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 16
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 17
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 18
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 19
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 20
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 21
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'd', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 22
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 23
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 24
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 25
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "true"
+    ],
+    "formula_str": "('U', 'true', 'true')",
+    "source": "candidate_export",
+    "candidate": 26
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 27
+  },
+  {
+    "formula_tree": [
+      "U",
+      "pc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'pc', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 28
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "d"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'd'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 29
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 30
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 31
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 32
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "true"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'true')",
+    "source": "candidate_export",
+    "candidate": 33
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 34
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "true"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'true')",
+    "source": "candidate_export",
+    "candidate": 35
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 36
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 37
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 38
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 39
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 40
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 41
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 42
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 43
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "pc"
+    ],
+    "formula_str": "('U', 'true', 'pc')",
+    "source": "candidate_export",
+    "candidate": 44
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 45
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "d"
+    ],
+    "formula_str": "('U', 'true', 'd')",
+    "source": "candidate_export",
+    "candidate": 46
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 47
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 48
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 49
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 50
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "pc"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'pc')",
+    "source": "candidate_export",
+    "candidate": 51
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "true"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'true')",
+    "source": "candidate_export",
+    "candidate": 52
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 53
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "pc"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'pc')",
+    "source": "candidate_export",
+    "candidate": 54
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "d"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'd')",
+    "source": "candidate_export",
+    "candidate": 55
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 56
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "d"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'd')",
+    "source": "candidate_export",
+    "candidate": 57
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "true"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'true')",
+    "source": "candidate_export",
+    "candidate": 58
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 59
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 60
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 61
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 62
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "fp"
+    ],
+    "formula_str": "('U', 'true', 'fp')",
+    "source": "candidate_export",
+    "candidate": 63
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 64
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 65
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 66
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'fp')), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 67
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 68
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 69
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', ('X', ('X', ('X', 'a'))))), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 70
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 71
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'd', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 72
+  },
+  {
+    "formula_tree": [
+      "U",
+      "fp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'fp', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 73
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "pc"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'pc')",
+    "source": "candidate_export",
+    "candidate": 74
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "fp"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'fp')",
+    "source": "candidate_export",
+    "candidate": 75
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 76
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "fp"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'fp')",
+    "source": "candidate_export",
+    "candidate": 77
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "r"
+    ],
+    "formula_str": "('U', 'true', 'r')",
+    "source": "candidate_export",
+    "candidate": 78
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "d"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'd')",
+    "source": "candidate_export",
+    "candidate": 79
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 80
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 81
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "true"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'true')",
+    "source": "candidate_export",
+    "candidate": 82
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "pc"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'pc')",
+    "source": "candidate_export",
+    "candidate": 83
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "true"
+    ],
+    "formula_str": "('U', 'b', 'true')",
+    "source": "candidate_export",
+    "candidate": 84
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 85
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 86
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 87
+  },
+  {
+    "formula_tree": [
+      "U",
+      "pc",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'pc', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 88
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "d"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'd')",
+    "source": "candidate_export",
+    "candidate": 89
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 90
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "d"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'd'), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 91
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 92
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 93
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "b"
+    ],
+    "formula_str": "('U', 'true', 'b')",
+    "source": "candidate_export",
+    "candidate": 94
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "r"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'r')",
+    "source": "candidate_export",
+    "candidate": 95
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'p2')))",
+    "source": "candidate_export",
+    "candidate": 96
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'rp')))",
+    "source": "candidate_export",
+    "candidate": 97
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 98
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "pc"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'pc')), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 99
+  },
+  {
+    "formula_tree": [
+      "U",
+      "cc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'cc', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 100
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "r"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'r')",
+    "source": "candidate_export",
+    "candidate": 101
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 102
+  },
+  {
+    "formula_tree": [
+      "U",
+      "r",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'r', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 103
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 104
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 105
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 106
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 107
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "fp"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'fp')",
+    "source": "candidate_export",
+    "candidate": 108
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 109
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 110
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', 'true'))",
+    "source": "candidate_export",
+    "candidate": 111
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      "b"
+    ],
+    "formula_str": "('U', ('X', 'true'), 'b')",
+    "source": "candidate_export",
+    "candidate": 112
+  },
+  {
+    "formula_tree": [
+      "U",
+      "rc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'rc', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 113
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "b"
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), 'b')",
+    "source": "candidate_export",
+    "candidate": 114
+  },
+  {
+    "formula_tree": [
+      "U",
+      "p3",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'p3', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 115
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "pc"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'pc')",
+    "source": "candidate_export",
+    "candidate": 116
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "fp"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'fp')",
+    "source": "candidate_export",
+    "candidate": 117
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "pc"
+    ],
+    "formula_str": "('U', 'b', 'pc')",
+    "source": "candidate_export",
+    "candidate": 118
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'd', ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 119
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "d"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'd')",
+    "source": "candidate_export",
+    "candidate": 120
+  },
+  {
+    "formula_tree": [
+      "U",
+      "sc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'sc', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 121
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 122
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "pc"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'pc'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 123
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "d"
+    ],
+    "formula_str": "('U', 'b', 'd')",
+    "source": "candidate_export",
+    "candidate": 124
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "p3"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'p3')))",
+    "source": "candidate_export",
+    "candidate": 125
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "r"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'r')",
+    "source": "candidate_export",
+    "candidate": 126
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 127
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 128
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "fp"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'fp'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 129
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        "pc"
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', 'pc'))",
+    "source": "candidate_export",
+    "candidate": 130
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 131
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('X', 'sp')))",
+    "source": "candidate_export",
+    "candidate": 132
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 133
+  },
+  {
+    "formula_tree": [
+      "U",
+      "p2",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'p2', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 134
+  },
+  {
+    "formula_tree": [
+      "U",
+      "rp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'rp', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 135
+  },
+  {
+    "formula_tree": [
+      "U",
+      "pc",
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'pc', ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 136
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "r"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'r')",
+    "source": "candidate_export",
+    "candidate": 137
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 138
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "d"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "r"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'd'), ('X', ('X', 'r')))",
+    "source": "candidate_export",
+    "candidate": 139
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      "b"
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), 'b')",
+    "source": "candidate_export",
+    "candidate": 140
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 141
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', 'd', ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 142
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 143
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "r"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'r'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 144
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "fp"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'fp')",
+    "source": "candidate_export",
+    "candidate": 145
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'b')))",
+    "source": "candidate_export",
+    "candidate": 146
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "fp"
+    ],
+    "formula_str": "('U', 'b', 'fp')",
+    "source": "candidate_export",
+    "candidate": 147
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        "pc"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', 'pc'))",
+    "source": "candidate_export",
+    "candidate": 148
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'rc')))",
+    "source": "candidate_export",
+    "candidate": 149
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        "pc"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', 'pc'))",
+    "source": "candidate_export",
+    "candidate": 150
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "b"
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), 'b')",
+    "source": "candidate_export",
+    "candidate": 151
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'fp')), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 152
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 153
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', ('X', ('X', ('X', 'a'))))), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 154
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'd', ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 155
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'b')))",
+    "source": "candidate_export",
+    "candidate": 156
+  },
+  {
+    "formula_tree": [
+      "U",
+      "fp",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'fp', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 157
+  },
+  {
+    "formula_tree": [
+      "U",
+      "pc",
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', 'pc', ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 158
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'b')))",
+    "source": "candidate_export",
+    "candidate": 159
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'rc')))",
+    "source": "candidate_export",
+    "candidate": 160
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "cc"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'cc'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 161
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "d"
+      ],
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'd'), ('X', 'd'))",
+    "source": "candidate_export",
+    "candidate": 162
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'rc')))",
+    "source": "candidate_export",
+    "candidate": 163
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "r"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'r')",
+    "source": "candidate_export",
+    "candidate": 164
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 165
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "p2"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'p2'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 166
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "rp"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'rp'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 167
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "r"
+    ],
+    "formula_str": "('U', 'b', 'r')",
+    "source": "candidate_export",
+    "candidate": 168
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "!",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('!', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 169
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "!",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('!', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 170
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "p3"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'p3'), ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 171
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 172
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', ('X', 'b'), ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 173
+  },
+  {
+    "formula_tree": [
+      "U",
+      "sp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'sp', ('X', ('X', 'a')))",
+    "source": "candidate_export",
+    "candidate": 174
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "!",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('!', 'true')))",
+    "source": "candidate_export",
+    "candidate": 175
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', ('!', 'a')))",
+    "source": "candidate_export",
+    "candidate": 176
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      [
+        "X",
+        "b"
+      ]
+    ],
+    "formula_str": "('U', 'b', ('X', 'b'))",
+    "source": "candidate_export",
+    "candidate": 177
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "cc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'cc')))",
+    "source": "candidate_export",
+    "candidate": 178
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        "pc"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', 'pc'))",
+    "source": "candidate_export",
+    "candidate": 179
+  },
+  {
+    "formula_tree": [
+      "U",
+      "pc",
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'pc', ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 180
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          [
+            "!",
+            [
+              "U",
+              [
+                "X",
+                "true"
+              ],
+              "true"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', ('!', ('U', ('X', 'true'), 'true')))))",
+    "source": "candidate_export",
+    "candidate": 181
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "b"
+      ],
+      "b"
+    ],
+    "formula_str": "('U', ('X', 'b'), 'b')",
+    "source": "candidate_export",
+    "candidate": 182
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "p3"
+    ],
+    "formula_str": "('U', 'true', 'p3')",
+    "source": "candidate_export",
+    "candidate": 183
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      "cc"
+    ],
+    "formula_str": "('U', 'true', 'cc')",
+    "source": "candidate_export",
+    "candidate": 184
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "d"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'd'), ('X', ('X', 'fp')))",
+    "source": "candidate_export",
+    "candidate": 185
+  },
+  {
+    "formula_tree": [
+      "U",
+      "b",
+      "b"
+    ],
+    "formula_str": "('U', 'b', 'b')",
+    "source": "candidate_export",
+    "candidate": 186
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "!",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('!', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 187
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "pc"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'pc')), ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 188
+  },
+  {
+    "formula_tree": [
+      "U",
+      "cc",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'cc', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 189
+  },
+  {
+    "formula_tree": [
+      "U",
+      "d",
+      "true"
+    ],
+    "formula_str": "('U', 'd', 'true')",
+    "source": "candidate_export",
+    "candidate": 190
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "!",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('!', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 191
+  },
+  {
+    "formula_tree": [
+      "U",
+      "r",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'r', ('X', ('X', 'true')))",
+    "source": "candidate_export",
+    "candidate": 192
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "d"
+        ]
+      ],
+      [
+        "X",
+        "pc"
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'd')), ('X', 'pc'))",
+    "source": "candidate_export",
+    "candidate": 193
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "!",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('!', 'true')))",
+    "source": "candidate_export",
+    "candidate": 194
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        "true"
+      ],
+      [
+        "X",
+        [
+          "X",
+          "cc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', 'true'), ('X', ('X', 'cc')))",
+    "source": "candidate_export",
+    "candidate": 195
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'b')))",
+    "source": "candidate_export",
+    "candidate": 196
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "!",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('!', 'true')))",
+    "source": "candidate_export",
+    "candidate": 197
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "cc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'cc')))",
+    "source": "candidate_export",
+    "candidate": 198
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('X', ('X', 'true')), ('X', ('X', 'rc')))",
+    "source": "candidate_export",
+    "candidate": 199
+  }
+]

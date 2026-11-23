@@ -1,0 +1,221 @@
+{
+  "indices": [
+    7,
+    119,
+    163,
+    153,
+    11,
+    14,
+    170,
+    150,
+    193,
+    32
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "U",
+        "b",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'b', ('X', ('X', 'a')))",
+      "source": "candidate_export",
+      "candidate": 7
+    },
+    {
+      "formula_tree": [
+        "U",
+        "d",
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'd', ('X', ('X', 'r')))",
+      "source": "candidate_export",
+      "candidate": 119
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "rc"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'rc')))",
+      "source": "candidate_export",
+      "candidate": 163
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",
+      "source": "candidate_export",
+      "candidate": 153
+    },
+    {
+      "formula_tree": [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'true', ('X', ('X', 'r')))",
+      "source": "candidate_export",
+      "candidate": 11
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'r')))",
+      "source": "candidate_export",
+      "candidate": 14
+    },
+    {
+      "formula_tree": [
+        "U",
+        "b",
+        [
+          "!",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'b', ('!', ('X', 'a')))",
+      "source": "candidate_export",
+      "candidate": 170
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ],
+        [
+          "X",
+          "pc"
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'b')), ('X', 'pc'))",
+      "source": "candidate_export",
+      "candidate": 150
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "d"
+          ]
+        ],
+        [
+          "X",
+          "pc"
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'd')), ('X', 'pc'))",
+      "source": "candidate_export",
+      "candidate": 193
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "d"
+          ]
+        ],
+        [
+          "X",
+          "d"
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'd')), ('X', 'd'))",
+      "source": "candidate_export",
+      "candidate": 32
+    }
+  ],
+  "eligible_count": 81,
+  "initial_candidate_count": 200,
+  "baseline_validation_log_loss": 0.36236617106325897,
+  "final_validation_log_loss": 0.3613510697326746,
+  "seconds": 5204.43557039999,
+  "threshold": 0.22,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

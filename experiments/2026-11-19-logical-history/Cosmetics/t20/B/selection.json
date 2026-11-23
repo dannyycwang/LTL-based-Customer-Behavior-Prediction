@@ -1,0 +1,71 @@
+{
+  "indices": [
+    211,
+    174,
+    54,
+    113
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "d"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'd'))",
+      "source": "candidate_export",
+      "candidate": 211
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "a"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'a'))",
+      "source": "candidate_export",
+      "candidate": 174
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "hp",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'hp', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 54
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "dp2",
+          "rp"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'dp2', 'rp'))",
+      "source": "candidate_export",
+      "candidate": 113
+    }
+  ],
+  "eligible_count": 25,
+  "initial_candidate_count": 300,
+  "baseline_validation_log_loss": 0.6208472174948179,
+  "final_validation_log_loss": 0.6195815511229028,
+  "seconds": 262.62556990003213,
+  "threshold": 0.3,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

@@ -1,0 +1,16 @@
+{
+  "criterion_fixed_before_check": "converged GPU; relative objective difference <1e-6; max val prediction difference <.002; mean <1e-4; GPU fit >5x faster. No AP/MCC/test data.",
+  "cpu_seconds": 58.054284000070766,
+  "gpu_seconds": 96.35877260006964,
+  "cpu_objective": 3339.2689450357952,
+  "gpu_objective": 3339.2689092971095,
+  "gpu_iterations": 2000,
+  "gpu_gradient_max": 8.369394802837382e-05,
+  "gpu_converged": false,
+  "relative_objective_difference": 1.0702547862613577e-08,
+  "max_prediction_difference": 0.00016201384142966457,
+  "mean_prediction_difference": 1.6516109076073764e-05,
+  "speed_ratio": 0.602480525992387,
+  "passed": false,
+  "adopted": false
+}

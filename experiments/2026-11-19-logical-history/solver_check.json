@@ -1,0 +1,27 @@
+{
+  "primal": {
+    "seconds": 69.1932691000402,
+    "iterations": [
+      71
+    ],
+    "objective": 3339.2689450357952,
+    "converged": true
+  },
+  "dual": {
+    "seconds": 55.06601139996201,
+    "iterations": [
+      2000
+    ],
+    "objective": 3339.2848914338856,
+    "converged": false
+  },
+  "max_abs_validation_prediction_difference": 0.005505302340950702,
+  "mean_abs_validation_prediction_difference": 0.00045271763221001654,
+  "relative_objective_difference": 4.775415922718636e-06,
+  "design_shape": [
+    14132,
+    81471
+  ],
+  "nonzeros": 8733576,
+  "criterion_fixed_before_check": "Consider dual only if converged, >2x faster, relative objective difference <1e-6, max prediction difference <.002, mean <1e-4; otherwise retain primal"
+}
