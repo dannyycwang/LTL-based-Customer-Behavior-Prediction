@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "recipe": {
+    "epochs": 100,
+    "max_candidates": 200,
+    "per_class_budget": 10000
+  },
+  "input_sha256": "79ed9d22bc2af6625cabe923afdd3e3e40cf22f07e2cb4eaa952d3e6fd43a6d4",
+  "learner_sources": {
+    "data.py": "8673e33a2b56af24659f9d4fa7317325b807002c6078d261a809a441cc618500",
+    "model.py": "8c48811def1e4b0186fa04581967d3ba57ac56a9251afde83d12af69b4afc6bb",
+    "interpret.py": "99567882b0f1f1bf79527f1ba10846f1d749dec0c6239fd8c2d922311e99aabe",
+    "train.py": "f3a3773df57986e81000462d3e93512a6a5601544f259e0c9f4a6904e850fc8c"
+  },
+  "matching_records": true,
+  "config_sha256": "9fbba9a2c2a917f34521c6326691751183c6e12c6f12b5ec46371e768abdcbc4"
+}

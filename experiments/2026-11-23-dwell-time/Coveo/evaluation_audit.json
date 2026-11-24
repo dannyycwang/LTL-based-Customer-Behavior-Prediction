@@ -1,0 +1,8 @@
+{
+  "shared_rows_labels": true,
+  "shared_resamples_all_seeds": true,
+  "independent_units": 6328,
+  "prediction_sha256": "e52edbf890dc5840eea6b91e405491e5634501c9c9db6956dcaa27a3a7218313",
+  "all_models_frozen_manifest_sha256": "b86d25f4119fd853a5df8e3535dcfe06e04c4d1b5661e247f0dfe7696f627abc",
+  "seconds": 47.0305028000148
+}

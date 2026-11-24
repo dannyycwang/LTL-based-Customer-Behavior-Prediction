@@ -1,0 +1,22 @@
+{
+  "dataset": "Coveo",
+  "condition": "M3",
+  "seed": 42,
+  "protocol_sha256": "9fbba9a2c2a917f34521c6326691751183c6e12c6f12b5ec46371e768abdcbc4",
+  "runner_sha256": "947ed20bc3531236c6e7deb07b34d95f8fb32f01f21d97ae797e35f8915e674a",
+  "original_neural_sha256": "eeedd5a0e76086725b2d551feb9a52ffe9bc416a3e5ffdfe42db6991aa7a1609",
+  "parameters": 1121857,
+  "summary_dim": 680,
+  "raw_timing_dim": 20,
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "checkpoint": "validation AP earliest tie",
+  "threshold": "validation MCC fixed grid earliest tie",
+  "timing_input": "shared linear projection of 20 standardized recent log gaps and missing bits into raw encoder 64-vector; S+T in summary branch"
+}

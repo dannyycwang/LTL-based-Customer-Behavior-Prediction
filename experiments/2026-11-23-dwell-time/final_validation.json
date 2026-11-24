@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "metrics_rows": 90,
+  "paired_rows": 96,
+  "all_18_neural_fits_frozen": true,
+  "same_cohorts": true,
+  "reused_M0_M1_metrics_match_previous_to_1e_12": true,
+  "private_artifacts_excluded_by_gitignore": true
+}

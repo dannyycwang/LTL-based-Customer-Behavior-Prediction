@@ -1,0 +1,12 @@
+{
+  "frozen": true,
+  "threshold": 0.63,
+  "best_epoch": 4,
+  "epochs": 9,
+  "parameters": 1121857,
+  "config_sha256": "9fbba9a2c2a917f34521c6326691751183c6e12c6f12b5ec46371e768abdcbc4",
+  "model_sha256": "2ecd615a63f21d629b387a3ea282837986cad5dcd75fb75a08360809e51ca93f",
+  "encoding_sha256": "044c553d084746c044a96e68663e2df387b24d3defac8905d14bf8d96a627d05",
+  "linear_sha256": "ae68af40dc07e17dda14ae77a2633eb6b9824a0cbc7f06a24452eafd5c7d7594",
+  "test_evaluated": false
+}

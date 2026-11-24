@@ -1,0 +1,67 @@
+dataset,stage,seconds,condition,boundary,seed,model
+Coveo,preprocessing,104.17768530000467,,,,
+Coveo,classifier_training,137.46093689999543,M2,cached input baseline LR fit and validation threshold,,
+Coveo,feature_checking,5.175594100001035,M3,,,
+Coveo,mining,7714.994962299999,,,,
+Coveo,selection,12707.115769800002,M3,includes candidate classifier refits; not additive with those refits,,
+Coveo,feature_checking,6.738426800002344,M4,,,
+Coveo,selection,15671.905185899988,M4,includes candidate classifier refits; not additive with those refits,,
+Coveo,feature_checking,10.944747500005178,M5,,,
+Coveo,selection,71665.5963151,M5,includes candidate classifier refits; not additive with those refits,,
+Coveo,neural_training,64.80349749996094,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Coveo,neural_training,70.77106320002349,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Coveo,neural_training,62.360989300126676,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Coveo,neural_training,61.825424599985126,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Coveo,neural_training,69.30604260013206,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Coveo,neural_training,71.22292879997985,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Coveo,neural_training,60.40639680007007,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Coveo,neural_training,69.03456409997307,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Coveo,neural_training,70.86957070004428,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Coveo,inference,0.982662700000219,M0,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,2.104928100015968,M1,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,1.3426235999795608,M2,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,2.6971833999850787,M3,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,2.763139199989382,M4,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,4.301065600011498,M5,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Coveo,inference,2.6087946000043303,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Coveo,inference,2.279293700004928,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Coveo,inference,2.038570999982767,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Coveo,inference,1.763803799985908,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Coveo,inference,2.1169543000287376,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Coveo,inference,2.615222899999935,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Coveo,inference,1.502413299982436,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+Coveo,inference,2.0295573999756016,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+Coveo,inference,2.6595042000408284,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+Cosmetics,preprocessing,21.14638599997852,,,,
+Cosmetics,classifier_training,22.037616599991452,M2,cached input baseline LR fit and validation threshold,,
+Cosmetics,feature_checking,1.0802791000169236,M3,,,
+Cosmetics,selection,794.3940929000091,M3,includes candidate classifier refits; not additive with those refits,,
+Cosmetics,mining,2141.9580617000174,,,,
+Cosmetics,feature_checking,1.564352500019595,M4,,,
+Cosmetics,selection,3147.3715364000236,M4,includes candidate classifier refits; not additive with those refits,,
+Cosmetics,feature_checking,6.151067099999636,M5,,,
+Cosmetics,selection,28463.428697099996,M5,includes candidate classifier refits; not additive with those refits,,
+Cosmetics,neural_training,16.55954060010845,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Cosmetics,neural_training,18.18640179996146,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Cosmetics,neural_training,13.887633200036362,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+Cosmetics,neural_training,13.887315500061959,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Cosmetics,neural_training,18.71914859995013,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Cosmetics,neural_training,17.97304439987056,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+Cosmetics,neural_training,17.92375350004295,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Cosmetics,neural_training,14.905202099937014,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Cosmetics,neural_training,19.103830000094604,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+Cosmetics,inference,0.610851300007198,M0,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,0.96121060004225,M1,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,0.6329809000017121,M2,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,1.0054458000231534,M3,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,1.3404752000351436,M4,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,2.515125000034459,M5,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+Cosmetics,inference,0.8107799999997951,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Cosmetics,inference,0.7148526000091806,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Cosmetics,inference,1.2062891999958083,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+Cosmetics,inference,0.4991487999795936,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Cosmetics,inference,0.8141170999733731,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Cosmetics,inference,0.7332471000263467,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+Cosmetics,inference,0.47531080001499504,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+Cosmetics,inference,1.0156414999510162,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+Cosmetics,inference,0.6104106999700889,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN

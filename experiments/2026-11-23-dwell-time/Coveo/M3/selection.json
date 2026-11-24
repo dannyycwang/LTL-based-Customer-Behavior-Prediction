@@ -1,0 +1,218 @@
+{
+  "indices": [
+    96,
+    14,
+    153,
+    125,
+    43,
+    66,
+    177,
+    11,
+    193,
+    0
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "U",
+        "b",
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'b', ('X', ('X', 'p2')))",
+      "source": "candidate_export",
+      "candidate": 96
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'r')))",
+      "source": "candidate_export",
+      "candidate": 14
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                [
+                  "X",
+                  "true"
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', ('X', ('X', ('X', 'true'))))), ('X', ('X', 'a')))",
+      "source": "candidate_export",
+      "candidate": 153
+    },
+    {
+      "formula_tree": [
+        "U",
+        "b",
+        [
+          "X",
+          [
+            "X",
+            "p3"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'b', ('X', ('X', 'p3')))",
+      "source": "candidate_export",
+      "candidate": 125
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "d"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "fp"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'd')), ('X', ('X', 'fp')))",
+      "source": "candidate_export",
+      "candidate": 43
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "b"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'b')), ('X', ('X', 'sp')))",
+      "source": "candidate_export",
+      "candidate": 66
+    },
+    {
+      "formula_tree": [
+        "U",
+        "b",
+        [
+          "X",
+          "b"
+        ]
+      ],
+      "formula_str": "('U', 'b', ('X', 'b'))",
+      "source": "candidate_export",
+      "candidate": 177
+    },
+    {
+      "formula_tree": [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "r"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'true', ('X', ('X', 'r')))",
+      "source": "candidate_export",
+      "candidate": 11
+    },
+    {
+      "formula_tree": [
+        "U",
+        [
+          "X",
+          [
+            "X",
+            "d"
+          ]
+        ],
+        [
+          "X",
+          "pc"
+        ]
+      ],
+      "formula_str": "('U', ('X', ('X', 'd')), ('X', 'pc'))",
+      "source": "candidate_export",
+      "candidate": 193
+    },
+    {
+      "formula_tree": [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'true', ('X', ('X', 'a')))",
+      "source": "candidate_export",
+      "candidate": 0
+    }
+  ],
+  "eligible_count": 83,
+  "initial_candidate_count": 200,
+  "baseline_validation_log_loss": 0.4006688138788912,
+  "final_validation_log_loss": 0.39990620885724143,
+  "seconds": 12706.965548099979,
+  "threshold": 0.28,
+  "conditioning": "M2: R+S+T",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

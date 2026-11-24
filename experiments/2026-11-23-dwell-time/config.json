@@ -1,0 +1,14 @@
+{
+  "datasets": ["Coveo", "Cosmetics"], "landmark": 20, "raw_window": 10, "horizon": 10,
+  "conditions": ["M0", "M1", "M2", "M3", "M4", "M5"],
+  "neural_conditions": ["M2", "M3", "M4"], "neural_seeds": [42,43,44],
+  "mining_seed": 42, "mining": "Reuse verified historical Act+Rel pool; extend exactly its training prefix records with dwell. No new landmark evaluations.",
+  "dwell": "outgoing event gap in seconds, computed AFTER prefix truncation; terminal unknown; invalid endpoints unknown; negative gap fails",
+  "buckets": "dl/dm/dh: train-t20 known gaps, log1p tertiles after train p99 cap, <= boundaries; du: unknown; true zero retained",
+  "classifier": {"C":1.0,"solver":"official LIBLINEAR 2.50.0 primal","tolerance":0.000001,"penalized_intercept":true},
+  "feature_budget":10,"minimum_logloss_gain":1e-10,"selection_workers":4,
+  "bootstrap_seed":20261123,"bootstrap_replicates":1500,
+  "neural":{"epochs":25,"patience":5,"batch_size":256,"learning_rate":0.001,"weight_decay":0.0001,"checkpoint":"validation AP earliest tie","threshold":"validation MCC fixed grid earliest tie","timing_input":"shared linear projection of 20 standardized recent log gaps and missing bits into raw encoder 64-vector; S+T in summary branch"},
+  "primary_contrast":"M4-M3","secondary_contrasts":["M2-M0","M4-M2","M4-M5"],
+  "status":"exploratory; test previously used in development; fixed models/formulas bootstrap excludes mining uncertainty"
+}

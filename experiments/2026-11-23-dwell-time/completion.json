@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "reports_generated": true,
+  "awaiting_final_validation": false,
+  "linear_conditions": 12,
+  "neural_fits": 18,
+  "bootstrap_replicates": 1500,
+  "new_test_datasets": [
+    "Coveo",
+    "Cosmetics"
+  ],
+  "config_sha256": "9fbba9a2c2a917f34521c6326691751183c6e12c6f12b5ec46371e768abdcbc4"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "current_modules": [
+    "report.py",
+    "evaluate.py",
+    "neural.py",
+    "linear.py"
+  ],
+  "new_candidate_semantics_checked": 300,
+  "classifier_fits": 0,
+  "test_predictions": 0
+}

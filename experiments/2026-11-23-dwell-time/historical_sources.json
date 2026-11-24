@@ -1,0 +1,77 @@
+[
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\experiment results_dataset1.zip",
+    "sha256": "7aa29426b11458c1d8242ff940fa9083877c91df8b3b89ba588b25bea8e3f9ae",
+    "bytes": 157762
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\cosmetics_first_window_results_clean_names_v6_withBD_len20_fullfusion_dataset3.csv",
+    "sha256": "fccd6f196b86c0090e13924cfe19ce13b8825ade0540d7091cd9f916682d2ba5",
+    "bytes": 44907
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\build_d_raw_random4_duckdb_streaming_lowmem_v2.py",
+    "sha256": "41d9169376616e5f106b81005b743d42037fe8a72e611bdb2c13ab4978544a32",
+    "bytes": 32284
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\electronics_ltlf_pipeline.py",
+    "sha256": "ae3040d1ac1de3a6e6872c80f5fc0c440311adf9e0e79ada4c57409b2b573c3f",
+    "bytes": 47385
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\prepare_cosmetics_dec_dataset.py",
+    "sha256": "69d8be5c6919b7b4752fda6604cc90764ac3f9553f28c02354924f70f7dd6d71",
+    "bytes": 37065
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\Dwell_top20_formulas.json",
+    "sha256": "4f43364baea74592ce063db13cb369df5727f7c2b2dbf1c17fbc8c9337cef07a",
+    "bytes": 14700
+  },
+  {
+    "path": "C:\\Users\\ycw\\Downloads\\Z_BD_top20_formulas.json",
+    "sha256": "7a5561cf7c9f5376be5b9e4bce56b4c638665bbf198030111b640f3c9b3426c9",
+    "bytes": 14586
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\colab_0.ipynb",
+    "sha256": "d8b06e15710695a119b8ccfcb3c5576ec718d28172cce028f461f0dabcf55eb5",
+    "bytes": 63242
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\colab_1.ipynb",
+    "sha256": "4b4d0ab9240451b318e3444c1fd9af23870bddf097e0ba54f41ce3c03adef81a",
+    "bytes": 252449
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\colab_2.ipynb",
+    "sha256": "ae80b24dd68fb4c67cc9e1151375267f2881bb56dd8b6a7d6cde425c2a14dd83",
+    "bytes": 226572
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\colab_3.ipynb",
+    "sha256": "67b5e07ff70515c16480cd3b0c7414b6843731f328f81e1bd4fce63a1d25c97c",
+    "bytes": 364403
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\colab_4.ipynb",
+    "sha256": "06ac6d20a8e2475ab6d691dc7e52d7baccf5eef6d250fd32ca3c8b711e1da042",
+    "bytes": 176394
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\electronics_nb_0.ipynb",
+    "sha256": "72b01b24ec5f90f70b45b623d8e89b82775936b8f099c1e4c12f54e1215de7e3",
+    "bytes": 599514
+  },
+  {
+    "path": "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat\\work\\electronics_nb_1.ipynb",
+    "sha256": "9cdd4b3e61af4ce886b3b52dfff216748c22b94a31cef21599526ab9d1559959",
+    "bytes": 625181
+  },
+  {
+    "path": "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\LTL-based-Customer-Behavior-Prediction\\PCS955experiment.ipynb",
+    "sha256": "6374f7f06f03999d586745fdaa3ae9bc06a4393847ab54b3918eefd3aba204cb",
+    "bytes": 832589
+  }
+]

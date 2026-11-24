@@ -1,0 +1,281 @@
+{
+  "indices": [
+    129,
+    81,
+    91,
+    86,
+    134,
+    46,
+    141,
+    92,
+    113,
+    88
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            "pc"
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), 'pc')))",
+      "source": "dwell_learned",
+      "candidate": 129
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                [
+                  "X",
+                  "dh"
+                ]
+              ]
+            ],
+            [
+              "!",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', ('X', 'dh'))), ('!', ('X', 'true')))))",
+      "source": "dwell_learned",
+      "candidate": 81
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                [
+                  "X",
+                  "a"
+                ]
+              ]
+            ],
+            [
+              "!",
+              "dh"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', ('X', 'a'))), ('!', 'dh'))))",
+      "source": "dwell_learned",
+      "candidate": 91
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            "cc"
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), 'cc')))",
+      "source": "dwell_learned",
+      "candidate": 86
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            "p2"
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), 'p2')))",
+      "source": "dwell_learned",
+      "candidate": 134
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            [
+              "!",
+              "dl"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), ('!', 'dl'))))",
+      "source": "dwell_learned",
+      "candidate": 46
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            [
+              "!",
+              "dm"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), ('!', 'dm'))))",
+      "source": "dwell_learned",
+      "candidate": 141
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                [
+                  "X",
+                  "rp"
+                ]
+              ]
+            ],
+            [
+              "!",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', ('X', 'rp'))), ('!', ('X', 'true')))))",
+      "source": "dwell_learned",
+      "candidate": 92
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "a"
+              ]
+            ],
+            "p3"
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'a')), 'p3')))",
+      "source": "dwell_learned",
+      "candidate": 113
+    },
+    {
+      "formula_tree": [
+        "!",
+        [
+          "X",
+          [
+            "U",
+            [
+              "!",
+              [
+                "X",
+                "r"
+              ]
+            ],
+            [
+              "!",
+              [
+                "X",
+                "true"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('!', ('X', ('U', ('!', ('X', 'r')), ('!', ('X', 'true')))))",
+      "source": "dwell_learned",
+      "candidate": 88
+    }
+  ],
+  "eligible_count": 76,
+  "initial_candidate_count": 200,
+  "baseline_validation_log_loss": 0.4006688138788912,
+  "final_validation_log_loss": 0.39968961027097716,
+  "seconds": 15671.869817400002,
+  "threshold": 0.27,
+  "conditioning": "M2: R+S+T",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

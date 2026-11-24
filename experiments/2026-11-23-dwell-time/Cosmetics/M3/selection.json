@@ -1,0 +1,107 @@
+{
+  "indices": [
+    82,
+    83,
+    174,
+    247,
+    294,
+    0,
+    70,
+    135
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "X",
+        "a"
+      ],
+      "formula_str": "('X', 'a')",
+      "source": "candidate_export",
+      "candidate": 82
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "pc",
+          "cc"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'pc', 'cc'))",
+      "source": "candidate_export",
+      "candidate": 83
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "a"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'a'))",
+      "source": "candidate_export",
+      "candidate": 174
+    },
+    {
+      "formula_tree": [
+        "X",
+        "r"
+      ],
+      "formula_str": "('X', 'r')",
+      "source": "candidate_export",
+      "candidate": 247
+    },
+    {
+      "formula_tree": [
+        "X",
+        "d"
+      ],
+      "formula_str": "('X', 'd')",
+      "source": "candidate_export",
+      "candidate": 294
+    },
+    {
+      "formula_tree": "a",
+      "formula_str": "'a'",
+      "source": "candidate_export",
+      "candidate": 0
+    },
+    {
+      "formula_tree": [
+        "X",
+        "pc"
+      ],
+      "formula_str": "('X', 'pc')",
+      "source": "candidate_export",
+      "candidate": 70
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            "rp"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', ('X', 'rp')))",
+      "source": "candidate_export",
+      "candidate": 135
+    }
+  ],
+  "eligible_count": 24,
+  "initial_candidate_count": 300,
+  "baseline_validation_log_loss": 0.6538250977091076,
+  "final_validation_log_loss": 0.652944351323876,
+  "seconds": 794.3831124999851,
+  "threshold": 0.21000000000000002,
+  "conditioning": "M2: R+S+T",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

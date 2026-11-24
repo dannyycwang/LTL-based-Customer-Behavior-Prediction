@@ -1,0 +1,213 @@
+{
+  "indices": [
+    1118,
+    589,
+    172,
+    1333,
+    818,
+    803,
+    1107,
+    1444,
+    790,
+    480
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "sc",
+          [
+            "F",
+            "dp2"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'sc', ('F', 'dp2')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "fp",
+          [
+            "X",
+            "dp2"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'fp', ('X', 'dp2')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "a",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'a', ('X', 'sp')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dl",
+          [
+            "X",
+            "rc"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dl', ('X', 'rc')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dp1",
+          [
+            "F",
+            "d"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dp1', ('F', 'd')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "p3",
+          [
+            "F",
+            "dl"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'p3', ('F', 'dl')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "rp"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "rp"
+          ],
+          [
+            "&",
+            "sc",
+            [
+              "!",
+              "rp"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'rp')), ('U', ('!', 'rp'), ('&', 'sc', ('!', 'rp'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dh",
+          [
+            "X",
+            "p3"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dh', ('X', 'p3')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "p3",
+          [
+            "X",
+            "dp3"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'p3', ('X', 'dp3')))",
+      "family": "chain_response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "dh"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "dh"
+          ],
+          [
+            "&",
+            "sp",
+            [
+              "!",
+              "dh"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'dh')), ('U', ('!', 'dh'), ('&', 'sp', ('!', 'dh'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    }
+  ],
+  "eligible_count": 637,
+  "initial_candidate_count": 1541,
+  "baseline_validation_log_loss": 0.6538250977091076,
+  "final_validation_log_loss": 0.6337486833421361,
+  "seconds": 28463.338290400017,
+  "threshold": 0.29000000000000004,
+  "conditioning": "M2: R+S+T",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

@@ -1,0 +1,9 @@
+{
+  "frozen": true,
+  "config_sha256": "9fbba9a2c2a917f34521c6326691751183c6e12c6f12b5ec46371e768abdcbc4",
+  "model_sha256": "ae68af40dc07e17dda14ae77a2633eb6b9824a0cbc7f06a24452eafd5c7d7594",
+  "prepared_sha256": "d91b5bbe2001842a108ca94e077ce00b311309b364381b48ed1da3a8310b9468",
+  "previous_frozen_sha256": "b95d6ba0a1a81db6d776faebe6d7386328548c4af8edc9237b0f9daa0e1a47cb",
+  "M0_M1_reuse": "exact IDs/labels/raw/summary, inherited encoder/scaler, same native solver/settings",
+  "test_evaluated": false
+}

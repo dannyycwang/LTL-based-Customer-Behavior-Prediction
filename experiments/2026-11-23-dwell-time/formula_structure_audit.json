@@ -1,0 +1,202 @@
+{
+  "scope": "Frozen M4 formula structure only; no test evaluation or outcome inference",
+  "datasets": {
+    "Coveo": {
+      "selected": 10,
+      "with_known_duration": 4,
+      "with_unknown_marker": 0,
+      "with_temporal_operators": 10,
+      "selection_sha256": "9b35bda0d0f7911b12c3109226a339363b2cee79e274491e0f350fef53bf315b",
+      "formulas": [
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), 'pc')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', ('X', 'dh'))), ('!', ('X', 'true')))))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', ('X', 'a'))), ('!', 'dh'))))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), 'cc')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), 'p2')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), ('!', 'dl'))))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), ('!', 'dm'))))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', ('X', 'rp'))), ('!', ('X', 'true')))))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'a')), 'p3')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('!', ('X', ('U', ('!', ('X', 'r')), ('!', ('X', 'true')))))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        }
+      ]
+    },
+    "Cosmetics": {
+      "selected": 10,
+      "with_known_duration": 4,
+      "with_unknown_marker": 2,
+      "with_temporal_operators": 10,
+      "selection_sha256": "fcba45bf6086f29bb306350ccd249b65c12cecc407dd32b5ad0fb8c0737d8968",
+      "formulas": [
+        {
+          "formula": "('X', ('U', 'dp2', 'du'))",
+          "known_duration": false,
+          "unknown_marker": true,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'pc', 'dh'))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'a', 'dh'))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'd', ('X', 'du')))",
+          "known_duration": false,
+          "unknown_marker": true,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'dp2', ('X', 'r')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'dp1', ('X', 'r')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'dh', ('X', 'p2')))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'sc', ('X', 'dh')))",
+          "known_duration": true,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', ('U', 'pc', ('X', 'cc')))",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "U",
+            "X"
+          ]
+        },
+        {
+          "formula": "('X', 'a')",
+          "known_duration": false,
+          "unknown_marker": false,
+          "temporal_operators": [
+            "X"
+          ]
+        }
+      ]
+    }
+  }
+}

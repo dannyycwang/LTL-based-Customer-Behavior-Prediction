@@ -1,0 +1,5 @@
+private/
+__pycache__/
+*.log
+*.err
+WORK_STATUS.md

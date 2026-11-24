@@ -1,0 +1,30 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.11.0+cu128",
+    "matplotlib": "3.10.9",
+    "tabulate": "0.10.0",
+    "psutil": "7.2.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "prior_solver": "vendor_liblinear/liblinear 2.50.0",
+  "search_roots": [
+    "C:\\Users\\ycw\\OneDrive - Høgskulen på Vestlandet\\Documents\\New project\\LTL-based-Customer-Behavior-Prediction",
+    "C:\\Users\\ycw\\Documents\\Codex\\2026-11-10\\new-chat",
+    "C:\\Users\\ycw\\Downloads",
+    "C:\\Users\\ycw\\behavior_ltl_outputs",
+    "C:\\Users\\ycw\\Dataset\\Clickstream",
+    "C:\\Users\\ycw\\runs",
+    "C:\\Users\\ycw\\output",
+    "C:\\Users\\ycw\\TLTLf",
+    "C:\\Users\\ycw\\Formulasetforlengthlast30"
+  ],
+  "search_matches": 47,
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

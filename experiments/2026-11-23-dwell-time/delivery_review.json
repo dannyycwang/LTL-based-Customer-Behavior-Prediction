@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "all_models_frozen_before_test": true,
+  "final_validation_passed": true,
+  "plot_visually_checked": true,
+  "original_tracked_files_unchanged": true,
+  "private_paths_ignored": true,
+  "public_csv_headers_checked": true,
+  "primary_and_secondary_results_reviewed": true,
+  "seed_variation_disclosed": true,
+  "manual_editorial_synthesis_added_after_report_generation": true,
+  "no_additional_research_started": true,
+  "reviewed_artifacts_sha256": {
+    "report_zh.md": "e65b28a9cbef9f472fd0d31ce9fc00e012e29f7e54b6bdf1cb2d2288c293bda8",
+    "manuscript_results_en.md": "14eff56199703160034fe7faab7f23096d9e031c2c96f232e5dbfacba94a3e06",
+    "neural_results_table.tex": "7a48a6db3fdd8969a080b8e8a6c5e9d7f691621afad4fbd7a49de7e7e96c68cd",
+    "paired_ap_differences.png": "12e2719be165d86208e9991ef8e256a184de334a87906949cac3f0fd4732f6b1"
+  }
+}
