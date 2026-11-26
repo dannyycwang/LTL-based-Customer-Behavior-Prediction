@@ -1,0 +1,184 @@
+{
+  "indices": [
+    66,
+    173,
+    16,
+    24,
+    153,
+    31,
+    126,
+    247,
+    203,
+    49
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "dm",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'dm', ('X', 'a')))",
+      "candidate": 66,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "U",
+        "dh",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('U', 'dh', ('X', ('X', 'a')))",
+      "candidate": 173,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": "dl",
+      "formula_str": "'dl'",
+      "candidate": 16,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        "dh"
+      ],
+      "formula_str": "('X', 'dh')",
+      "candidate": 24,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', ('X', ('X', 'a'))))",
+      "candidate": 153,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "rc",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'rc', ('X', ('X', 'a'))))",
+      "candidate": 31,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "rc",
+          [
+            "X",
+            "fp"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'rc', ('X', 'fp')))",
+      "candidate": 126,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "p2",
+          [
+            "X",
+            [
+              "X",
+              "dl"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'p2', ('X', ('X', 'dl'))))",
+      "candidate": 247,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "&&",
+        [
+          "U",
+          "rc",
+          [
+            "X",
+            "dm"
+          ]
+        ],
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('&&', ('U', 'rc', ('X', 'dm')), ('X', ('X', 'a')))",
+      "candidate": 203,
+      "source": "dwell_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "dl",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'dl', ('X', 'a')))",
+      "candidate": 49,
+      "source": "dwell_matched_training"
+    }
+  ],
+  "eligible_count": 112,
+  "initial_candidate_count": 250,
+  "baseline_validation_log_loss": 0.6175038372829996,
+  "final_validation_log_loss": 0.47545076471458464,
+  "seconds": 48.73670279997168,
+  "threshold": 0.59,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "suffix timestamp invariance",
+    "terminal unknown vs real zero",
+    "seconds conversion",
+    "negative gap rejection",
+    "missing endpoints unknown",
+    "feature and proposition alignment"
+  ]
+}

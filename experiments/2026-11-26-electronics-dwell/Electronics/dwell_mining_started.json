@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "recipe": {
+    "seed": 42,
+    "landmarks_for_training_pool_only": [
+      10,
+      20,
+      30
+    ],
+    "per_class_budget": 4000,
+    "epochs": 50,
+    "max_candidates": 250,
+    "netlen": 10,
+    "lr": 0.01,
+    "batch_size": 100,
+    "matched_pools": true
+  },
+  "input_sha256": "091818bc313ba985439b419003bd514dfd53e77d2e97b1972515411c7f787169",
+  "source_hashes": {
+    "data.py": "8673e33a2b56af24659f9d4fa7317325b807002c6078d261a809a441cc618500",
+    "model.py": "8c48811def1e4b0186fa04581967d3ba57ac56a9251afde83d12af69b4afc6bb",
+    "interpret.py": "99567882b0f1f1bf79527f1ba10846f1d749dec0c6239fd8c2d922311e99aabe",
+    "train.py": "f3a3773df57986e81000462d3e93512a6a5601544f259e0c9f4a6904e850fc8c"
+  }
+}

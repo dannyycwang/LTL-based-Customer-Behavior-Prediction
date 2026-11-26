@@ -1,0 +1,28 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.11.0+cu128",
+    "matplotlib": "3.10.9",
+    "tabulate": "0.10.0",
+    "psutil": "7.2.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "prior_code_hashes": {
+    "2026-11-19-logical-history\\pilot.py": "3af98fd7193266b9544e362d7414d6808660cb256939af7b41545756d3b46f7c",
+    "2026-11-19-logical-history\\fit.py": "6490f0c07aabcb14aca3586b39c0838ee73ddd287273de80e6242d67197cc9cf",
+    "2026-11-19-logical-history\\native_logistic.py": "79c674e4d3259f8d2519e6e721078bb1abe797e3876b0cee51372245e5c13492",
+    "2026-11-17\\neural.py": "eeedd5a0e76086725b2d551feb9a52ffe9bc416a3e5ffdfe42db6991aa7a1609",
+    "2026-11-23-dwell-time\\prepare.py": "5db454d33f0c130a1c5e994750e2a5d73c96ff160a55da333f3d12e32f120f0e"
+  },
+  "original_electronics_encoder": {
+    "path": "C:\\Users\\ycw\\Downloads\\electronics_ltlf_pipeline.py",
+    "sha256": "ae3040d1ac1de3a6e6872c80f5fc0c440311adf9e0e79ada4c57409b2b573c3f"
+  }
+}

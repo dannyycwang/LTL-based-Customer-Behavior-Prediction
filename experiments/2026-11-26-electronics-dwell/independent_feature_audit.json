@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "real_training_prefixes": 100,
+  "checks": [
+    "independent statistics",
+    "independent Cartesian adjacent pairs",
+    "future event invariance",
+    "train-only bucket reconstruction",
+    "exact saved T/logic replay"
+  ],
+  "classifier_fits": 0,
+  "test_predictions": 0
+}

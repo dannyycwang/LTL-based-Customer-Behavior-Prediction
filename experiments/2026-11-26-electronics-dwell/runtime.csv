@@ -1,0 +1,38 @@
+stage,seconds,vocabulary,condition,boundary,seed,model
+preprocessing,169.30351009999868,,,,,
+mining,435.7586503000348,actrel,,,,
+mining,513.3404704999994,dwell,,,,
+classifier_training,0.43602110003121197,,M0,,,
+classifier_training,0.3549003999796696,,M2,,,
+feature_checking,0.07563209999352694,,M1,,,
+selection,26.6799747000332,,M1,Includes candidate refits; not additive with classifier refit times,,
+feature_checking,0.05458319996250793,,M3,,,
+selection,35.99494510004297,,M3,Includes candidate refits; not additive with classifier refit times,,
+feature_checking,0.15327070001512766,,M4,,,
+selection,48.76638180000009,,M4,Includes candidate refits; not additive with classifier refit times,,
+feature_checking,0.17704159999266267,,M5,,,
+selection,193.8255995999789,,M5,Includes candidate refits; not additive with classifier refit times,,
+neural_training,3.705095400044229,,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+neural_training,1.3470833000610583,,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+neural_training,1.373095299990382,,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",42.0,
+neural_training,2.1534400999662466,,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+neural_training,1.65235930000199,,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+neural_training,1.4275126999127679,,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",43.0,
+neural_training,0.9146810999955051,,M2,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+neural_training,1.9771990998997353,,M3,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+neural_training,2.582876899978146,,M4,"cached inputs; training plus validation, excludes preprocessing/mining/selection",44.0,
+inference,0.04052729997783899,,M0,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,0.07696289999876171,,M1,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,0.03766210004687309,,M2,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,0.08403640001779422,,M3,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,0.08437539997976273,,M4,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,0.27118720003636554,,M5,loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded,,LR
+inference,1.0806241999962367,,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+inference,0.1511076000169851,,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+inference,0.16292929998598993,,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,42.0,NN
+inference,0.1262921000015922,,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+inference,0.16038610000396147,,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+inference,0.17353720002574846,,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,43.0,NN
+inference,0.1279542000265792,,M2,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+inference,0.15086729999165982,,M3,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN
+inference,0.12270070001250133,,M4,loaded R/S/T plus model load/encoding/logic checking and prediction,44.0,NN

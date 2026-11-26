@@ -1,0 +1,247 @@
+[
+  {
+    "stage": "preprocessing",
+    "seconds": 169.30351009999868
+  },
+  {
+    "stage": "mining",
+    "seconds": 435.7586503000348,
+    "vocabulary": "actrel"
+  },
+  {
+    "stage": "mining",
+    "seconds": 513.3404704999994,
+    "vocabulary": "dwell"
+  },
+  {
+    "stage": "classifier_training",
+    "seconds": 0.43602110003121197,
+    "condition": "M0"
+  },
+  {
+    "stage": "classifier_training",
+    "seconds": 0.3549003999796696,
+    "condition": "M2"
+  },
+  {
+    "stage": "feature_checking",
+    "seconds": 0.07563209999352694,
+    "condition": "M1"
+  },
+  {
+    "stage": "selection",
+    "seconds": 26.6799747000332,
+    "condition": "M1",
+    "boundary": "Includes candidate refits; not additive with classifier refit times"
+  },
+  {
+    "stage": "feature_checking",
+    "seconds": 0.05458319996250793,
+    "condition": "M3"
+  },
+  {
+    "stage": "selection",
+    "seconds": 35.99494510004297,
+    "condition": "M3",
+    "boundary": "Includes candidate refits; not additive with classifier refit times"
+  },
+  {
+    "stage": "feature_checking",
+    "seconds": 0.15327070001512766,
+    "condition": "M4"
+  },
+  {
+    "stage": "selection",
+    "seconds": 48.76638180000009,
+    "condition": "M4",
+    "boundary": "Includes candidate refits; not additive with classifier refit times"
+  },
+  {
+    "stage": "feature_checking",
+    "seconds": 0.17704159999266267,
+    "condition": "M5"
+  },
+  {
+    "stage": "selection",
+    "seconds": 193.8255995999789,
+    "condition": "M5",
+    "boundary": "Includes candidate refits; not additive with classifier refit times"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 3.705095400044229,
+    "condition": "M2",
+    "seed": 42,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 1.3470833000610583,
+    "condition": "M3",
+    "seed": 42,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 1.373095299990382,
+    "condition": "M4",
+    "seed": 42,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 2.1534400999662466,
+    "condition": "M2",
+    "seed": 43,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 1.65235930000199,
+    "condition": "M3",
+    "seed": 43,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 1.4275126999127679,
+    "condition": "M4",
+    "seed": 43,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 0.9146810999955051,
+    "condition": "M2",
+    "seed": 44,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 1.9771990998997353,
+    "condition": "M3",
+    "seed": 44,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "neural_training",
+    "seconds": 2.582876899978146,
+    "condition": "M4",
+    "seed": 44,
+    "boundary": "cached inputs; training plus validation, excludes preprocessing/mining/selection"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.04052729997783899,
+    "model": "LR",
+    "condition": "M0",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.07696289999876171,
+    "model": "LR",
+    "condition": "M1",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.03766210004687309,
+    "model": "LR",
+    "condition": "M2",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.08403640001779422,
+    "model": "LR",
+    "condition": "M3",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.08437539997976273,
+    "model": "LR",
+    "condition": "M4",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.27118720003636554,
+    "model": "LR",
+    "condition": "M5",
+    "boundary": "loaded R/S/T plus encoding/scaling/logic checking and prediction; timestamp recovery excluded"
+  },
+  {
+    "stage": "inference",
+    "seconds": 1.0806241999962367,
+    "model": "NN",
+    "condition": "M2",
+    "seed": 42,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.1511076000169851,
+    "model": "NN",
+    "condition": "M3",
+    "seed": 42,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.16292929998598993,
+    "model": "NN",
+    "condition": "M4",
+    "seed": 42,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.1262921000015922,
+    "model": "NN",
+    "condition": "M2",
+    "seed": 43,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.16038610000396147,
+    "model": "NN",
+    "condition": "M3",
+    "seed": 43,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.17353720002574846,
+    "model": "NN",
+    "condition": "M4",
+    "seed": 43,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.1279542000265792,
+    "model": "NN",
+    "condition": "M2",
+    "seed": 44,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.15086729999165982,
+    "model": "NN",
+    "condition": "M3",
+    "seed": 44,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  },
+  {
+    "stage": "inference",
+    "seconds": 0.12270070001250133,
+    "model": "NN",
+    "condition": "M4",
+    "seed": 44,
+    "boundary": "loaded R/S/T plus model load/encoding/logic checking and prediction"
+  }
+]

@@ -1,0 +1,5 @@
+dataset,condition,initial,eligible,selected,selection_seconds,candidate_refits
+Electronics,M1,250,83,10,26.269074899959378,785
+Electronics,M3,250,83,10,35.65430490014842,785
+Electronics,M4,250,112,10,48.43068289995426,1075
+Electronics,M5,645,366,10,193.1724866000004,3615

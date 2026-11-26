@@ -1,0 +1,3824 @@
+[
+  {
+    "formula_tree": [
+      "X",
+      "a"
+    ],
+    "formula_str": "('X', 'a')",
+    "candidate": 0,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "dm",
+    "formula_str": "'dm'",
+    "candidate": 1,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "true",
+    "formula_str": "'true'",
+    "candidate": 2,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "fp",
+    "formula_str": "'fp'",
+    "candidate": 3,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "d",
+    "formula_str": "'d'",
+    "candidate": 4,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "dh",
+    "formula_str": "'dh'",
+    "candidate": 5,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "a",
+    "formula_str": "'a'",
+    "candidate": 6,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "sp",
+    "formula_str": "'sp'",
+    "candidate": 7,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "rp",
+    "formula_str": "'rp'",
+    "candidate": 8,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "cc",
+    "formula_str": "'cc'",
+    "candidate": 9,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "du",
+    "formula_str": "'du'",
+    "candidate": 10,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "p3",
+    "formula_str": "'p3'",
+    "candidate": 11,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "rc",
+    "formula_str": "'rc'",
+    "candidate": 12,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "sc",
+    "formula_str": "'sc'",
+    "candidate": 13,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "p2",
+    "formula_str": "'p2'",
+    "candidate": 14,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "pc",
+    "formula_str": "'pc'",
+    "candidate": 15,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": "dl",
+    "formula_str": "'dl'",
+    "candidate": 16,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'a')))",
+    "candidate": 17,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'a')))",
+    "candidate": 18,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "a"
+    ],
+    "formula_str": "('!', 'a')",
+    "candidate": 19,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'a')))",
+    "candidate": 20,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'a')))",
+    "candidate": 21,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'a')))",
+    "candidate": 22,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'a')))",
+    "candidate": 23,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "dh"
+    ],
+    "formula_str": "('X', 'dh')",
+    "candidate": 24,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "rp"
+    ],
+    "formula_str": "('X', 'rp')",
+    "candidate": 25,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "sp"
+    ],
+    "formula_str": "('X', 'sp')",
+    "candidate": 26,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', 'a')))",
+    "candidate": 27,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', 'a'))))",
+    "candidate": 28,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "dm"
+    ],
+    "formula_str": "('X', 'dm')",
+    "candidate": 29,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "true"
+    ],
+    "formula_str": "('X', 'true')",
+    "candidate": 30,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', ('X', 'a'))))",
+    "candidate": 31,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "cc"
+    ],
+    "formula_str": "('X', 'cc')",
+    "candidate": 32,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'dm')))",
+    "candidate": 33,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "p2"
+    ],
+    "formula_str": "('X', 'p2')",
+    "candidate": 34,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "rc"
+    ],
+    "formula_str": "('X', 'rc')",
+    "candidate": 35,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "sc"
+    ],
+    "formula_str": "('X', 'sc')",
+    "candidate": 36,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'dm')))",
+    "candidate": 37,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "fp"
+    ],
+    "formula_str": "('X', 'fp')",
+    "candidate": 38,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "pc"
+    ],
+    "formula_str": "('X', 'pc')",
+    "candidate": 39,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', ('X', 'a'))))",
+    "candidate": 40,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'true', ('X', 'a')))",
+    "candidate": 41,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "du"
+    ],
+    "formula_str": "('X', 'du')",
+    "candidate": 42,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "p3"
+    ],
+    "formula_str": "('X', 'p3')",
+    "candidate": 43,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'rc', ('X', 'a')))",
+    "candidate": 44,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', ('X', 'a'))))",
+    "candidate": 45,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'dm')))",
+    "candidate": 46,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', ('X', 'a'))))",
+    "candidate": 47,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "dl"
+    ],
+    "formula_str": "('X', 'dl')",
+    "candidate": 48,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dl",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dl', ('X', 'a')))",
+    "candidate": 49,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'dm')))",
+    "candidate": 50,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', 'a'))",
+    "candidate": 51,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'dm')))",
+    "candidate": 52,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'dl')))",
+    "candidate": 53,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', 'a'))",
+    "candidate": 54,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'dl')))",
+    "candidate": 55,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'true', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 56,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'dm')))",
+    "candidate": 57,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      "d"
+    ],
+    "formula_str": "('X', 'd')",
+    "candidate": 58,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "fp",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'fp', ('X', 'a')))",
+    "candidate": 59,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sp",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sp', ('X', 'a')))",
+    "candidate": 60,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rp",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rp', ('X', 'a')))",
+    "candidate": 61,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'p2', ('X', 'a')))",
+    "candidate": 62,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'rc', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 63,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'sc', ('X', 'a')))",
+    "candidate": 64,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "pc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'pc', ('X', 'a')))",
+    "candidate": 65,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dm",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dm', ('X', 'a')))",
+    "candidate": 66,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'true', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 67,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', 'dm')))",
+    "candidate": 68,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "dm"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', 'dm'))))",
+    "candidate": 69,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'd', ('X', 'a')))",
+    "candidate": 70,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'rc', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 71,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "dm"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', ('X', 'dm'))))",
+    "candidate": 72,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dh",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dh', ('X', 'a')))",
+    "candidate": 73,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', 'a'))",
+    "candidate": 74,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "cc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'cc', ('X', 'a')))",
+    "candidate": 75,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'p2')))",
+    "candidate": 76,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'dl')))",
+    "candidate": 77,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'rc')))",
+    "candidate": 78,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "X",
+        "true"
+      ]
+    ],
+    "formula_str": "('X', ('X', 'true'))",
+    "candidate": 79,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'p2')))",
+    "candidate": 80,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'rc')))",
+    "candidate": 81,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "X",
+        "rc"
+      ]
+    ],
+    "formula_str": "('X', ('X', 'rc'))",
+    "candidate": 82,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'p2', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 83,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "dh"
+    ],
+    "formula_str": "('!', 'dh')",
+    "candidate": 84,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        "a"
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', 'a'))",
+    "candidate": 85,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', 'a'))",
+    "candidate": 86,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "a",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'a', ('X', 'a')))",
+    "candidate": 87,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'true')))",
+    "candidate": 88,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "rp"
+    ],
+    "formula_str": "('!', 'rp')",
+    "candidate": 89,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "sp"
+    ],
+    "formula_str": "('!', 'sp')",
+    "candidate": 90,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "&&",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('&&', 'true', ('X', 'a')))",
+    "candidate": 91,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'dl')))",
+    "candidate": 92,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', 'a'))",
+    "candidate": 93,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'sp')))",
+    "candidate": 94,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'true')))",
+    "candidate": 95,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'true', ('X', ('X', 'a'))))",
+    "candidate": 96,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', ('X', 'a')))))",
+    "candidate": 97,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'dl')))",
+    "candidate": 98,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "&&",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('&&', 'rc', ('X', 'a')))",
+    "candidate": 99,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'sp')))",
+    "candidate": 100,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "dm"
+    ],
+    "formula_str": "('!', 'dm')",
+    "candidate": 101,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "true"
+    ],
+    "formula_str": "('!', 'true')",
+    "candidate": 102,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'sc', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 103,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'rc', ('X', ('X', 'a'))))",
+    "candidate": 104,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "!",
+        "true"
+      ]
+    ],
+    "formula_str": "('X', ('!', 'true'))",
+    "candidate": 105,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', ('X', ('X', 'a')))))",
+    "candidate": 106,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'd', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 107,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'rp')))",
+    "candidate": 108,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'p2', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 109,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "!",
+        "rc"
+      ]
+    ],
+    "formula_str": "('X', ('!', 'rc'))",
+    "candidate": 110,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        "a"
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', 'a'))",
+    "candidate": 111,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          [
+            "X",
+            "dm"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', ('X', 'dm'))))",
+    "candidate": 112,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'dl')))",
+    "candidate": 113,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "cc"
+    ],
+    "formula_str": "('!', 'cc')",
+    "candidate": 114,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'true', ('X', 'dm')))",
+    "candidate": 115,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "p2"
+    ],
+    "formula_str": "('!', 'p2')",
+    "candidate": 116,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'rp')))",
+    "candidate": 117,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "rc"
+    ],
+    "formula_str": "('!', 'rc')",
+    "candidate": 118,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        [
+          "!",
+          "a"
+        ],
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', ('!', 'a'), ('X', 'a')))",
+    "candidate": 119,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "sc"
+    ],
+    "formula_str": "('!', 'sc')",
+    "candidate": 120,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "du",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'du', ('X', 'a')))",
+    "candidate": 121,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'rc', ('X', 'dm')))",
+    "candidate": 122,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'fp')))",
+    "candidate": 123,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'sc', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 124,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dl",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dl', ('X', ('X', 'a'))))",
+    "candidate": 125,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'fp')))",
+    "candidate": 126,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          [
+            "X",
+            "dm"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', ('X', 'dm'))))",
+    "candidate": 127,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "fp"
+    ],
+    "formula_str": "('!', 'fp')",
+    "candidate": 128,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'p2')))",
+    "candidate": 129,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "pc"
+    ],
+    "formula_str": "('!', 'pc')",
+    "candidate": 130,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'rc')))",
+    "candidate": 131,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'd', ('X', 'a')), ('X', ('X', 'a')))",
+    "candidate": 132,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('!', 'a')))",
+    "candidate": 133,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "sc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'sc')))",
+    "candidate": 134,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "X",
+        "p2"
+      ]
+    ],
+    "formula_str": "('X', ('X', 'p2'))",
+    "candidate": 135,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          [
+            "X",
+            "dm"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', ('X', 'dm'))))",
+    "candidate": 136,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "dh",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'dh', ('X', ('X', 'a')))",
+    "candidate": 137,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "dl"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', 'dl')))",
+    "candidate": 138,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "dl"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', 'dl'))))",
+    "candidate": 139,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "rp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'rp', ('X', ('X', 'a')))",
+    "candidate": 140,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('!', 'a')))",
+    "candidate": 141,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "sc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'sc')))",
+    "candidate": 142,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "sp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'sp', ('X', ('X', 'a')))",
+    "candidate": 143,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', ('X', 'a'))))",
+    "candidate": 144,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'true')))",
+    "candidate": 145,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "dl"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', ('X', 'dl'))))",
+    "candidate": 146,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dl",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dl', ('X', 'dm')))",
+    "candidate": 147,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'true', ('X', ('X', 'a'))), ('X', ('X', 'a')))",
+    "candidate": 148,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'p2')))",
+    "candidate": 149,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "&&",
+        "p2",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('&&', 'p2', ('X', 'a')))",
+    "candidate": 150,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'sp')))",
+    "candidate": 151,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'rc')))",
+    "candidate": 152,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "fp",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'fp', ('X', ('X', 'a'))))",
+    "candidate": 153,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sp",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sp', ('X', ('X', 'a'))))",
+    "candidate": 154,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        "dm"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', 'dm'))",
+    "candidate": 155,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "d"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'd')))",
+    "candidate": 156,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "X",
+        "sc"
+      ]
+    ],
+    "formula_str": "('X', ('X', 'sc'))",
+    "candidate": 157,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "dm",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'dm', ('X', ('X', 'a')))",
+    "candidate": 158,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rp",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rp', ('X', ('X', 'a'))))",
+    "candidate": 159,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'p2', ('X', ('X', 'a'))))",
+    "candidate": 160,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'true', ('X', ('X', 'a')))",
+    "candidate": 161,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', ('X', ('X', 'a')))))",
+    "candidate": 162,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'p2')))",
+    "candidate": 163,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'rc', ('X', ('X', 'a'))), ('X', ('X', 'a')))",
+    "candidate": 164,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'rc')))",
+    "candidate": 165,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "du"
+    ],
+    "formula_str": "('!', 'du')",
+    "candidate": 166,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        "dm"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', 'dm'))",
+    "candidate": 167,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "X",
+        "d"
+      ]
+    ],
+    "formula_str": "('X', ('X', 'd'))",
+    "candidate": 168,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "d"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'd')))",
+    "candidate": 169,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "p3"
+    ],
+    "formula_str": "('!', 'p3')",
+    "candidate": 170,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "!",
+        "p2"
+      ]
+    ],
+    "formula_str": "('X', ('!', 'p2'))",
+    "candidate": 171,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'true')))",
+    "candidate": 172,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "dh",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'dh', ('X', ('X', 'a')))",
+    "candidate": 173,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p3",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p3', ('X', 'a')))",
+    "candidate": 174,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "rp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'rp', ('X', ('X', 'a')))",
+    "candidate": 175,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'rp')))",
+    "candidate": 176,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "cc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'cc', ('X', ('X', 'a')))",
+    "candidate": 177,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "sp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'sp', ('X', ('X', 'a')))",
+    "candidate": 178,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "dm"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'true', ('X', 'dm')), ('X', ('X', 'a')))",
+    "candidate": 179,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'true', ('X', 'a')), ('X', ('X', 'dm')))",
+    "candidate": 180,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', ('X', 'a'))))",
+    "candidate": 181,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "&&",
+        "sc",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('&&', 'sc', ('X', 'a')))",
+    "candidate": 182,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'sp')))",
+    "candidate": 183,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'true')))",
+    "candidate": 184,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "p2",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'p2', ('X', ('X', 'a')))",
+    "candidate": 185,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', 'a'))",
+    "candidate": 186,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "du"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'du')))",
+    "candidate": 187,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'p2')))",
+    "candidate": 188,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "rc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'rc', ('X', ('X', 'a')))",
+    "candidate": 189,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "fp",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'fp', ('X', 'dm')))",
+    "candidate": 190,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sp",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sp', ('X', 'dm')))",
+    "candidate": 191,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'rc')))",
+    "candidate": 192,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'sc', ('X', ('X', 'a'))))",
+    "candidate": 193,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "pc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'pc', ('X', ('X', 'a'))))",
+    "candidate": 194,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rp",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rp', ('X', 'dm')))",
+    "candidate": 195,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'p2', ('X', 'dm')))",
+    "candidate": 196,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dm",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dm', ('X', ('X', 'a'))))",
+    "candidate": 197,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', ('X', ('X', 'a')))))",
+    "candidate": 198,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "sc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'sc', ('X', ('X', 'a')))",
+    "candidate": 199,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "&&",
+        "d",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('&&', 'd', ('X', 'a')))",
+    "candidate": 200,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'true', ('X', ('X', 'a'))), ('X', ('X', 'a')))",
+    "candidate": 201,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'sp')))",
+    "candidate": 202,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "dm"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'rc', ('X', 'dm')), ('X', ('X', 'a')))",
+    "candidate": 203,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', ('U', 'rc', ('X', 'a')), ('X', ('X', 'dm')))",
+    "candidate": 204,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        "a"
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', 'a'))",
+    "candidate": 205,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          "du"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'rc', ('X', 'du')))",
+    "candidate": 206,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'd', ('X', ('X', 'a'))))",
+    "candidate": 207,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "dm",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'dm', ('X', ('X', 'a')))",
+    "candidate": 208,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "!",
+        "sc"
+      ]
+    ],
+    "formula_str": "('X', ('!', 'sc'))",
+    "candidate": 209,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', ('X', ('X', 'a')))))",
+    "candidate": 210,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "true",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'true', ('X', ('X', 'a')))",
+    "candidate": 211,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'fp')))",
+    "candidate": 212,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "rc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'rc', ('X', ('X', 'a'))), ('X', ('X', 'a')))",
+    "candidate": 213,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        [
+          "!",
+          "rp"
+        ],
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', ('!', 'rp'), ('X', 'a')))",
+    "candidate": 214,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        [
+          "!",
+          "dm"
+        ],
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', ('!', 'dm'), ('X', 'a')))",
+    "candidate": 215,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "true"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'true')))",
+    "candidate": 216,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "fp",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'fp', ('X', ('X', 'a')))",
+    "candidate": 217,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'rp')))",
+    "candidate": 218,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "pc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'pc', ('X', ('X', 'a')))",
+    "candidate": 219,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "!",
+        "d"
+      ]
+    ],
+    "formula_str": "('X', ('!', 'd'))",
+    "candidate": 220,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      "dl"
+    ],
+    "formula_str": "('!', 'dl')",
+    "candidate": 221,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dh",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dh', ('X', ('X', 'a'))))",
+    "candidate": 222,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "sp"
+        ]
+      ]
+    ],
+    "formula_str": "('&&', 'a', ('X', ('X', 'sp')))",
+    "candidate": 223,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "dl",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'dl', ('X', 'a')))",
+    "candidate": 224,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        [
+          "!",
+          "sp"
+        ],
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', ('!', 'sp'), ('X', 'a')))",
+    "candidate": 225,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      "a"
+    ],
+    "formula_str": "('&&', 'a', 'a')",
+    "candidate": 226,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'sc', ('X', 'dm')))",
+    "candidate": 227,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "pc",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'pc', ('X', 'dm')))",
+    "candidate": 228,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "rp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'd', ('X', 'rp')))",
+    "candidate": 229,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "cc",
+        [
+          "X",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'cc', ('X', ('X', 'a'))))",
+    "candidate": 230,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "!",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('!', 'a')))",
+    "candidate": 231,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "dm",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'dm', ('X', 'dm')))",
+    "candidate": 232,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "cc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'cc', ('X', ('X', 'a')))",
+    "candidate": 233,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          "sc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', 'sc')))",
+    "candidate": 234,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "a"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'true', ('X', 'a')), ('X', ('X', 'dm')))",
+    "candidate": 235,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "dm"
+        ]
+      ],
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', ('U', 'true', ('X', 'dm')), ('X', ('X', 'a')))",
+    "candidate": 236,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "true",
+        "a"
+      ]
+    ],
+    "formula_str": "('!', ('U', 'true', 'a'))",
+    "candidate": 237,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "p2",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'p2', ('X', ('X', 'a')))",
+    "candidate": 238,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          "cc"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', 'cc')))",
+    "candidate": 239,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        [
+          "X",
+          "a"
+        ],
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', ('X', 'a'), ('X', 'a')))",
+    "candidate": 240,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "p2"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', 'p2')))",
+    "candidate": 241,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "rc",
+      [
+        "X",
+        [
+          "X",
+          "a"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'rc', ('X', ('X', 'a')))",
+    "candidate": 242,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "p2"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', 'p2'))))",
+    "candidate": 243,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "U",
+      "a",
+      [
+        "X",
+        [
+          "X",
+          "rc"
+        ]
+      ]
+    ],
+    "formula_str": "('U', 'a', ('X', ('X', 'rc')))",
+    "candidate": 244,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "!",
+      [
+        "U",
+        "d",
+        [
+          "X",
+          "dm"
+        ]
+      ]
+    ],
+    "formula_str": "('!', ('U', 'd', ('X', 'dm')))",
+    "candidate": 245,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "&&",
+      "a",
+      "true"
+    ],
+    "formula_str": "('&&', 'a', 'true')",
+    "candidate": 246,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "p2",
+        [
+          "X",
+          [
+            "X",
+            "dl"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'p2', ('X', ('X', 'dl'))))",
+    "candidate": 247,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "true",
+        [
+          "X",
+          [
+            "X",
+            "rc"
+          ]
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'true', ('X', ('X', 'rc'))))",
+    "candidate": 248,
+    "source": "dwell_matched_training"
+  },
+  {
+    "formula_tree": [
+      "X",
+      [
+        "U",
+        "sc",
+        [
+          "X",
+          "fp"
+        ]
+      ]
+    ],
+    "formula_str": "('X', ('U', 'sc', ('X', 'fp')))",
+    "candidate": 249,
+    "source": "dwell_matched_training"
+  }
+]

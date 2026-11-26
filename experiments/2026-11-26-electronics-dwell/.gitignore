@@ -1,0 +1,6 @@
+private/
+__pycache__/
+*.log
+*.err
+WORK_STATUS.md
+controller_pid.txt

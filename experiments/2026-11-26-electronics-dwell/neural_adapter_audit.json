@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "forward_only": true,
+  "training_fits": 0,
+  "electronics_original_encoder_used": true,
+  "shared_timing_projection": true
+}

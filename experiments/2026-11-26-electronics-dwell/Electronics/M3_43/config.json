@@ -1,0 +1,22 @@
+{
+  "dataset": "Electronics",
+  "condition": "M3",
+  "seed": 43,
+  "protocol_sha256": "625cab3e46bae5488d21b8fbc4c01cb8a17131192c65740005efa77c1d793480",
+  "runner_sha256": "e4146d68ebf30e0d92b5d50854322218e899dbcafc103ed0c07bb08bd7cb4a28",
+  "original_neural_sha256": "eeedd5a0e76086725b2d551feb9a52ffe9bc416a3e5ffdfe42db6991aa7a1609",
+  "parameters": 290305,
+  "summary_dim": 548,
+  "raw_timing_dim": 20,
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "epochs": 25,
+  "patience": 5,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "checkpoint": "validation AP earliest tie",
+  "threshold": "validation MCC fixed grid earliest tie",
+  "timing_input": "shared linear projection of 20 standardized recent log gaps and missing bits into raw encoder 64-vector; S+T in summary branch"
+}

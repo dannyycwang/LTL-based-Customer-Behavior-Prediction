@@ -1,0 +1,10 @@
+split,landmark,n,positive,users,ends_or_purchases_before_landmark,ambiguous_multiuser_session,right_censored_unresolved
+train,10,2399,493,2245,71223,95,
+train,20,558,95,535,73063,95,1.0
+train,30,234,34,230,73387,95,1.0
+val,10,335,72,333,10178,18,
+val,20,76,8,76,10437,18,
+val,30,30,6,30,10483,18,
+test,10,754,156,740,20277,31,
+test,20,171,27,170,20860,31,
+test,30,70,6,70,20961,31,

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "split_statistics": [
+    {
+      "split": "train",
+      "sessions": 558,
+      "known": 10602,
+      "unknown": 558,
+      "zero": 47,
+      "minimum_seconds": 0.0,
+      "maximum_seconds": 6349807.0,
+      "terminal_all_unknown": true
+    },
+    {
+      "split": "val",
+      "sessions": 76,
+      "known": 1444,
+      "unknown": 76,
+      "zero": 10,
+      "minimum_seconds": 0.0,
+      "maximum_seconds": 3807062.0,
+      "terminal_all_unknown": true
+    },
+    {
+      "split": "test",
+      "sessions": 171,
+      "known": 3249,
+      "unknown": 171,
+      "zero": 15,
+      "minimum_seconds": 0.0,
+      "maximum_seconds": 3458095.0,
+      "terminal_all_unknown": true
+    }
+  ],
+  "slice_before_difference": true,
+  "negative_known_gaps_rejected": true,
+  "missing_endpoint_unit_case_passed": true,
+  "train_only_buckets": {
+    "cap_seconds": 417818.5699999999,
+    "q_log": [
+      3.4657359027997265,
+      5.1298987149230735
+    ],
+    "fit_split": "train",
+    "fit_landmark": 20
+  },
+  "same_training_records_for_both_vocabularies": true
+}

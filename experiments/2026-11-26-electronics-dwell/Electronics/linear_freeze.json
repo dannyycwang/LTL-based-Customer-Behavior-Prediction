@@ -1,0 +1,8 @@
+{
+  "frozen": true,
+  "config_sha256": "625cab3e46bae5488d21b8fbc4c01cb8a17131192c65740005efa77c1d793480",
+  "model_sha256": "e927116f488d9524dbb3ec41d1dd208d946eb5c22c3a7d106705f19b09ded78b",
+  "prepared_sha256": "5ac33957e6527bece90f93a679e840c02be26c6cfb35578c5be24a7799c7731e",
+  "M0_M1_reuse": false,
+  "test_evaluated": false
+}

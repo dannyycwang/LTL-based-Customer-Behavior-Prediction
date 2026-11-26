@@ -1,0 +1,209 @@
+{
+  "indices": [
+    131,
+    173,
+    117,
+    98,
+    116,
+    115,
+    222,
+    37,
+    185,
+    96
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "rc",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'rc', ('X', ('X', ('X', 'a')))))",
+      "candidate": 131,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          [
+            "X",
+            "rp"
+          ],
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', ('X', 'rp'), ('X', ('X', 'a'))))",
+      "candidate": 173,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            [
+              "X",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'a', ('X', ('X', 'a'))))",
+      "candidate": 117,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "a",
+          [
+            "X",
+            "a"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'a', ('X', 'a')))",
+      "candidate": 98,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "d",
+          [
+            "X",
+            [
+              "!",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'd', ('X', ('!', 'a'))))",
+      "candidate": 116,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "d",
+          [
+            "X",
+            [
+              "X",
+              "sp"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'd', ('X', ('X', 'sp'))))",
+      "candidate": 115,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "fp",
+          "a"
+        ]
+      ],
+      "formula_str": "('X', ('U', 'fp', 'a'))",
+      "candidate": 222,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "d",
+          [
+            "X",
+            [
+              "X",
+              [
+                "X",
+                "a"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'd', ('X', ('X', ('X', 'a')))))",
+      "candidate": 37,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "d",
+          [
+            "X",
+            "pc"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'd', ('X', 'pc')))",
+      "candidate": 185,
+      "source": "actrel_matched_training"
+    },
+    {
+      "formula_tree": [
+        "X",
+        [
+          "U",
+          "d",
+          [
+            "X",
+            "sp"
+          ]
+        ]
+      ],
+      "formula_str": "('X', ('U', 'd', ('X', 'sp')))",
+      "candidate": 96,
+      "source": "actrel_matched_training"
+    }
+  ],
+  "eligible_count": 83,
+  "initial_candidate_count": 250,
+  "baseline_validation_log_loss": 0.461451711710247,
+  "final_validation_log_loss": 0.3579149151989757,
+  "seconds": 26.64648870000383,
+  "threshold": 0.060000000000000005,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

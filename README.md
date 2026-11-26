@@ -1,5 +1,9 @@
 # LTL-based-Customer-Behavior-Prediction
 
+## Three-dataset dwell-time supplement — 2026-11-26
+
+[Coveo, Cosmetics and Electronics comparison](experiments/2026-11-26-electronics-dwell/README.md): fixed event-20 prediction, six LR conditions and three neural conditions with three seeds per dataset. Electronics extends the [completed two-dataset supplement](experiments/2026-11-23-dwell-time/README.md) without rerunning it. The primary AP intervals include zero on all three datasets; reports include negative findings, sample-size limitations, paired intervals, formulas, and computational costs.
+
 ## Residual-guided selection experiment
 
 [Residual-guided LTLf formula selection — 2026-11-17](experiments/2026-11-17-residual-selection/README.md)

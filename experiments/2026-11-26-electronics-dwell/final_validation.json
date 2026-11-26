@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "new_metric_rows": 45,
+  "new_paired_rows": 48,
+  "combined_metric_rows": 135,
+  "combined_paired_rows": 144,
+  "all_9_neural_fits_frozen": true,
+  "previous_results_unchanged": true,
+  "test_user_clustered": true
+}

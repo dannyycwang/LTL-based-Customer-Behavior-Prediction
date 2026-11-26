@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "refuses_unfrozen_matrix": true,
+  "message": "Not frozen: Electronics/linear"
+}

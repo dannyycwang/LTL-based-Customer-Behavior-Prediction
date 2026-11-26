@@ -1,0 +1,10 @@
+{
+  "previous_artifacts": {
+    "metrics.csv": "f504e9c4585542c3d7fea0307960450bdd4f8ffe4eddcdd9eb900541dd513fff",
+    "paired_differences.csv": "da1be07605db4237d408f6832ec6bffc48451e903e19a6d02042a30e484d3942",
+    "completion.json": "646adefb7895f0cd55118a53a627a793331c7c5ae664c9a173bd525be7404ac9",
+    "final_validation.json": "a3ec0bc061b3876196f2687465b162be235df222cc25433948650d01ff365160"
+  },
+  "new_dataset": "Electronics",
+  "extension_after_previous_results": true
+}

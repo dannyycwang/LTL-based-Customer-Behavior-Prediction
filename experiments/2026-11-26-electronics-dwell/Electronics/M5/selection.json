@@ -1,0 +1,241 @@
+{
+  "indices": [
+    502,
+    45,
+    345,
+    409,
+    486,
+    171,
+    381,
+    478,
+    480,
+    16
+  ],
+  "selected": [
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "rp"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "rp"
+          ],
+          [
+            "&",
+            "dl",
+            [
+              "!",
+              "rp"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'rp')), ('U', ('!', 'rp'), ('&', 'dl', ('!', 'rp'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "a",
+          [
+            "F",
+            "dl"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'a', ('F', 'dl')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "rc",
+          [
+            "F",
+            "dh"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'rc', ('F', 'dh')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "p3"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "p3"
+          ],
+          [
+            "&",
+            "sc",
+            [
+              "!",
+              "p3"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'p3')), ('U', ('!', 'p3'), ('&', 'sc', ('!', 'p3'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dl",
+          [
+            "F",
+            "fp"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dl', ('F', 'fp')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "fp",
+          [
+            "F",
+            "dl"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'fp', ('F', 'dl')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "rp",
+          [
+            "F",
+            "dl"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'rp', ('F', 'dl')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "a"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "a"
+          ],
+          [
+            "&",
+            "dl",
+            [
+              "!",
+              "a"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'a')), ('U', ('!', 'a'), ('&', 'dl', ('!', 'a'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "G",
+        [
+          "->",
+          "dl",
+          [
+            "F",
+            "cc"
+          ]
+        ]
+      ],
+      "formula_str": "('G', ('->', 'dl', ('F', 'cc')))",
+      "family": "response",
+      "source": "DECLARE"
+    },
+    {
+      "formula_tree": [
+        "|",
+        [
+          "G",
+          [
+            "!",
+            "cc"
+          ]
+        ],
+        [
+          "U",
+          [
+            "!",
+            "cc"
+          ],
+          [
+            "&",
+            "a",
+            [
+              "!",
+              "cc"
+            ]
+          ]
+        ]
+      ],
+      "formula_str": "('|', ('G', ('!', 'cc')), ('U', ('!', 'cc'), ('&', 'a', ('!', 'cc'))))",
+      "family": "precedence",
+      "source": "DECLARE"
+    }
+  ],
+  "eligible_count": 366,
+  "initial_candidate_count": 645,
+  "baseline_validation_log_loss": 0.6175038372829996,
+  "final_validation_log_loss": 0.409357366169114,
+  "seconds": 193.79113809997216,
+  "threshold": 0.64,
+  "conditioning": "A: positional raw + ALL history summary features",
+  "stopping": "strict positive logloss gain; maximum ten",
+  "frozen": true
+}

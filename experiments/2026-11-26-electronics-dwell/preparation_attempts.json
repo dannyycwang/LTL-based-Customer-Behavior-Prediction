@@ -1,0 +1,8 @@
+[
+  {
+    "attempt": 1,
+    "status": "failed_before_any_fit",
+    "reason": "Raw session key assigned to multiple users",
+    "resolution": "Exclude ambiguous multiuser sessions consistently before any fit; preserve counts"
+  }
+]
